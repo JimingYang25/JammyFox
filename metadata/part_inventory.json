@@ -1,0 +1,872 @@
+[
+  {
+    "part": "ST3215_C018_envelope",
+    "quantity": 16,
+    "material": "Purchased",
+    "mass_each_g": 55.0,
+    "bbox_mm": [
+      45.23,
+      24.73,
+      41.8
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": false,
+    "note": "Confirmed C018 case dimensions; conservative boss envelope; actual mass 55 g."
+  },
+  {
+    "part": "C018_metal_horn",
+    "quantity": 32,
+    "material": "Purchased",
+    "mass_each_g": 3.5,
+    "bbox_mm": [
+      19.95,
+      19.95,
+      2.5
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": false,
+    "note": "19.95 OD, 14 PCD, 4-M3 from exact C018 datasheet; spline omitted."
+  },
+  {
+    "part": "servo_clamp_lower",
+    "quantity": 16,
+    "material": "PLA",
+    "mass_each_g": 14.67,
+    "bbox_mm": [
+      51.93,
+      43.8,
+      21.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "servo_clamp_upper",
+    "quantity": 16,
+    "material": "PLA",
+    "mass_each_g": 14.67,
+    "bbox_mm": [
+      51.93,
+      43.8,
+      21.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "horn_spacer_1",
+    "quantity": 0,
+    "material": "PLA",
+    "mass_each_g": 0.32,
+    "bbox_mm": [
+      22.0,
+      22.0,
+      1.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": "Select stack after fit coupon; four M3 on 14 PCD."
+  },
+  {
+    "part": "horn_spacer_2",
+    "quantity": 0,
+    "material": "PLA",
+    "mass_each_g": 0.64,
+    "bbox_mm": [
+      22.0,
+      22.0,
+      2.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": "Select stack after fit coupon; four M3 on 14 PCD."
+  },
+  {
+    "part": "horn_spacer_3",
+    "quantity": 0,
+    "material": "PLA",
+    "mass_each_g": 0.96,
+    "bbox_mm": [
+      22.0,
+      22.0,
+      3.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": "Select stack after fit coupon; four M3 on 14 PCD."
+  },
+  {
+    "part": "horn_spacer_6",
+    "quantity": 0,
+    "material": "PLA",
+    "mass_each_g": 1.93,
+    "bbox_mm": [
+      22.0,
+      22.0,
+      6.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": "Select stack after fit coupon; four M3 on 14 PCD."
+  },
+  {
+    "part": "horn_spacer_12",
+    "quantity": 0,
+    "material": "PLA",
+    "mass_each_g": 3.85,
+    "bbox_mm": [
+      22.0,
+      22.0,
+      12.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": "Select stack after fit coupon; four M3 on 14 PCD."
+  },
+  {
+    "part": "chassis_rear",
+    "quantity": 1,
+    "material": "Aluminum",
+    "mass_each_g": 62.25,
+    "bbox_mm": [
+      170.0,
+      136.0,
+      2.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": false,
+    "note": ""
+  },
+  {
+    "part": "chassis_front",
+    "quantity": 1,
+    "material": "Aluminum",
+    "mass_each_g": 62.05,
+    "bbox_mm": [
+      170.0,
+      136.0,
+      2.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": false,
+    "note": ""
+  },
+  {
+    "part": "frame_rail_right_rear",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 17.96,
+    "bbox_mm": [
+      160.0,
+      5.0,
+      30.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "frame_rail_right_front",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 17.96,
+    "bbox_mm": [
+      160.0,
+      5.0,
+      30.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "frame_rail_left_rear",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 17.96,
+    "bbox_mm": [
+      160.0,
+      5.0,
+      30.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "frame_rail_left_front",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 17.96,
+    "bbox_mm": [
+      160.0,
+      5.0,
+      30.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "hip_base_-1_-1",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 9.69,
+    "bbox_mm": [
+      24.0,
+      55.0,
+      6.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "hip_base_-1_1",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 9.69,
+    "bbox_mm": [
+      24.0,
+      55.0,
+      6.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "hip_base_1_-1",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 9.69,
+    "bbox_mm": [
+      24.0,
+      55.0,
+      6.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "hip_base_1_1",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 9.69,
+    "bbox_mm": [
+      24.0,
+      55.0,
+      6.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "body_shell_rear",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 89.45,
+    "bbox_mm": [
+      170.0,
+      156.0,
+      80.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "body_shell_front",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 89.16,
+    "bbox_mm": [
+      170.0,
+      156.0,
+      80.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "cover_standoff_kit_rear",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 19.86,
+    "bbox_mm": [
+      159.0,
+      123.0,
+      73.4
+    ],
+    "valid": true,
+    "solids": 4,
+    "printable": true,
+    "note": "Four individual standoffs; M3 fasteners/captive nuts after fit test."
+  },
+  {
+    "part": "cover_standoff_kit_front",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 19.86,
+    "bbox_mm": [
+      159.0,
+      123.0,
+      73.4
+    ],
+    "valid": true,
+    "solids": 4,
+    "printable": true,
+    "note": "Four individual standoffs; M3 fasteners/captive nuts after fit test."
+  },
+  {
+    "part": "roll_fork_right",
+    "quantity": 2,
+    "material": "PLA",
+    "mass_each_g": 35.96,
+    "bbox_mm": [
+      60.92,
+      61.74,
+      68.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "roll_fork_left",
+    "quantity": 2,
+    "material": "PLA",
+    "mass_each_g": 35.96,
+    "bbox_mm": [
+      60.92,
+      61.74,
+      68.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "thigh_carrier",
+    "quantity": 4,
+    "material": "PLA",
+    "mass_each_g": 45.78,
+    "bbox_mm": [
+      118.0,
+      50.0,
+      60.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "shin_fork",
+    "quantity": 4,
+    "material": "PLA",
+    "mass_each_g": 31.26,
+    "bbox_mm": [
+      101.0,
+      30.0,
+      76.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "rigid_foot",
+    "quantity": 4,
+    "material": "PLA",
+    "mass_each_g": 30.78,
+    "bbox_mm": [
+      46.0,
+      78.0,
+      21.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "neck_pedestal",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 35.2,
+    "bbox_mm": [
+      74.0,
+      50.0,
+      34.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "tail_pedestal",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 33.5,
+    "bbox_mm": [
+      79.0,
+      50.0,
+      34.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "neck_yaw_stage",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 14.82,
+    "bbox_mm": [
+      92.0,
+      50.0,
+      12.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "head_pitch_carrier",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 29.75,
+    "bbox_mm": [
+      75.4,
+      36.0,
+      68.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "head_shell",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 43.96,
+    "bbox_mm": [
+      68.0,
+      100.0,
+      76.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "head_lid",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 37.34,
+    "bbox_mm": [
+      85.0,
+      100.0,
+      18.2
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "upper_muzzle",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 9.44,
+    "bbox_mm": [
+      40.0,
+      62.0,
+      18.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "lower_jaw",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 23.52,
+    "bbox_mm": [
+      67.0,
+      62.0,
+      33.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "jaw_mount_bridge",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 11.78,
+    "bbox_mm": [
+      18.0,
+      100.0,
+      20.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "nose",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 0.76,
+    "bbox_mm": [
+      1.6,
+      24.0,
+      16.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "ear_right",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 2.34,
+    "bbox_mm": [
+      30.0,
+      4.0,
+      31.4
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "eye_right",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 0.16,
+    "bbox_mm": [
+      10.0,
+      1.6,
+      8.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "ear_left",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 2.34,
+    "bbox_mm": [
+      30.0,
+      4.0,
+      31.4
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "eye_left",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 0.16,
+    "bbox_mm": [
+      10.0,
+      1.6,
+      8.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "tail_root",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 15.38,
+    "bbox_mm": [
+      46.0,
+      48.0,
+      48.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "tail_shell",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 50.36,
+    "bbox_mm": [
+      130.0,
+      48.0,
+      48.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "tail_tip",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 13.19,
+    "bbox_mm": [
+      25.0,
+      48.0,
+      48.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "electronics_tray",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 31.65,
+    "bbox_mm": [
+      88.0,
+      94.0,
+      29.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "radxa_board_envelope",
+    "quantity": 1,
+    "material": "Purchased",
+    "mass_each_g": 20,
+    "bbox_mm": [
+      65.0,
+      30.0,
+      13.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": false,
+    "note": "65 x 30 board; connector envelope approximate."
+  },
+  {
+    "part": "esp32_board_envelope",
+    "quantity": 1,
+    "material": "Purchased",
+    "mass_each_g": 21,
+    "bbox_mm": [
+      65.0,
+      30.0,
+      18.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": false,
+    "note": "Controller connector height approximate; verify selected revision."
+  },
+  {
+    "part": "battery_envelope",
+    "quantity": 1,
+    "material": "Purchased",
+    "mass_each_g": 180.0,
+    "bbox_mm": [
+      115.0,
+      38.0,
+      30.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": false,
+    "note": "Battery envelope allowance; actual SKU dimension unconfirmed."
+  },
+  {
+    "part": "battery_tray",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 45.94,
+    "bbox_mm": [
+      121.0,
+      44.0,
+      35.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "battery_crossbar_112",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 3.24,
+    "bbox_mm": [
+      12.0,
+      74.0,
+      3.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "battery_crossbar_62",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 3.24,
+    "bbox_mm": [
+      12.0,
+      74.0,
+      3.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "horn_fit_coupon",
+    "quantity": 0,
+    "material": "PLA",
+    "mass_each_g": 4.48,
+    "bbox_mm": [
+      32.0,
+      32.0,
+      4.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": ""
+  },
+  {
+    "part": "horn_spacer_6p6",
+    "quantity": 10,
+    "material": "PLA",
+    "mass_each_g": 2.12,
+    "bbox_mm": [
+      22.0,
+      22.0,
+      6.6
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": "Nominal interface spacer; calibrate using C018 fit coupon."
+  },
+  {
+    "part": "horn_spacer_2p6",
+    "quantity": 10,
+    "material": "PLA",
+    "mass_each_g": 0.83,
+    "bbox_mm": [
+      22.0,
+      22.0,
+      2.6
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": "Nominal interface spacer; calibrate using C018 fit coupon."
+  },
+  {
+    "part": "horn_spacer_10p6",
+    "quantity": 8,
+    "material": "PLA",
+    "mass_each_g": 3.4,
+    "bbox_mm": [
+      22.0,
+      22.0,
+      10.6
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": "Nominal interface spacer; calibrate using C018 fit coupon."
+  },
+  {
+    "part": "horn_spacer_0p6",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 0.19,
+    "bbox_mm": [
+      22.0,
+      22.0,
+      0.6
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": "Nominal interface spacer; calibrate using C018 fit coupon."
+  },
+  {
+    "part": "horn_spacer_4p6",
+    "quantity": 1,
+    "material": "PLA",
+    "mass_each_g": 1.48,
+    "bbox_mm": [
+      22.0,
+      22.0,
+      4.6
+    ],
+    "valid": true,
+    "solids": 1,
+    "printable": true,
+    "note": "Nominal interface spacer; calibrate using C018 fit coupon."
+  }
+]

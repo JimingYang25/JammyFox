@@ -1,0 +1,175 @@
+{
+  "poses": {
+    "stand": {
+      "angles": {},
+      "collisions": []
+    },
+    "hip_roll_min": {
+      "angles": {
+        "front_left_hip_roll": -8.0,
+        "front_right_hip_roll": -8.0,
+        "rear_left_hip_roll": -8.0,
+        "rear_right_hip_roll": -8.0
+      },
+      "collisions": []
+    },
+    "hip_roll_max": {
+      "angles": {
+        "front_left_hip_roll": 8.0,
+        "front_right_hip_roll": 8.0,
+        "rear_left_hip_roll": 8.0,
+        "rear_right_hip_roll": 8.0
+      },
+      "collisions": []
+    },
+    "hip_pitch_min": {
+      "angles": {
+        "front_left_hip_pitch": 10.0,
+        "front_right_hip_pitch": 10.0,
+        "rear_left_hip_pitch": 10.0,
+        "rear_right_hip_pitch": 10.0
+      },
+      "collisions": []
+    },
+    "hip_pitch_max": {
+      "angles": {
+        "front_left_hip_pitch": 40.0,
+        "front_right_hip_pitch": 40.0,
+        "rear_left_hip_pitch": 40.0,
+        "rear_right_hip_pitch": 40.0
+      },
+      "collisions": []
+    },
+    "knee_min": {
+      "angles": {
+        "front_left_knee": -80.0,
+        "front_right_knee": -80.0,
+        "rear_left_knee": -80.0,
+        "rear_right_knee": -80.0
+      },
+      "collisions": []
+    },
+    "knee_max": {
+      "angles": {
+        "front_left_knee": -35.0,
+        "front_right_knee": -35.0,
+        "rear_left_knee": -35.0,
+        "rear_right_knee": -35.0
+      },
+      "collisions": []
+    },
+    "neck_yaw_min": {
+      "angles": {
+        "neck_yaw": -20.0
+      },
+      "collisions": []
+    },
+    "neck_yaw_max": {
+      "angles": {
+        "neck_yaw": 20.0
+      },
+      "collisions": []
+    },
+    "neck_pitch_min": {
+      "angles": {
+        "neck_pitch": -15.0
+      },
+      "collisions": []
+    },
+    "neck_pitch_max": {
+      "angles": {
+        "neck_pitch": 15.0
+      },
+      "collisions": []
+    },
+    "jaw_min": {
+      "angles": {
+        "jaw": -18.0
+      },
+      "collisions": []
+    },
+    "jaw_max": {
+      "angles": {
+        "jaw": 30.0
+      },
+      "collisions": []
+    },
+    "tail_min": {
+      "angles": {
+        "tail": -25.0
+      },
+      "collisions": []
+    },
+    "tail_max": {
+      "angles": {
+        "tail": 25.0
+      },
+      "collisions": []
+    },
+    "head_-20_-15_-18": {
+      "angles": {
+        "neck_yaw": -20,
+        "neck_pitch": -15,
+        "jaw": -18
+      },
+      "collisions": []
+    },
+    "head_-20_-15_30": {
+      "angles": {
+        "neck_yaw": -20,
+        "neck_pitch": -15,
+        "jaw": 30
+      },
+      "collisions": []
+    },
+    "head_-20_15_-18": {
+      "angles": {
+        "neck_yaw": -20,
+        "neck_pitch": 15,
+        "jaw": -18
+      },
+      "collisions": []
+    },
+    "head_-20_15_30": {
+      "angles": {
+        "neck_yaw": -20,
+        "neck_pitch": 15,
+        "jaw": 30
+      },
+      "collisions": []
+    },
+    "head_20_-15_-18": {
+      "angles": {
+        "neck_yaw": 20,
+        "neck_pitch": -15,
+        "jaw": -18
+      },
+      "collisions": []
+    },
+    "head_20_-15_30": {
+      "angles": {
+        "neck_yaw": 20,
+        "neck_pitch": -15,
+        "jaw": 30
+      },
+      "collisions": []
+    },
+    "head_20_15_-18": {
+      "angles": {
+        "neck_yaw": 20,
+        "neck_pitch": 15,
+        "jaw": -18
+      },
+      "collisions": []
+    },
+    "head_20_15_30": {
+      "angles": {
+        "neck_yaw": 20,
+        "neck_pitch": 15,
+        "jaw": 30
+      },
+      "collisions": []
+    }
+  },
+  "source": "Exact B-rep intersections; adjacent mating rigid groups reported separately."
+}

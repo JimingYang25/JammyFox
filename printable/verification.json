@@ -1,0 +1,581 @@
+{
+  "revision": "A",
+  "format": "3MF core model, not sliced or printer-profile project",
+  "assumed_bed_mm": [
+    220,
+    220,
+    220
+  ],
+  "edge_margin_mm": 10.0,
+  "minimum_model_gap_mm": 8.0,
+  "individual_files": 51,
+  "production_plates": 13,
+  "production_physical_pieces": 117,
+  "fit_test_pieces": 13,
+  "all_source_meshes_watertight": true,
+  "exported_meshes_reloaded_watertight": true,
+  "geometry_volume_preserved": true,
+  "geometry_placements_preserved": true,
+  "production_counts_match_CAD": true,
+  "all_3mf_model_xml_schema_valid": true,
+  "schema_source": "3MFConsortium spec_core appendix B; xml.xsd resolved locally",
+  "schema_adaptation": "maxOccurs 2147483647 replaced with unbounded for libxml2 compatibility; finite actual counts checked separately",
+  "all_objects_on_bed_and_in_margins": true,
+  "model_rectangles_do_not_overlap": true,
+  "Bambu_Studio_UI_import_tested": false,
+  "machine_profile_included": false,
+  "supports_or_brims_generated": false,
+  "physical_fit_validated": false,
+  "CAD_attachment_details_complete": false,
+  "source_STL_SHA256": {
+    "servo_clamp_lower": "12a32809c05efb06fff503995ec2498178d206b483592f50b60609c5b93772d8",
+    "servo_clamp_upper": "c3c699eed71ca0631284d48c4700ea7854b1cd70da639a940e2c2f9ecf379ce1",
+    "horn_spacer_1": "6e9f22e839aed2c7d3adcda8325cc64bb30673911349c70fb400d309aba31317",
+    "horn_spacer_2": "aceb03dbc432d88e7d8f6a04e292354813c56a4bff923793cd13e9e8d5ac1a22",
+    "horn_spacer_3": "42abbc1f10afb337408b61df4019fbc2b5e5e11fb9f8c7ce749719f31c75fdc7",
+    "horn_spacer_6": "d2e1fff0ccfdba2c819afea9b122c323377abf08de85236900812add9965d7f5",
+    "horn_spacer_12": "d5877d88891a46d37dff3f5c169477f8aa69edd290d52588af4b9fc81f1a7d53",
+    "frame_rail_right_rear": "a36de64c137a2f24ad98fae4c49be57e860eb19e0c961cb210db9a1e8b718cbd",
+    "frame_rail_right_front": "a36de64c137a2f24ad98fae4c49be57e860eb19e0c961cb210db9a1e8b718cbd",
+    "frame_rail_left_rear": "a36de64c137a2f24ad98fae4c49be57e860eb19e0c961cb210db9a1e8b718cbd",
+    "frame_rail_left_front": "a36de64c137a2f24ad98fae4c49be57e860eb19e0c961cb210db9a1e8b718cbd",
+    "hip_base_-1_-1": "a59e4a566b7f455ed39ab37bbca92bd6a07add62004db49794509e493855d6ba",
+    "hip_base_-1_1": "c816882532e1b1357ab7e844c0400279f88441d126d9315fc76c78c52b0ccd2a",
+    "hip_base_1_-1": "a59e4a566b7f455ed39ab37bbca92bd6a07add62004db49794509e493855d6ba",
+    "hip_base_1_1": "c816882532e1b1357ab7e844c0400279f88441d126d9315fc76c78c52b0ccd2a",
+    "body_shell_rear": "7b28a44251ea4f0f99ff7e576687e01fd24fe115a200070b7d606de898b705e0",
+    "body_shell_front": "1a100f89196bdc58dede7a4a7978a067aa9a585cfb5a74cf1b1a07074760864b",
+    "cover_standoff_kit_rear": "50e4ceda6f8432b9bc00061198ea22695eada4e9361bab6b3cebe770e74a8bd8",
+    "cover_standoff_kit_front": "50e4ceda6f8432b9bc00061198ea22695eada4e9361bab6b3cebe770e74a8bd8",
+    "roll_fork_right": "d71536ec22dff86ff815ac0b6a836a6630005f2bf308470b7bcd947f7fceb3e2",
+    "roll_fork_left": "103c4f96caff315d97de092c41ced26f79971b98c41d8b53f0f7cdcd3fb69f25",
+    "thigh_carrier": "e83e2199f71c37ccb6eeb2f1bda3efb13dd589249bf8551b2efd56f24dcdd89b",
+    "shin_fork": "c1385d0f62d646c575fda668584bee8bbdc328676e9a955ea2952f43cf40f454",
+    "rigid_foot": "c115cfc20cb73fe033183bed7795a5d7871d02012496a54ea9ddc7addb2f552f",
+    "neck_pedestal": "970bbb0f3fc7229522341d37ef5eceed1175e77437af3c3301aed83e55983777",
+    "tail_pedestal": "e484ad9556e2b3a929dc9804cbee38995b13dffe6ae12b997e4c793ee90d2bab",
+    "neck_yaw_stage": "7ab332b2cfd2fee95938d3b3244302320e15d910d9d9c906d7f29836a8e9eadf",
+    "head_pitch_carrier": "7ba0d50259da0a66bc37371aebb80944557ec1fe6d170b2f7fb81fd799b8f32b",
+    "head_shell": "ea4396b18421abf797351bc412f4c894fe05eb03aa212c71495089e4c3934159",
+    "head_lid": "aeb8e8d71347371ebf7820cb41c8537fb0be155dab5d6b5e8129fc4a8749e947",
+    "upper_muzzle": "0ea35b0bf23fcac6eedf3a6586d02fb236be969dc45975ce5d0ed023009773df",
+    "lower_jaw": "6b09a330fe8003a66aedae387b1994c1b11ea73ad244bfbdeb1a498d521ff104",
+    "jaw_mount_bridge": "4f07c3e5fac2ae8a8026524468acc92465c8073b46a51cc51b2d023c4b41c50b",
+    "nose": "00ec3b4cb97fa2d42291469e26ac0a217c929c38b632074188effdcbd0e41061",
+    "ear_right": "b638730bcffc923e7019d70131eec807e3805f429b1d55adfab500886d505558",
+    "eye_right": "5842518bab5be3e86e258a5f638c976c21f74cfdae376a50b0a7b8bd04870a6e",
+    "ear_left": "f91a65f8bb73bcd13a6e1b29a02774a20f641d1f0f3f08ab36c225cb8510430c",
+    "eye_left": "5842518bab5be3e86e258a5f638c976c21f74cfdae376a50b0a7b8bd04870a6e",
+    "tail_root": "ff0bc2b0bc5bace3272425fd46fc6486d09a0b67feb18af0f483d2aeb0029473",
+    "tail_shell": "4ef944e799114aab131a7d67091897aa836aabd967a36f9e0fe2254a7c1d0a26",
+    "tail_tip": "cd3f2a91ef78d4755ba7aee2dd850de08b7d947a84ffecc81072af17829ac7ce",
+    "electronics_tray": "72b5d664895e89cd5b7251d7a6e64613847e729930696441aa9cae002200316a",
+    "battery_tray": "026ea5af942238d70c450820b50679698e6661693a3918c9a67d30e7e4783853",
+    "battery_crossbar_112": "67dccee3d0366c49339c5b8568f83e06592bdfba96c96f81e0a47ae4ca26c55d",
+    "battery_crossbar_62": "67dccee3d0366c49339c5b8568f83e06592bdfba96c96f81e0a47ae4ca26c55d",
+    "horn_fit_coupon": "7b27ecd603a6a592fe42844f7fb0097473e959a9682e13adb54c398055100491",
+    "horn_spacer_6p6": "744a6e3a44bbf2d1f38c4f4f2cbcfdc0dedcfeab040765a871f60fc99ee4f234",
+    "horn_spacer_2p6": "20c1b009b2ccf116650b574b50c2f1a1a66d6743f28d59f93ce8d960fb04564e",
+    "horn_spacer_10p6": "4cc509d1625036c6679d774d24e56d2aea392eeff6bd166fd93e27815a21ac2b",
+    "horn_spacer_0p6": "8cc053c7fc40850453c3c8752fa77677e7717545e84d1472457dc004e1844e44",
+    "horn_spacer_4p6": "c2a964f3a6db720b740e74b37b980dca58553a58df60e3ecec64b2999d656236"
+  },
+  "plates": [
+    {
+      "file": "plates/00_fit_test.3mf",
+      "production": false,
+      "color": "fit",
+      "physical_pieces": 13,
+      "part_counts": {
+        "servo_clamp_lower": 1,
+        "servo_clamp_upper": 1,
+        "horn_fit_coupon": 1,
+        "horn_spacer_0p6": 1,
+        "horn_spacer_10p6": 1,
+        "horn_spacer_12": 1,
+        "horn_spacer_1": 1,
+        "horn_spacer_2": 1,
+        "horn_spacer_2p6": 1,
+        "horn_spacer_3": 1,
+        "horn_spacer_4p6": 1,
+        "horn_spacer_6": 1,
+        "horn_spacer_6p6": 1
+      },
+      "preview": "previews/00_fit_test.png"
+    },
+    {
+      "file": "plates/01_black_clamps.3mf",
+      "production": true,
+      "color": "black",
+      "physical_pieces": 12,
+      "part_counts": {
+        "servo_clamp_lower": 12
+      },
+      "preview": "previews/01_black_clamps.png"
+    },
+    {
+      "file": "plates/02_black_clamps.3mf",
+      "production": true,
+      "color": "black",
+      "physical_pieces": 12,
+      "part_counts": {
+        "servo_clamp_lower": 4,
+        "servo_clamp_upper": 8
+      },
+      "preview": "previews/02_black_clamps.png"
+    },
+    {
+      "file": "plates/03_black_clamps.3mf",
+      "production": true,
+      "color": "black",
+      "physical_pieces": 8,
+      "part_counts": {
+        "servo_clamp_upper": 8
+      },
+      "preview": "previews/03_black_clamps.png"
+    },
+    {
+      "file": "plates/04_black_small.3mf",
+      "production": true,
+      "color": "black",
+      "physical_pieces": 41,
+      "part_counts": {
+        "horn_spacer_0p6": 1,
+        "horn_spacer_10p6": 8,
+        "horn_spacer_2p6": 10,
+        "horn_spacer_4p6": 1,
+        "horn_spacer_6p6": 10,
+        "nose": 1,
+        "cover_standoff_kit_front": 4,
+        "cover_standoff_kit_rear": 4,
+        "eye_left": 1,
+        "eye_right": 1
+      },
+      "preview": "previews/04_black_small.png"
+    },
+    {
+      "file": "plates/05_black_structure.3mf",
+      "production": true,
+      "color": "black",
+      "physical_pieces": 5,
+      "part_counts": {
+        "electronics_tray": 1,
+        "battery_tray": 1,
+        "frame_rail_left_front": 1,
+        "frame_rail_left_rear": 1,
+        "neck_yaw_stage": 1
+      },
+      "preview": "previews/05_black_structure.png"
+    },
+    {
+      "file": "plates/06_black_structure.3mf",
+      "production": true,
+      "color": "black",
+      "physical_pieces": 9,
+      "part_counts": {
+        "frame_rail_right_front": 1,
+        "frame_rail_right_rear": 1,
+        "tail_pedestal": 1,
+        "neck_pedestal": 1,
+        "rigid_foot": 3,
+        "hip_base_1_-1": 1,
+        "battery_crossbar_112": 1
+      },
+      "preview": "previews/06_black_structure.png"
+    },
+    {
+      "file": "plates/07_black_structure.3mf",
+      "production": true,
+      "color": "black",
+      "physical_pieces": 8,
+      "part_counts": {
+        "rigid_foot": 1,
+        "head_pitch_carrier": 1,
+        "tail_root": 1,
+        "jaw_mount_bridge": 1,
+        "hip_base_-1_-1": 1,
+        "hip_base_-1_1": 1,
+        "hip_base_1_1": 1,
+        "battery_crossbar_62": 1
+      },
+      "preview": "previews/07_black_structure.png"
+    },
+    {
+      "file": "plates/08_orange_body_covers.3mf",
+      "production": true,
+      "color": "orange",
+      "physical_pieces": 1,
+      "part_counts": {
+        "body_shell_front": 1
+      },
+      "preview": "previews/08_orange_body_covers.png"
+    },
+    {
+      "file": "plates/09_orange_body_covers.3mf",
+      "production": true,
+      "color": "orange",
+      "physical_pieces": 1,
+      "part_counts": {
+        "body_shell_rear": 1
+      },
+      "preview": "previews/09_orange_body_covers.png"
+    },
+    {
+      "file": "plates/10_orange_head_tail.3mf",
+      "production": true,
+      "color": "orange",
+      "physical_pieces": 5,
+      "part_counts": {
+        "head_lid": 1,
+        "head_shell": 1,
+        "tail_shell": 1,
+        "ear_left": 1,
+        "ear_right": 1
+      },
+      "preview": "previews/10_orange_head_tail.png"
+    },
+    {
+      "file": "plates/11_orange_legs.3mf",
+      "production": true,
+      "color": "orange",
+      "physical_pieces": 5,
+      "part_counts": {
+        "thigh_carrier": 4,
+        "roll_fork_left": 1
+      },
+      "preview": "previews/11_orange_legs.png"
+    },
+    {
+      "file": "plates/12_orange_legs.3mf",
+      "production": true,
+      "color": "orange",
+      "physical_pieces": 7,
+      "part_counts": {
+        "shin_fork": 4,
+        "roll_fork_left": 1,
+        "roll_fork_right": 2
+      },
+      "preview": "previews/12_orange_legs.png"
+    },
+    {
+      "file": "plates/13_white_parts.3mf",
+      "production": true,
+      "color": "white",
+      "physical_pieces": 3,
+      "part_counts": {
+        "lower_jaw": 1,
+        "upper_muzzle": 1,
+        "tail_tip": 1
+      },
+      "preview": "previews/13_white_parts.png"
+    }
+  ],
+  "individuals": [
+    {
+      "file": "parts/servo_clamp_lower.3mf",
+      "source_part": "servo_clamp_lower",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 16
+    },
+    {
+      "file": "parts/servo_clamp_upper.3mf",
+      "source_part": "servo_clamp_upper",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 16
+    },
+    {
+      "file": "parts/horn_spacer_1.3mf",
+      "source_part": "horn_spacer_1",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 0
+    },
+    {
+      "file": "parts/horn_spacer_2.3mf",
+      "source_part": "horn_spacer_2",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 0
+    },
+    {
+      "file": "parts/horn_spacer_3.3mf",
+      "source_part": "horn_spacer_3",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 0
+    },
+    {
+      "file": "parts/horn_spacer_6.3mf",
+      "source_part": "horn_spacer_6",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 0
+    },
+    {
+      "file": "parts/horn_spacer_12.3mf",
+      "source_part": "horn_spacer_12",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 0
+    },
+    {
+      "file": "parts/frame_rail_right_rear.3mf",
+      "source_part": "frame_rail_right_rear",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 1
+    },
+    {
+      "file": "parts/frame_rail_right_front.3mf",
+      "source_part": "frame_rail_right_front",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 1
+    },
+    {
+      "file": "parts/frame_rail_left_rear.3mf",
+      "source_part": "frame_rail_left_rear",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 1
+    },
+    {
+      "file": "parts/frame_rail_left_front.3mf",
+      "source_part": "frame_rail_left_front",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 1
+    },
+    {
+      "file": "parts/hip_base_-1_-1.3mf",
+      "source_part": "hip_base_-1_-1",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 1
+    },
+    {
+      "file": "parts/hip_base_-1_1.3mf",
+      "source_part": "hip_base_-1_1",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 1
+    },
+    {
+      "file": "parts/hip_base_1_-1.3mf",
+      "source_part": "hip_base_1_-1",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 1
+    },
+    {
+      "file": "parts/hip_base_1_1.3mf",
+      "source_part": "hip_base_1_1",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 1
+    },
+    {
+      "file": "parts/body_shell_rear.3mf",
+      "source_part": "body_shell_rear",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 1
+    },
+    {
+      "file": "parts/body_shell_front.3mf",
+      "source_part": "body_shell_front",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 1
+    },
+    {
+      "file": "parts/cover_standoff_kit_rear.3mf",
+      "source_part": "cover_standoff_kit_rear",
+      "physical_pieces_per_file": 4,
+      "BOM_units": 1
+    },
+    {
+      "file": "parts/cover_standoff_kit_front.3mf",
+      "source_part": "cover_standoff_kit_front",
+      "physical_pieces_per_file": 4,
+      "BOM_units": 1
+    },
+    {
+      "file": "parts/roll_fork_right.3mf",
+      "source_part": "roll_fork_right",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 2
+    },
+    {
+      "file": "parts/roll_fork_left.3mf",
+      "source_part": "roll_fork_left",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 2
+    },
+    {
+      "file": "parts/thigh_carrier.3mf",
+      "source_part": "thigh_carrier",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 4
+    },
+    {
+      "file": "parts/shin_fork.3mf",
+      "source_part": "shin_fork",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 4
+    },
+    {
+      "file": "parts/rigid_foot.3mf",
+      "source_part": "rigid_foot",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 4
+    },
+    {
+      "file": "parts/neck_pedestal.3mf",
+      "source_part": "neck_pedestal",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 1
+    },
+    {
+      "file": "parts/tail_pedestal.3mf",
+      "source_part": "tail_pedestal",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 1
+    },
+    {
+      "file": "parts/neck_yaw_stage.3mf",
+      "source_part": "neck_yaw_stage",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 1
+    },
+    {
+      "file": "parts/head_pitch_carrier.3mf",
+      "source_part": "head_pitch_carrier",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 1
+    },
+    {
+      "file": "parts/head_shell.3mf",
+      "source_part": "head_shell",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 1
+    },
+    {
+      "file": "parts/head_lid.3mf",
+      "source_part": "head_lid",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 1
+    },
+    {
+      "file": "parts/upper_muzzle.3mf",
+      "source_part": "upper_muzzle",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 1
+    },
+    {
+      "file": "parts/lower_jaw.3mf",
+      "source_part": "lower_jaw",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 1
+    },
+    {
+      "file": "parts/jaw_mount_bridge.3mf",
+      "source_part": "jaw_mount_bridge",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 1
+    },
+    {
+      "file": "parts/nose.3mf",
+      "source_part": "nose",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 1
+    },
+    {
+      "file": "parts/ear_right.3mf",
+      "source_part": "ear_right",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 1
+    },
+    {
+      "file": "parts/eye_right.3mf",
+      "source_part": "eye_right",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 1
+    },
+    {
+      "file": "parts/ear_left.3mf",
+      "source_part": "ear_left",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 1
+    },
+    {
+      "file": "parts/eye_left.3mf",
+      "source_part": "eye_left",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 1
+    },
+    {
+      "file": "parts/tail_root.3mf",
+      "source_part": "tail_root",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 1
+    },
+    {
+      "file": "parts/tail_shell.3mf",
+      "source_part": "tail_shell",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 1
+    },
+    {
+      "file": "parts/tail_tip.3mf",
+      "source_part": "tail_tip",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 1
+    },
+    {
+      "file": "parts/electronics_tray.3mf",
+      "source_part": "electronics_tray",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 1
+    },
+    {
+      "file": "parts/battery_tray.3mf",
+      "source_part": "battery_tray",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 1
+    },
+    {
+      "file": "parts/battery_crossbar_112.3mf",
+      "source_part": "battery_crossbar_112",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 1
+    },
+    {
+      "file": "parts/battery_crossbar_62.3mf",
+      "source_part": "battery_crossbar_62",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 1
+    },
+    {
+      "file": "parts/horn_fit_coupon.3mf",
+      "source_part": "horn_fit_coupon",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 0
+    },
+    {
+      "file": "parts/horn_spacer_6p6.3mf",
+      "source_part": "horn_spacer_6p6",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 10
+    },
+    {
+      "file": "parts/horn_spacer_2p6.3mf",
+      "source_part": "horn_spacer_2p6",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 10
+    },
+    {
+      "file": "parts/horn_spacer_10p6.3mf",
+      "source_part": "horn_spacer_10p6",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 8
+    },
+    {
+      "file": "parts/horn_spacer_0p6.3mf",
+      "source_part": "horn_spacer_0p6",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 1
+    },
+    {
+      "file": "parts/horn_spacer_4p6.3mf",
+      "source_part": "horn_spacer_4p6",
+      "physical_pieces_per_file": 1,
+      "BOM_units": 1
+    }
+  ]
+}

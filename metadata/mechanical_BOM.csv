@@ -1,0 +1,59 @@
+﻿part,quantity,material,mass_each_g,size_mm,note
+ST3215_C018_envelope,16,Purchased,55.0,"[45.23, 24.73, 41.8]",Confirmed C018 case dimensions; conservative boss envelope; actual mass 55 g.
+C018_metal_horn,32,Purchased,3.5,"[19.95, 19.95, 2.5]","19.95 OD, 14 PCD, 4-M3 from exact C018 datasheet; spline omitted."
+servo_clamp_lower,16,PLA,14.67,"[51.93, 43.8, 21.0]",
+servo_clamp_upper,16,PLA,14.67,"[51.93, 43.8, 21.0]",
+horn_spacer_1,0,PLA,0.32,"[22.0, 22.0, 1.0]",Select stack after fit coupon; four M3 on 14 PCD.
+horn_spacer_2,0,PLA,0.64,"[22.0, 22.0, 2.0]",Select stack after fit coupon; four M3 on 14 PCD.
+horn_spacer_3,0,PLA,0.96,"[22.0, 22.0, 3.0]",Select stack after fit coupon; four M3 on 14 PCD.
+horn_spacer_6,0,PLA,1.93,"[22.0, 22.0, 6.0]",Select stack after fit coupon; four M3 on 14 PCD.
+horn_spacer_12,0,PLA,3.85,"[22.0, 22.0, 12.0]",Select stack after fit coupon; four M3 on 14 PCD.
+chassis_rear,1,Aluminum,62.25,"[170.0, 136.0, 2.0]",
+chassis_front,1,Aluminum,62.05,"[170.0, 136.0, 2.0]",
+frame_rail_right_rear,1,PLA,17.96,"[160.0, 5.0, 30.0]",
+frame_rail_right_front,1,PLA,17.96,"[160.0, 5.0, 30.0]",
+frame_rail_left_rear,1,PLA,17.96,"[160.0, 5.0, 30.0]",
+frame_rail_left_front,1,PLA,17.96,"[160.0, 5.0, 30.0]",
+hip_base_-1_-1,1,PLA,9.69,"[24.0, 55.0, 6.0]",
+hip_base_-1_1,1,PLA,9.69,"[24.0, 55.0, 6.0]",
+hip_base_1_-1,1,PLA,9.69,"[24.0, 55.0, 6.0]",
+hip_base_1_1,1,PLA,9.69,"[24.0, 55.0, 6.0]",
+body_shell_rear,1,PLA,89.45,"[170.0, 156.0, 80.0]",
+body_shell_front,1,PLA,89.16,"[170.0, 156.0, 80.0]",
+cover_standoff_kit_rear,1,PLA,19.86,"[159.0, 123.0, 73.4]",Four individual standoffs; M3 fasteners/captive nuts after fit test.
+cover_standoff_kit_front,1,PLA,19.86,"[159.0, 123.0, 73.4]",Four individual standoffs; M3 fasteners/captive nuts after fit test.
+roll_fork_right,2,PLA,35.96,"[60.92, 61.74, 68.0]",
+roll_fork_left,2,PLA,35.96,"[60.92, 61.74, 68.0]",
+thigh_carrier,4,PLA,45.78,"[118.0, 50.0, 60.0]",
+shin_fork,4,PLA,31.26,"[101.0, 30.0, 76.0]",
+rigid_foot,4,PLA,30.78,"[46.0, 78.0, 21.0]",
+neck_pedestal,1,PLA,35.2,"[74.0, 50.0, 34.0]",
+tail_pedestal,1,PLA,33.5,"[79.0, 50.0, 34.0]",
+neck_yaw_stage,1,PLA,14.82,"[92.0, 50.0, 12.0]",
+head_pitch_carrier,1,PLA,29.75,"[75.4, 36.0, 68.0]",
+head_shell,1,PLA,43.96,"[68.0, 100.0, 76.0]",
+head_lid,1,PLA,37.34,"[85.0, 100.0, 18.2]",
+upper_muzzle,1,PLA,9.44,"[40.0, 62.0, 18.0]",
+lower_jaw,1,PLA,23.52,"[67.0, 62.0, 33.0]",
+jaw_mount_bridge,1,PLA,11.78,"[18.0, 100.0, 20.0]",
+nose,1,PLA,0.76,"[1.6, 24.0, 16.0]",
+ear_right,1,PLA,2.34,"[30.0, 4.0, 31.4]",
+eye_right,1,PLA,0.16,"[10.0, 1.6, 8.0]",
+ear_left,1,PLA,2.34,"[30.0, 4.0, 31.4]",
+eye_left,1,PLA,0.16,"[10.0, 1.6, 8.0]",
+tail_root,1,PLA,15.38,"[46.0, 48.0, 48.0]",
+tail_shell,1,PLA,50.36,"[130.0, 48.0, 48.0]",
+tail_tip,1,PLA,13.19,"[25.0, 48.0, 48.0]",
+electronics_tray,1,PLA,31.65,"[88.0, 94.0, 29.0]",
+radxa_board_envelope,1,Purchased,20,"[65.0, 30.0, 13.0]",65 x 30 board; connector envelope approximate.
+esp32_board_envelope,1,Purchased,21,"[65.0, 30.0, 18.0]",Controller connector height approximate; verify selected revision.
+battery_envelope,1,Purchased,180.0,"[115.0, 38.0, 30.0]",Battery envelope allowance; actual SKU dimension unconfirmed.
+battery_tray,1,PLA,45.94,"[121.0, 44.0, 35.0]",
+battery_crossbar_112,1,PLA,3.24,"[12.0, 74.0, 3.0]",
+battery_crossbar_62,1,PLA,3.24,"[12.0, 74.0, 3.0]",
+horn_fit_coupon,0,PLA,4.48,"[32.0, 32.0, 4.0]",
+horn_spacer_6p6,10,PLA,2.12,"[22.0, 22.0, 6.6]",Nominal interface spacer; calibrate using C018 fit coupon.
+horn_spacer_2p6,10,PLA,0.83,"[22.0, 22.0, 2.6]",Nominal interface spacer; calibrate using C018 fit coupon.
+horn_spacer_10p6,8,PLA,3.4,"[22.0, 22.0, 10.6]",Nominal interface spacer; calibrate using C018 fit coupon.
+horn_spacer_0p6,1,PLA,0.19,"[22.0, 22.0, 0.6]",Nominal interface spacer; calibrate using C018 fit coupon.
+horn_spacer_4p6,1,PLA,1.48,"[22.0, 22.0, 4.6]",Nominal interface spacer; calibrate using C018 fit coupon.

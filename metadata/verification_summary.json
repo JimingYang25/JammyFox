@@ -1,0 +1,42 @@
+{
+  "revision": "A",
+  "units": "mm",
+  "servo_count": 16,
+  "joints": 16,
+  "assembly_components": 164,
+  "unique_active_parts": 52,
+  "all_brep_parts_valid": true,
+  "structural_parts_connected": true,
+  "intentional_kits": [
+    "cover_standoff_kit_rear",
+    "cover_standoff_kit_front"
+  ],
+  "print_meshes_checked": 46,
+  "mesh_issues": [],
+  "sampled_poses": 23,
+  "sampled_intersections": 0,
+  "collision_scope": "Different rigid groups, >0.3 mm^3 overlap; static mounting contacts and board/battery envelopes are not part of this count.",
+  "assumed_print_bed_mm": [
+    220,
+    220,
+    220
+  ],
+  "solid_geometry_mass_estimate_g": 3177.2,
+  "mass_excludes": "Unmodeled screws, nuts, cables, power hardware; printed infill not subtracted.",
+  "overall_bounds_mm": [
+    [
+      -367.0,
+      -141.0,
+      -1.7763568394002505e-14
+    ],
+    [
+      330.0,
+      141.0,
+      340.0
+    ]
+  ],
+  "physical_fit_validated": false,
+  "physical_load_validated": false,
+  "controller_validated": false,
+  "native_assembly_type": "Imported solid parts, fixed nominal placements; motion mates and native sketch feature history are not supplied."
+}

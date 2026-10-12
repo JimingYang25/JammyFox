@@ -1,0 +1,417 @@
+[
+  {
+    "file": "parts/battery_crossbar_112.3mf",
+    "bytes": 16733,
+    "sha256": "2d8353915848bbb041e2fd52fe0981e12007cdca08f0a63366bff7cf8863384f"
+  },
+  {
+    "file": "parts/battery_crossbar_62.3mf",
+    "bytes": 17056,
+    "sha256": "713a1fb9b08b4160d3b35509c53bdea861d8b16bb2e465ce4b90dc72c474a775"
+  },
+  {
+    "file": "parts/battery_tray.3mf",
+    "bytes": 6475,
+    "sha256": "6b75edfb44bb25b054cbd51e8f3a2a5296308780d4f2fa4b5963819c42b05227"
+  },
+  {
+    "file": "parts/body_shell_front.3mf",
+    "bytes": 27348,
+    "sha256": "503dd20cc63ca01dac9af7bdbbfbe4b0b9ecf9ac3e920df2dc52c5c939b103ec"
+  },
+  {
+    "file": "parts/body_shell_rear.3mf",
+    "bytes": 27045,
+    "sha256": "883ca3d0324abfcb33b746ba38d596166941674a5c791362e9a4d05776a8b0b1"
+  },
+  {
+    "file": "parts/cover_standoff_kit_front.3mf",
+    "bytes": 44996,
+    "sha256": "8e07c41d627d849dc1580f0e1b4a1d88568cd8b261a934233751b0424398f76f"
+  },
+  {
+    "file": "parts/cover_standoff_kit_rear.3mf",
+    "bytes": 44976,
+    "sha256": "4b03650fcec0ff0db3cae2c04602dd1cf621a9a0c830c08bc69799658cbd2ead"
+  },
+  {
+    "file": "parts/ear_left.3mf",
+    "bytes": 5972,
+    "sha256": "8318654c57ccec481d5fbf6b60689252a6efb69bfead072b8b303be5c24cdc0d"
+  },
+  {
+    "file": "parts/ear_right.3mf",
+    "bytes": 6368,
+    "sha256": "fc6ffc28bbc0df9b4738d7ce24697bff8984ec99402259272d04a746335a5f1c"
+  },
+  {
+    "file": "parts/electronics_tray.3mf",
+    "bytes": 45571,
+    "sha256": "b0670add6b43af16c57864d3f47870a796503fff52328089d8eb4c96f97cca18"
+  },
+  {
+    "file": "parts/eye_left.3mf",
+    "bytes": 5747,
+    "sha256": "180846798506de64887060af4a9a31e4c983720a30f057e8e613d7708350817f"
+  },
+  {
+    "file": "parts/eye_right.3mf",
+    "bytes": 6214,
+    "sha256": "a948db8cc8fe34b2d378567b6548766df3db1cb27518eb1e9444fdcb1baf42f9"
+  },
+  {
+    "file": "parts/frame_rail_left_front.3mf",
+    "bytes": 7319,
+    "sha256": "93b98cc66069b68a2e498f610936d833f816a76b858c6e99aaeae36e3f87e965"
+  },
+  {
+    "file": "parts/frame_rail_left_rear.3mf",
+    "bytes": 6803,
+    "sha256": "e92d6813d09604cf4d86b64c89934124747d674013a75b52793e94b290ebf166"
+  },
+  {
+    "file": "parts/frame_rail_right_front.3mf",
+    "bytes": 7767,
+    "sha256": "3cf2cdf93c73ff295d46012fa4b47136306d95c434ccb0c0c1099658b24a74db"
+  },
+  {
+    "file": "parts/frame_rail_right_rear.3mf",
+    "bytes": 7237,
+    "sha256": "f83ae4a065d5b76f61dd846ceed8d2e972c771a27520e8ea66d58b27619eed76"
+  },
+  {
+    "file": "parts/head_lid.3mf",
+    "bytes": 41302,
+    "sha256": "a18bd568ed62665104daafb06cddf538a63528165d4bae9d927ceb4edfc9687b"
+  },
+  {
+    "file": "parts/head_pitch_carrier.3mf",
+    "bytes": 59014,
+    "sha256": "2c6c7d683ec27f7782c9d59ff37214aacf3fef17828eef99b481649334bbeceb"
+  },
+  {
+    "file": "parts/head_shell.3mf",
+    "bytes": 38642,
+    "sha256": "e0deb3bac11b12871c5113cd412c92807b7f7f893ef96ecc6873c7bc0a80ceb3"
+  },
+  {
+    "file": "parts/hip_base_-1_-1.3mf",
+    "bytes": 15466,
+    "sha256": "019d4b1c6dad290ff06a8a3096c30e3798013c97dd241317399e1ba2069990a6"
+  },
+  {
+    "file": "parts/hip_base_-1_1.3mf",
+    "bytes": 15273,
+    "sha256": "0b4d42c3df1bd8fe353505042bb1dbc11a1dd8700797c107c88da6a6e14477fe"
+  },
+  {
+    "file": "parts/hip_base_1_-1.3mf",
+    "bytes": 15448,
+    "sha256": "d815e38b4a5414cb172bc80023244d0c62e9f93a48da79337c111e12fbd5bf28"
+  },
+  {
+    "file": "parts/hip_base_1_1.3mf",
+    "bytes": 15306,
+    "sha256": "c2abef965fcff45b9bb1adb26afb474566dfbff237990bf6bc3f844c4f1c231e"
+  },
+  {
+    "file": "parts/horn_fit_coupon.3mf",
+    "bytes": 30209,
+    "sha256": "4be400f3c9dc0ab1f617680f8859a4861e5f48e283f5ad098ad3d819f0cca5b0"
+  },
+  {
+    "file": "parts/horn_spacer_0p6.3mf",
+    "bytes": 35832,
+    "sha256": "60823e1dfa3321b563cba0e287c8c76131ba922da0e41d11fe11e1bb66c543a3"
+  },
+  {
+    "file": "parts/horn_spacer_1.3mf",
+    "bytes": 35309,
+    "sha256": "310ab2ac640b10446f71ca142550fc29d5a1970e8a2a1c9a68507b04e0f457ef"
+  },
+  {
+    "file": "parts/horn_spacer_10p6.3mf",
+    "bytes": 36415,
+    "sha256": "45499a0e1562508c9ff4ec88681d6d5d91eb4280db393c7cf2cc8bdf05879ce7"
+  },
+  {
+    "file": "parts/horn_spacer_12.3mf",
+    "bytes": 35631,
+    "sha256": "1d508f534c377e280d2b34bd158f5375a9515e446f43177b7720bdb01d20b678"
+  },
+  {
+    "file": "parts/horn_spacer_2.3mf",
+    "bytes": 35564,
+    "sha256": "38a311aa79014f829a1c84ff6cc6b4112ce3f0b5ccd2efe7146cfcc5234a0555"
+  },
+  {
+    "file": "parts/horn_spacer_2p6.3mf",
+    "bytes": 36227,
+    "sha256": "3fa01db35ee28a19e9423c2b9cbfebc7d5c6dba808afa7f5390c7076673f4fd6"
+  },
+  {
+    "file": "parts/horn_spacer_3.3mf",
+    "bytes": 35574,
+    "sha256": "397a728b91fab1f8618d7df593a8d73556609cf9e969697c75e1626970d6cad7"
+  },
+  {
+    "file": "parts/horn_spacer_4p6.3mf",
+    "bytes": 36068,
+    "sha256": "8dbab88dfaeaf35e869d46461e4629a991dab26fadeb2c764466af0096c05999"
+  },
+  {
+    "file": "parts/horn_spacer_6.3mf",
+    "bytes": 35618,
+    "sha256": "925f48388bc1be7c8818a3c648e264c1859b623d5224f594ba865fa1abf4e562"
+  },
+  {
+    "file": "parts/horn_spacer_6p6.3mf",
+    "bytes": 35994,
+    "sha256": "702f60da228ea737c1687870248ceb4cf8b65ab46874c1a7cf48775289a4bcd9"
+  },
+  {
+    "file": "parts/jaw_mount_bridge.3mf",
+    "bytes": 7956,
+    "sha256": "8dbd5fa712742169a99f85ba9f96a3a89523b0e1e8887b8f7b83e67121d39b89"
+  },
+  {
+    "file": "parts/lower_jaw.3mf",
+    "bytes": 55721,
+    "sha256": "b980bfa85a8c8413fad9992d723a1b4f3573d31fb4d2e7a73594f209621bf0fd"
+  },
+  {
+    "file": "parts/neck_pedestal.3mf",
+    "bytes": 49352,
+    "sha256": "ede01ccd3605b384c5e032385358ec95f2210a16af10e3936c66cd78106e6ece"
+  },
+  {
+    "file": "parts/neck_yaw_stage.3mf",
+    "bytes": 40325,
+    "sha256": "836a8b3f8efbf63f5129ea9c715cb05dc187288ced162a67980e3efc5c09757c"
+  },
+  {
+    "file": "parts/nose.3mf",
+    "bytes": 5752,
+    "sha256": "28342e4d77a9af9545c9cf0dc7af131dfae41a47ca085ede8b61f1520a6f2f2e"
+  },
+  {
+    "file": "parts/rigid_foot.3mf",
+    "bytes": 33896,
+    "sha256": "92b2959a0fd09606dd10c269aeab0ec9f17f2686e4932c8d54048a14f833029a"
+  },
+  {
+    "file": "parts/roll_fork_left.3mf",
+    "bytes": 61033,
+    "sha256": "9be7c69eed4eb8bd9f4d84998a59d15b3a50083b2981ffd9ec518e7b7478e544"
+  },
+  {
+    "file": "parts/roll_fork_right.3mf",
+    "bytes": 61476,
+    "sha256": "180049df0cc7305ce831ac6885261ebd58e730675506f2a88728859e59e9d7bf"
+  },
+  {
+    "file": "parts/servo_clamp_lower.3mf",
+    "bytes": 48028,
+    "sha256": "35d19dc12d396b828a10f013c89bffeb716b6ed84e062cc30c70c8e095a82e33"
+  },
+  {
+    "file": "parts/servo_clamp_upper.3mf",
+    "bytes": 47181,
+    "sha256": "fd1ecce54d54f3f4e7ad8f9dfd192fe462052de6a429274dd7a4137794352434"
+  },
+  {
+    "file": "parts/shin_fork.3mf",
+    "bytes": 65964,
+    "sha256": "d8a4e983e01091eb3eb83b7f4cfc8e3b4f06190f4d4b1e10b79e064081b8e523"
+  },
+  {
+    "file": "parts/tail_pedestal.3mf",
+    "bytes": 50207,
+    "sha256": "b361207db6b1e8947644ddbb8cae329456679edf297f2a5ac093f688bcce67a3"
+  },
+  {
+    "file": "parts/tail_root.3mf",
+    "bytes": 20949,
+    "sha256": "0cb9d2a31487ea0a1238d2c8641b06664e274818adccec905bbb9ba3e3aba28a"
+  },
+  {
+    "file": "parts/tail_shell.3mf",
+    "bytes": 6113,
+    "sha256": "da97984daf55bffe3dcf32a1cc6b5babde43597ac104d1cd72858ccda0680368"
+  },
+  {
+    "file": "parts/tail_tip.3mf",
+    "bytes": 5788,
+    "sha256": "ea416cad82e29dd08103958edfa4a088a211cc0d0651548966a8165ab99b3e2f"
+  },
+  {
+    "file": "parts/thigh_carrier.3mf",
+    "bytes": 71234,
+    "sha256": "f86a389004ef216971a7efcd91ca9d012dbfa6810866035bc2b986f34d3e9e86"
+  },
+  {
+    "file": "parts/upper_muzzle.3mf",
+    "bytes": 6339,
+    "sha256": "80501836d4b241e357a7b23a722e75b4adcfa6bb046e31364f9b584805de99f8"
+  },
+  {
+    "file": "plate_inventory.csv",
+    "bytes": 18014,
+    "sha256": "02a7c2e0c28ac7b5025a85a6ac5bcc7d617ba905c09e2d05b4b2c3e1ec84effe"
+  },
+  {
+    "file": "plate_overview.png",
+    "bytes": 362153,
+    "sha256": "c2160379dcecdb4715b3722d2790c40eccee5a984816fa370be331fb90cbf395"
+  },
+  {
+    "file": "plates/00_fit_test.3mf",
+    "bytes": 396145,
+    "sha256": "cd137dc20b35c9fb68dec7190569785c1e0c1063a31614d3e09fb56023194647"
+  },
+  {
+    "file": "plates/01_black_clamps.3mf",
+    "bytes": 50068,
+    "sha256": "b4b92d7470079690c89b3fdfd081f77b895652d55b42a3662783d9eb7f160b1e"
+  },
+  {
+    "file": "plates/02_black_clamps.3mf",
+    "bytes": 89996,
+    "sha256": "f1f765300846054d7418f262c3599ceca47d6e45db58fd2c8d98c6abf3f92bec"
+  },
+  {
+    "file": "plates/03_black_clamps.3mf",
+    "bytes": 49280,
+    "sha256": "d5e545b3d9175b85314cb43418d1c3e256e2bde0a45e704fd47bce3c80ea57d6"
+  },
+  {
+    "file": "plates/04_black_small.3mf",
+    "bytes": 228255,
+    "sha256": "c1bab5e15f49a93ab41a353be1da84fc36fcfb247f8780794bec50c50f83d2b3"
+  },
+  {
+    "file": "plates/05_black_structure.3mf",
+    "bytes": 80545,
+    "sha256": "cb0e5ccc32ba92f0f1f3bf470c4e6f8cbbdf876ceffbe922715fdbfa3fded02c"
+  },
+  {
+    "file": "plates/06_black_structure.3mf",
+    "bytes": 141881,
+    "sha256": "09b83c0d91de2b84fcb03fedbbf8466d01fbdde29bd87e779b293bb8e7cbe39f"
+  },
+  {
+    "file": "plates/07_black_structure.3mf",
+    "bytes": 140278,
+    "sha256": "bc184cba36dd64a4a570039cbdae58dac442ae330c787a9e812f9f268b915871"
+  },
+  {
+    "file": "plates/08_orange_body_covers.3mf",
+    "bytes": 28724,
+    "sha256": "0ac5d649e0485c0490c79223a38355434659dad632f5602661fb70effdbe306e"
+  },
+  {
+    "file": "plates/09_orange_body_covers.3mf",
+    "bytes": 28501,
+    "sha256": "e5c10f7862b4fe64158749f0b30da9c209b566f6688c3a4474f7364ab34f459e"
+  },
+  {
+    "file": "plates/10_orange_head_tail.3mf",
+    "bytes": 76560,
+    "sha256": "58533d26c7f16ade60eabbf7bf7d62d97cf0bbe883b7505c44d33d9e63f00ef4"
+  },
+  {
+    "file": "plates/11_orange_legs.3mf",
+    "bytes": 127504,
+    "sha256": "2c3fd224fba879a2654297e7eab5998b09abf19f06532a0048b63ccc51a830d8"
+  },
+  {
+    "file": "plates/12_orange_legs.3mf",
+    "bytes": 178790,
+    "sha256": "ab2e447743996905ca80614d1b3202abe0ee5c1977cf277ada4a3b7bb26ca0af"
+  },
+  {
+    "file": "plates/13_white_parts.3mf",
+    "bytes": 57489,
+    "sha256": "e15e7ad7d1996d99e263afe4d8bb4e541869d6f46659f35e285bf721dc4f1e2c"
+  },
+  {
+    "file": "previews/00_fit_test.png",
+    "bytes": 15221,
+    "sha256": "5d932bb3cca303e396f93fc31614804cf96cb97ffb5b37fce3bef72c66539c61"
+  },
+  {
+    "file": "previews/01_black_clamps.png",
+    "bytes": 16580,
+    "sha256": "8a898bb9151d0bfb42f9208f1dac66c6f633bee5e864f4a8dd3241d249d4d7a3"
+  },
+  {
+    "file": "previews/02_black_clamps.png",
+    "bytes": 16823,
+    "sha256": "2e1401f55a2f991ce3989ced3171ac81513725b4d058b06792ceaefeebf19e58"
+  },
+  {
+    "file": "previews/03_black_clamps.png",
+    "bytes": 15067,
+    "sha256": "4d846db6a3582c8f6209751286ebd6c927eac6dfb67ed5d4b351390827cbf052"
+  },
+  {
+    "file": "previews/04_black_small.png",
+    "bytes": 20348,
+    "sha256": "35ff01a25f5f2ee20aa26865f3e97d6d0758158e0b62943a5a894d259afb0d08"
+  },
+  {
+    "file": "previews/05_black_structure.png",
+    "bytes": 12023,
+    "sha256": "7cf19de91fbc583ceaff6695c035f423d5d86da9c76cd9aa017719887a74e97a"
+  },
+  {
+    "file": "previews/06_black_structure.png",
+    "bytes": 12283,
+    "sha256": "628d24eb7b6fb3923f6a4c7f448fb24392834a2683fb1978b4f684f1104c808e"
+  },
+  {
+    "file": "previews/07_black_structure.png",
+    "bytes": 11310,
+    "sha256": "5486ca3c41f105c174b0516224e041011017747f3da3836f3a3a615914aa6899"
+  },
+  {
+    "file": "previews/08_orange_body_covers.png",
+    "bytes": 12042,
+    "sha256": "3a6ac09b95727d0f7d11fcd6bf64af06480a6b48409554697c29dbe4eb1ec9d2"
+  },
+  {
+    "file": "previews/09_orange_body_covers.png",
+    "bytes": 11975,
+    "sha256": "f95212afa25bf8c6af914c62ebc868df47ab3d7885f511f768cb59f84e96e32a"
+  },
+  {
+    "file": "previews/10_orange_head_tail.png",
+    "bytes": 11523,
+    "sha256": "87b241c786b642ce01764f76b7c1d1991f8a0cf0ead50f84285a4c07de83c9db"
+  },
+  {
+    "file": "previews/11_orange_legs.png",
+    "bytes": 10661,
+    "sha256": "4807a23c8d39fcee2d79e2e1a610f46d1b6bd730b5fa8f0fb4dca8b625e26641"
+  },
+  {
+    "file": "previews/12_orange_legs.png",
+    "bytes": 10647,
+    "sha256": "f66463b0e0e9ba19139e80e2af540a85c0f785af32df4592a20ab48f9efe817a"
+  },
+  {
+    "file": "previews/13_white_parts.png",
+    "bytes": 10501,
+    "sha256": "654cf96c0a1f1dd509a2485e88d345ba7cae4e282fdf0deb257e90fe32834db3"
+  },
+  {
+    "file": "README.md",
+    "bytes": 4346,
+    "sha256": "6490ce6d31ac4a914ad6efcafd5fba02ead21b5ac425175ce5e2aef353a2386d"
+  },
+  {
+    "file": "verification.json",
+    "bytes": 18325,
+    "sha256": "9591274b16de7745f37e1181ff0a7cf6340b3c66444d67ed291790c488abad3e"
+  }
+]

@@ -1,0 +1,27 @@
+# Local Python and Conda runtimes
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local tools, archives and generated training data
+tools/
+archive/
+logs/
+runs/
+checkpoints/
+*.zip
+*.onnx
+*.pt
+*.pth
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+~$*

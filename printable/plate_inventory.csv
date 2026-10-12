@@ -1,0 +1,131 @@
+﻿plate,production,instance,source_part,color,orientation,supports_to_review,bbox_x_mm,bbox_y_mm,height_mm
+00_fit_test.3mf,False,servo_clamp_lower_fit,servo_clamp_lower,fit,Existing flat/base face down,Inspect local overhangs,51.93,43.8,21.0
+00_fit_test.3mf,False,servo_clamp_upper_fit,servo_clamp_upper,fit,Outer closed clamp face down,Inspect cable-window overhangs,51.93,43.8,21.0
+00_fit_test.3mf,False,horn_fit_coupon_fit,horn_fit_coupon,fit,Flat face down,Usually unnecessary,32.0,32.0,4.0
+00_fit_test.3mf,False,horn_spacer_0p6_fit,horn_spacer_0p6,fit,Flat face down,Usually unnecessary,22.0,21.993,0.6
+00_fit_test.3mf,False,horn_spacer_10p6_fit,horn_spacer_10p6,fit,Flat face down,Usually unnecessary,22.0,21.993,10.6
+00_fit_test.3mf,False,horn_spacer_12_fit,horn_spacer_12,fit,Flat face down,Usually unnecessary,22.0,21.993,12.0
+00_fit_test.3mf,False,horn_spacer_1_fit,horn_spacer_1,fit,Flat face down,Usually unnecessary,22.0,21.993,1.0
+00_fit_test.3mf,False,horn_spacer_2_fit,horn_spacer_2,fit,Flat face down,Usually unnecessary,21.993,22.0,2.0
+00_fit_test.3mf,False,horn_spacer_2p6_fit,horn_spacer_2p6,fit,Flat face down,Usually unnecessary,21.993,22.0,2.6
+00_fit_test.3mf,False,horn_spacer_3_fit,horn_spacer_3,fit,Flat face down,Usually unnecessary,21.993,22.0,3.0
+00_fit_test.3mf,False,horn_spacer_4p6_fit,horn_spacer_4p6,fit,Flat face down,Usually unnecessary,21.993,22.0,4.6
+00_fit_test.3mf,False,horn_spacer_6_fit,horn_spacer_6,fit,Flat face down,Usually unnecessary,22.0,21.993,6.0
+00_fit_test.3mf,False,horn_spacer_6p6_fit,horn_spacer_6p6,fit,Flat face down,Usually unnecessary,22.0,21.993,6.6
+01_black_clamps.3mf,True,servo_clamp_lower_01,servo_clamp_lower,black,Existing flat/base face down,Inspect local overhangs,51.93,43.8,21.0
+01_black_clamps.3mf,True,servo_clamp_lower_02,servo_clamp_lower,black,Existing flat/base face down,Inspect local overhangs,51.93,43.8,21.0
+01_black_clamps.3mf,True,servo_clamp_lower_03,servo_clamp_lower,black,Existing flat/base face down,Inspect local overhangs,51.93,43.8,21.0
+01_black_clamps.3mf,True,servo_clamp_lower_04,servo_clamp_lower,black,Existing flat/base face down,Inspect local overhangs,51.93,43.8,21.0
+01_black_clamps.3mf,True,servo_clamp_lower_05,servo_clamp_lower,black,Existing flat/base face down,Inspect local overhangs,51.93,43.8,21.0
+01_black_clamps.3mf,True,servo_clamp_lower_06,servo_clamp_lower,black,Existing flat/base face down,Inspect local overhangs,51.93,43.8,21.0
+01_black_clamps.3mf,True,servo_clamp_lower_07,servo_clamp_lower,black,Existing flat/base face down,Inspect local overhangs,51.93,43.8,21.0
+01_black_clamps.3mf,True,servo_clamp_lower_08,servo_clamp_lower,black,Existing flat/base face down,Inspect local overhangs,51.93,43.8,21.0
+01_black_clamps.3mf,True,servo_clamp_lower_09,servo_clamp_lower,black,Existing flat/base face down,Inspect local overhangs,51.93,43.8,21.0
+01_black_clamps.3mf,True,servo_clamp_lower_10,servo_clamp_lower,black,Existing flat/base face down,Inspect local overhangs,51.93,43.8,21.0
+01_black_clamps.3mf,True,servo_clamp_lower_11,servo_clamp_lower,black,Existing flat/base face down,Inspect local overhangs,51.93,43.8,21.0
+01_black_clamps.3mf,True,servo_clamp_lower_12,servo_clamp_lower,black,Existing flat/base face down,Inspect local overhangs,51.93,43.8,21.0
+02_black_clamps.3mf,True,servo_clamp_lower_13,servo_clamp_lower,black,Existing flat/base face down,Inspect local overhangs,51.93,43.8,21.0
+02_black_clamps.3mf,True,servo_clamp_lower_14,servo_clamp_lower,black,Existing flat/base face down,Inspect local overhangs,51.93,43.8,21.0
+02_black_clamps.3mf,True,servo_clamp_lower_15,servo_clamp_lower,black,Existing flat/base face down,Inspect local overhangs,51.93,43.8,21.0
+02_black_clamps.3mf,True,servo_clamp_lower_16,servo_clamp_lower,black,Existing flat/base face down,Inspect local overhangs,51.93,43.8,21.0
+02_black_clamps.3mf,True,servo_clamp_upper_01,servo_clamp_upper,black,Outer closed clamp face down,Inspect cable-window overhangs,51.93,43.8,21.0
+02_black_clamps.3mf,True,servo_clamp_upper_02,servo_clamp_upper,black,Outer closed clamp face down,Inspect cable-window overhangs,51.93,43.8,21.0
+02_black_clamps.3mf,True,servo_clamp_upper_03,servo_clamp_upper,black,Outer closed clamp face down,Inspect cable-window overhangs,51.93,43.8,21.0
+02_black_clamps.3mf,True,servo_clamp_upper_04,servo_clamp_upper,black,Outer closed clamp face down,Inspect cable-window overhangs,51.93,43.8,21.0
+02_black_clamps.3mf,True,servo_clamp_upper_05,servo_clamp_upper,black,Outer closed clamp face down,Inspect cable-window overhangs,51.93,43.8,21.0
+02_black_clamps.3mf,True,servo_clamp_upper_06,servo_clamp_upper,black,Outer closed clamp face down,Inspect cable-window overhangs,51.93,43.8,21.0
+02_black_clamps.3mf,True,servo_clamp_upper_07,servo_clamp_upper,black,Outer closed clamp face down,Inspect cable-window overhangs,51.93,43.8,21.0
+02_black_clamps.3mf,True,servo_clamp_upper_08,servo_clamp_upper,black,Outer closed clamp face down,Inspect cable-window overhangs,51.93,43.8,21.0
+03_black_clamps.3mf,True,servo_clamp_upper_09,servo_clamp_upper,black,Outer closed clamp face down,Inspect cable-window overhangs,51.93,43.8,21.0
+03_black_clamps.3mf,True,servo_clamp_upper_10,servo_clamp_upper,black,Outer closed clamp face down,Inspect cable-window overhangs,51.93,43.8,21.0
+03_black_clamps.3mf,True,servo_clamp_upper_11,servo_clamp_upper,black,Outer closed clamp face down,Inspect cable-window overhangs,51.93,43.8,21.0
+03_black_clamps.3mf,True,servo_clamp_upper_12,servo_clamp_upper,black,Outer closed clamp face down,Inspect cable-window overhangs,51.93,43.8,21.0
+03_black_clamps.3mf,True,servo_clamp_upper_13,servo_clamp_upper,black,Outer closed clamp face down,Inspect cable-window overhangs,51.93,43.8,21.0
+03_black_clamps.3mf,True,servo_clamp_upper_14,servo_clamp_upper,black,Outer closed clamp face down,Inspect cable-window overhangs,51.93,43.8,21.0
+03_black_clamps.3mf,True,servo_clamp_upper_15,servo_clamp_upper,black,Outer closed clamp face down,Inspect cable-window overhangs,51.93,43.8,21.0
+03_black_clamps.3mf,True,servo_clamp_upper_16,servo_clamp_upper,black,Outer closed clamp face down,Inspect cable-window overhangs,51.93,43.8,21.0
+04_black_small.3mf,True,horn_spacer_0p6_01,horn_spacer_0p6,black,Flat face down,Usually unnecessary,22.0,21.993,0.6
+04_black_small.3mf,True,horn_spacer_10p6_01,horn_spacer_10p6,black,Flat face down,Usually unnecessary,22.0,21.993,10.6
+04_black_small.3mf,True,horn_spacer_10p6_02,horn_spacer_10p6,black,Flat face down,Usually unnecessary,22.0,21.993,10.6
+04_black_small.3mf,True,horn_spacer_10p6_03,horn_spacer_10p6,black,Flat face down,Usually unnecessary,22.0,21.993,10.6
+04_black_small.3mf,True,horn_spacer_10p6_04,horn_spacer_10p6,black,Flat face down,Usually unnecessary,22.0,21.993,10.6
+04_black_small.3mf,True,horn_spacer_10p6_05,horn_spacer_10p6,black,Flat face down,Usually unnecessary,22.0,21.993,10.6
+04_black_small.3mf,True,horn_spacer_10p6_06,horn_spacer_10p6,black,Flat face down,Usually unnecessary,21.993,22.0,10.6
+04_black_small.3mf,True,horn_spacer_10p6_07,horn_spacer_10p6,black,Flat face down,Usually unnecessary,21.993,22.0,10.6
+04_black_small.3mf,True,horn_spacer_10p6_08,horn_spacer_10p6,black,Flat face down,Usually unnecessary,21.993,22.0,10.6
+04_black_small.3mf,True,horn_spacer_2p6_01,horn_spacer_2p6,black,Flat face down,Usually unnecessary,21.993,22.0,2.6
+04_black_small.3mf,True,horn_spacer_2p6_02,horn_spacer_2p6,black,Flat face down,Usually unnecessary,21.993,22.0,2.6
+04_black_small.3mf,True,horn_spacer_2p6_03,horn_spacer_2p6,black,Flat face down,Usually unnecessary,22.0,21.993,2.6
+04_black_small.3mf,True,horn_spacer_2p6_04,horn_spacer_2p6,black,Flat face down,Usually unnecessary,22.0,21.993,2.6
+04_black_small.3mf,True,horn_spacer_2p6_05,horn_spacer_2p6,black,Flat face down,Usually unnecessary,22.0,21.993,2.6
+04_black_small.3mf,True,horn_spacer_2p6_06,horn_spacer_2p6,black,Flat face down,Usually unnecessary,22.0,21.993,2.6
+04_black_small.3mf,True,horn_spacer_2p6_07,horn_spacer_2p6,black,Flat face down,Usually unnecessary,22.0,21.993,2.6
+04_black_small.3mf,True,horn_spacer_2p6_08,horn_spacer_2p6,black,Flat face down,Usually unnecessary,21.993,22.0,2.6
+04_black_small.3mf,True,horn_spacer_2p6_09,horn_spacer_2p6,black,Flat face down,Usually unnecessary,21.993,22.0,2.6
+04_black_small.3mf,True,horn_spacer_2p6_10,horn_spacer_2p6,black,Flat face down,Usually unnecessary,21.993,22.0,2.6
+04_black_small.3mf,True,horn_spacer_4p6_01,horn_spacer_4p6,black,Flat face down,Usually unnecessary,21.993,22.0,4.6
+04_black_small.3mf,True,horn_spacer_6p6_01,horn_spacer_6p6,black,Flat face down,Usually unnecessary,22.0,21.993,6.6
+04_black_small.3mf,True,horn_spacer_6p6_02,horn_spacer_6p6,black,Flat face down,Usually unnecessary,22.0,21.993,6.6
+04_black_small.3mf,True,horn_spacer_6p6_03,horn_spacer_6p6,black,Flat face down,Usually unnecessary,22.0,21.993,6.6
+04_black_small.3mf,True,horn_spacer_6p6_04,horn_spacer_6p6,black,Flat face down,Usually unnecessary,22.0,21.993,6.6
+04_black_small.3mf,True,horn_spacer_6p6_05,horn_spacer_6p6,black,Flat face down,Usually unnecessary,21.993,22.0,6.6
+04_black_small.3mf,True,horn_spacer_6p6_06,horn_spacer_6p6,black,Flat face down,Usually unnecessary,21.993,22.0,6.6
+04_black_small.3mf,True,horn_spacer_6p6_07,horn_spacer_6p6,black,Flat face down,Usually unnecessary,21.993,22.0,6.6
+04_black_small.3mf,True,horn_spacer_6p6_08,horn_spacer_6p6,black,Flat face down,Usually unnecessary,22.0,21.993,6.6
+04_black_small.3mf,True,horn_spacer_6p6_09,horn_spacer_6p6,black,Flat face down,Usually unnecessary,22.0,21.993,6.6
+04_black_small.3mf,True,horn_spacer_6p6_10,horn_spacer_6p6,black,Flat face down,Usually unnecessary,22.0,21.993,6.6
+04_black_small.3mf,True,nose_01,nose,black,Broad nose face down; 1.6mm height,Usually unnecessary,16.0,24.0,1.6
+04_black_small.3mf,True,cover_standoff_kit_front_post_1_01,cover_standoff_kit_front,black,Individual posts upright,Usually unnecessary; 5mm brim recommended,9.0,8.997,73.4
+04_black_small.3mf,True,cover_standoff_kit_front_post_2_01,cover_standoff_kit_front,black,Individual posts upright,Usually unnecessary; 5mm brim recommended,9.0,8.997,73.4
+04_black_small.3mf,True,cover_standoff_kit_front_post_3_01,cover_standoff_kit_front,black,Individual posts upright,Usually unnecessary; 5mm brim recommended,8.997,9.0,73.4
+04_black_small.3mf,True,cover_standoff_kit_front_post_4_01,cover_standoff_kit_front,black,Individual posts upright,Usually unnecessary; 5mm brim recommended,8.997,9.0,73.4
+04_black_small.3mf,True,cover_standoff_kit_rear_post_1_01,cover_standoff_kit_rear,black,Individual posts upright,Usually unnecessary; 5mm brim recommended,9.0,8.997,73.4
+04_black_small.3mf,True,cover_standoff_kit_rear_post_2_01,cover_standoff_kit_rear,black,Individual posts upright,Usually unnecessary; 5mm brim recommended,9.0,8.997,73.4
+04_black_small.3mf,True,cover_standoff_kit_rear_post_3_01,cover_standoff_kit_rear,black,Individual posts upright,Usually unnecessary; 5mm brim recommended,8.997,9.0,73.4
+04_black_small.3mf,True,cover_standoff_kit_rear_post_4_01,cover_standoff_kit_rear,black,Individual posts upright,Usually unnecessary; 5mm brim recommended,8.997,9.0,73.4
+04_black_small.3mf,True,eye_left_01,eye_left,black,Broad cosmetic face down,Usually unnecessary,10.0,8.0,1.6
+04_black_small.3mf,True,eye_right_01,eye_right,black,Broad cosmetic face down,Usually unnecessary,10.0,8.0,1.6
+05_black_structure.3mf,True,electronics_tray_01,electronics_tray,black,Broad top face down,Inspect local overhangs,88.0,93.998,29.0
+05_black_structure.3mf,True,battery_tray_01,battery_tray,black,Existing flat/base face down,Inspect local overhangs,121.0,44.0,35.0
+05_black_structure.3mf,True,frame_rail_left_front_01,frame_rail_left_front,black,Broad rail side down; 5mm print height,Usually unnecessary,160.0,30.0,5.0
+05_black_structure.3mf,True,frame_rail_left_rear_01,frame_rail_left_rear,black,Broad rail side down; 5mm print height,Usually unnecessary,30.0,160.0,5.0
+05_black_structure.3mf,True,neck_yaw_stage_01,neck_yaw_stage,black,Broad top face down,Inspect local overhangs,50.0,91.995,12.0
+06_black_structure.3mf,True,frame_rail_right_front_01,frame_rail_right_front,black,Broad rail side down; 5mm print height,Usually unnecessary,160.0,30.0,5.0
+06_black_structure.3mf,True,frame_rail_right_rear_01,frame_rail_right_rear,black,Broad rail side down; 5mm print height,Usually unnecessary,30.0,160.0,5.0
+06_black_structure.3mf,True,tail_pedestal_01,tail_pedestal,black,Base down,Supports everywhere beneath upper pedestal plate,79.0,50.0,34.0
+06_black_structure.3mf,True,neck_pedestal_01,neck_pedestal,black,Base down,Supports everywhere beneath upper pedestal plate,50.0,74.0,34.0
+06_black_structure.3mf,True,rigid_foot_01,rigid_foot,black,Existing flat/base face down,Inspect local overhangs,78.0,46.0,21.0
+06_black_structure.3mf,True,rigid_foot_02,rigid_foot,black,Existing flat/base face down,Inspect local overhangs,46.0,78.0,21.0
+06_black_structure.3mf,True,rigid_foot_03,rigid_foot,black,Existing flat/base face down,Inspect local overhangs,78.0,46.0,21.0
+06_black_structure.3mf,True,hip_base_1_-1_01,hip_base_1_-1,black,Existing flat/base face down,Inspect local overhangs,55.0,24.0,6.0
+06_black_structure.3mf,True,battery_crossbar_112_01,battery_crossbar_112,black,Existing flat/base face down,Inspect local overhangs,12.0,74.0,3.0
+07_black_structure.3mf,True,rigid_foot_04,rigid_foot,black,Existing flat/base face down,Inspect local overhangs,46.0,78.0,21.0
+07_black_structure.3mf,True,head_pitch_carrier_01,head_pitch_carrier,black,Closed distal bridge down; fork arms upright,Inspect horizontal holes and horn-disc edges; brim recommended,36.0,68.0,75.395
+07_black_structure.3mf,True,tail_root_01,tail_root,black,Root flange or closed tube end down,Inspect flange/horn overhangs,48.0,48.0,46.0
+07_black_structure.3mf,True,jaw_mount_bridge_01,jaw_mount_bridge,black,Existing flat/base face down,Inspect local overhangs,100.0,18.0,20.0
+07_black_structure.3mf,True,hip_base_-1_-1_01,hip_base_-1_-1,black,Existing flat/base face down,Inspect local overhangs,24.0,55.0,6.0
+07_black_structure.3mf,True,hip_base_-1_1_01,hip_base_-1_1,black,Existing flat/base face down,Inspect local overhangs,24.0,55.0,6.0
+07_black_structure.3mf,True,hip_base_1_1_01,hip_base_1_1,black,Existing flat/base face down,Inspect local overhangs,24.0,55.0,6.0
+07_black_structure.3mf,True,battery_crossbar_62_01,battery_crossbar_62,black,Existing flat/base face down,Inspect local overhangs,74.0,12.0,3.0
+08_orange_body_covers.3mf,True,body_shell_front_01,body_shell_front,orange,Outside roof down; open body cavity up,Inspect shell cutout edges,170.0,156.0,80.0
+09_orange_body_covers.3mf,True,body_shell_rear_01,body_shell_rear,orange,Outside roof down; open body cavity up,Inspect shell cutout edges,170.0,156.0,80.0
+10_orange_head_tail.3mf,True,head_lid_01,head_lid,orange,Broad top face down,Support raised lid ledges where needed,85.0,100.0,18.2
+10_orange_head_tail.3mf,True,head_shell_01,head_shell,orange,Existing flat/base face down,Inspect local overhangs,100.0,68.0,76.0
+10_orange_head_tail.3mf,True,tail_shell_01,tail_shell,orange,Root flange or closed tube end down,Usually unnecessary; brim recommended for tall tail shell,48.0,48.0,130.0
+10_orange_head_tail.3mf,True,ear_left_01,ear_left,orange,Broad cosmetic face down,Usually unnecessary,30.0,31.4,4.0
+10_orange_head_tail.3mf,True,ear_right_01,ear_right,orange,Broad cosmetic face down,Usually unnecessary,30.0,31.4,4.0
+11_orange_legs.3mf,True,thigh_carrier_01,thigh_carrier,orange,Side edge and bridge bars down,Inspect rounded horn ends and horizontal holes; brim recommended,117.995,60.0,50.0
+11_orange_legs.3mf,True,thigh_carrier_02,thigh_carrier,orange,Side edge and bridge bars down,Inspect rounded horn ends and horizontal holes; brim recommended,60.0,117.995,50.0
+11_orange_legs.3mf,True,thigh_carrier_03,thigh_carrier,orange,Side edge and bridge bars down,Inspect rounded horn ends and horizontal holes; brim recommended,117.995,60.0,50.0
+11_orange_legs.3mf,True,thigh_carrier_04,thigh_carrier,orange,Side edge and bridge bars down,Inspect rounded horn ends and horizontal holes; brim recommended,117.995,60.0,50.0
+11_orange_legs.3mf,True,roll_fork_left_02,roll_fork_left,orange,Distal end down; fork arms upright,Support the short gap beneath the distal bridge; brim recommended,68.0,29.994,66.529
+12_orange_legs.3mf,True,shin_fork_01,shin_fork,orange,Closed distal bridge down; fork arms upright,Inspect horizontal holes and horn-disc edges; brim recommended,76.0,30.0,100.995
+12_orange_legs.3mf,True,shin_fork_02,shin_fork,orange,Closed distal bridge down; fork arms upright,Inspect horizontal holes and horn-disc edges; brim recommended,76.0,30.0,100.995
+12_orange_legs.3mf,True,shin_fork_03,shin_fork,orange,Closed distal bridge down; fork arms upright,Inspect horizontal holes and horn-disc edges; brim recommended,30.0,76.0,100.995
+12_orange_legs.3mf,True,shin_fork_04,shin_fork,orange,Closed distal bridge down; fork arms upright,Inspect horizontal holes and horn-disc edges; brim recommended,30.0,76.0,100.995
+12_orange_legs.3mf,True,roll_fork_left_01,roll_fork_left,orange,Distal end down; fork arms upright,Support the short gap beneath the distal bridge; brim recommended,68.0,29.994,66.529
+12_orange_legs.3mf,True,roll_fork_right_01,roll_fork_right,orange,Distal end down; fork arms upright,Support the short gap beneath the distal bridge; brim recommended,29.994,68.0,66.529
+12_orange_legs.3mf,True,roll_fork_right_02,roll_fork_right,orange,Distal end down; fork arms upright,Support the short gap beneath the distal bridge; brim recommended,29.994,68.0,66.529
+13_white_parts.3mf,True,lower_jaw_01,lower_jaw,white,Existing flat/base face down,Inspect local overhangs,67.0,62.0,33.0
+13_white_parts.3mf,True,upper_muzzle_01,upper_muzzle,white,Broad top face down,Inspect local overhangs,62.0,40.0,18.0
+13_white_parts.3mf,True,tail_tip_01,tail_tip,white,Root flange or closed tube end down,Usually unnecessary; brim recommended for tall tail shell,48.0,48.0,25.0

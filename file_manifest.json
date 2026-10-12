@@ -1,0 +1,1646 @@
+{
+  "project": "JammyFox",
+  "cad_revision": "A",
+  "files": [
+    {
+      "file": ".gitattributes",
+      "bytes": 206,
+      "sha256": "7bf2447da3e6d95646144acab0036f8f0e4cbabd8d3dc7ce962b990e6d3e2075"
+    },
+    {
+      "file": ".gitignore",
+      "bytes": 311,
+      "sha256": "696702874667c9a4b41b89adc671a67741708235be0e1674db81b158404d8ad6"
+    },
+    {
+      "file": "config/cad_parameters.json",
+      "bytes": 1571,
+      "sha256": "b982027423501444b08e4ecfa8915460641fa4423629980efaad509571be23dd"
+    },
+    {
+      "file": "config/robot.json",
+      "bytes": 2323,
+      "sha256": "8ddd51fffd1147234550fb45c4121f32d3cdd0cbe2c81310b8d0e1d846d77592"
+    },
+    {
+      "file": "config/servo_calibration.example.json",
+      "bytes": 3738,
+      "sha256": "d199a7315d9f56fd4fa7a3e9b87a99d9857d55d2b3df1a933bb687e577489ab2"
+    },
+    {
+      "file": "docs/BOM.md",
+      "bytes": 12332,
+      "sha256": "c1ffc7597ded54d824ab107dba6b91f6684458d82e45606c8449594d5d8e7120"
+    },
+    {
+      "file": "docs/FASTENERS.md",
+      "bytes": 16173,
+      "sha256": "c278025fd84cde87606a8dbd18776bae0fc9d9b850851b40aaba15c52e2a0727"
+    },
+    {
+      "file": "docs/MECHANICAL.md",
+      "bytes": 7240,
+      "sha256": "41d8bf043a7fca911bb6ef99f233e547317bc4141c6549843c2cd7940f85ea02"
+    },
+    {
+      "file": "docs/SIMULATION.md",
+      "bytes": 1611,
+      "sha256": "0dbc2aa95535a71e758d9888d652e486f97fd7230af065229c93c733316f2769"
+    },
+    {
+      "file": "drawings/chassis_front.dxf",
+      "bytes": 1513,
+      "sha256": "26c337f135ab38840fd91ef057aa3f51195ce1e6ab6d3d016d306f175cf1e275"
+    },
+    {
+      "file": "drawings/chassis_front.svg",
+      "bytes": 1800,
+      "sha256": "e61429766cad703b46578aad12702bf0cac905af1e4a8506caa65b7956c52083"
+    },
+    {
+      "file": "drawings/chassis_front_holes.json",
+      "bytes": 623,
+      "sha256": "afeacb842bedc5a694613e07ba1a8e954ee097a72cc7bc32690758567f8c97c1"
+    },
+    {
+      "file": "drawings/chassis_rear.dxf",
+      "bytes": 1377,
+      "sha256": "1e579c1fcfc462947a008c8647c3f35951c8da70143442fd112d0c12a197d8ce"
+    },
+    {
+      "file": "drawings/chassis_rear.svg",
+      "bytes": 1684,
+      "sha256": "045dd775555aeae45914f21a829db1128975d5063d2681d4a4e119a9de4919c8"
+    },
+    {
+      "file": "drawings/chassis_rear_holes.json",
+      "bytes": 443,
+      "sha256": "dc28a503066a4ce7141c01b968b39a8409e053c97010f0efd17b33c7b6c2b6bb"
+    },
+    {
+      "file": "metadata/fastener_interfaces.csv",
+      "bytes": 2972,
+      "sha256": "e9370108f84b03e32d1ca54147c27a8232257746262d33ff7e37e537a3de4549"
+    },
+    {
+      "file": "metadata/fastener_summary.json",
+      "bytes": 790,
+      "sha256": "5ffceaf7e526cca9945c2ae4a0d9b2d4a6da66a5fe54f2c17466e177b4aea5d7"
+    },
+    {
+      "file": "metadata/fasteners.csv",
+      "bytes": 6582,
+      "sha256": "3e1354752c854199966719935afea1e943af1bb3bcd361e574f9b53e7a372f8b"
+    },
+    {
+      "file": "metadata/interference_report.json",
+      "bytes": 3522,
+      "sha256": "cd1fac9f33082afde8a0902768eecaa5435970e5d0fd6ad6300048dd94f2c5f1"
+    },
+    {
+      "file": "metadata/joint_axes.csv",
+      "bytes": 1431,
+      "sha256": "f9fb4e365806afdd0d38e3ba05dc79566201e1c6f1313d929f7ebf1b7200464b"
+    },
+    {
+      "file": "metadata/mechanical_BOM.csv",
+      "bytes": 3912,
+      "sha256": "523abbda7df8210597cd488e7f976c79d3aeb445cfc78b12272c796ab19cd18a"
+    },
+    {
+      "file": "metadata/part_inventory.json",
+      "bytes": 14946,
+      "sha256": "b67c77e286d58f6bd83b1bd573951a40d3243e2e9c1e1ce942c5edb29d823bc2"
+    },
+    {
+      "file": "metadata/verification_summary.json",
+      "bytes": 1148,
+      "sha256": "90511375afbe714d56a58b010bbcab0a865858d87dbfdfbad5635ff1e4ed17df"
+    },
+    {
+      "file": "mjcf/assets/battery_crossbar_112.obj",
+      "bytes": 34155,
+      "sha256": "22460d87becb89e552ac0dac4227018b6c1ad1e930e44cc9e07c4ea14f57957f"
+    },
+    {
+      "file": "mjcf/assets/battery_crossbar_62.obj",
+      "bytes": 34155,
+      "sha256": "6d14c59029b0902bbe3a7314aa76eaa218c9599dc245206bf5209811b9b865f0"
+    },
+    {
+      "file": "mjcf/assets/battery_envelope.obj",
+      "bytes": 455,
+      "sha256": "af87fa78fe0e377c84df2796fe64e0bfe258683788d8765d62dcf16f6b764c0e"
+    },
+    {
+      "file": "mjcf/assets/battery_tray.obj",
+      "bytes": 932,
+      "sha256": "aff20f3aa4a33b283040918b4a5ded70618eb7d9e9afbcb8f72dc2c412839c6a"
+    },
+    {
+      "file": "mjcf/assets/body_shell_front.obj",
+      "bytes": 74523,
+      "sha256": "1a75d7cacb4ecb8299dfd25bf93e94275c9a0dc8298357d4936c4caa3f51d148"
+    },
+    {
+      "file": "mjcf/assets/body_shell_rear.obj",
+      "bytes": 75826,
+      "sha256": "02ec47145380fcb32f1d49b05dadec6ddc232b430c0b7e4e9dd214318c660cea"
+    },
+    {
+      "file": "mjcf/assets/chassis_front.obj",
+      "bytes": 218088,
+      "sha256": "80a0ac0f52a4f7d5be9bc7bc4d60ba2cd4968903b4c582e6c961835be988b990"
+    },
+    {
+      "file": "mjcf/assets/chassis_rear.obj",
+      "bytes": 145900,
+      "sha256": "01dafa5c701622f00568a89c542734529e0b18479cb4624b6110392c8187eade"
+    },
+    {
+      "file": "mjcf/assets/cover_standoff_kit_front.obj",
+      "bytes": 140560,
+      "sha256": "7e20e8f9f366cedc7dd369fa7edcac5dc5502f824a3a53e5c9951484e154f111"
+    },
+    {
+      "file": "mjcf/assets/cover_standoff_kit_rear.obj",
+      "bytes": 142576,
+      "sha256": "3761cb6e546fbbafc13145e8dbafaace55feb277485ec5c99b91545300031669"
+    },
+    {
+      "file": "mjcf/assets/ear_left.obj",
+      "bytes": 327,
+      "sha256": "60d94fe77ebb13d3c94d766b5dbf0a59a5a9cacc0b76cbab07745aad0bad5199"
+    },
+    {
+      "file": "mjcf/assets/ear_right.obj",
+      "bytes": 333,
+      "sha256": "310d7b774bedff1b2e89c8bc2c6983d851adab915d3513c9aa49d8cb53342796"
+    },
+    {
+      "file": "mjcf/assets/electronics_tray.obj",
+      "bytes": 144360,
+      "sha256": "92b19e405a40bbf59aa1ff6f3fb1a93202091c1e96172fc03121e90e53b8a52a"
+    },
+    {
+      "file": "mjcf/assets/esp32_board_envelope.obj",
+      "bytes": 439,
+      "sha256": "f14a17958fa7f604acd1af97e5d091fa19da128e04834762bbef4efd4ec8ea97"
+    },
+    {
+      "file": "mjcf/assets/eye_left.obj",
+      "bytes": 443,
+      "sha256": "9dd3a6fa505374c26049641327ffd46299a3ef0b8a650f223de7eac9954414a8"
+    },
+    {
+      "file": "mjcf/assets/eye_right.obj",
+      "bytes": 451,
+      "sha256": "138777f4b2fd5f9996d2e7413aec615037a24f045275c3c2da35d1625c3a01e7"
+    },
+    {
+      "file": "mjcf/assets/frame_rail_left_front.obj",
+      "bytes": 2557,
+      "sha256": "fe42786c9078b22809369fb5d982146d2397dc009537894f08ee559b958dc88a"
+    },
+    {
+      "file": "mjcf/assets/frame_rail_left_rear.obj",
+      "bytes": 2593,
+      "sha256": "3869dbb2ece0ee43adf3c9563f3c9179005e84b82b6dfb4617244a1478b9f8a7"
+    },
+    {
+      "file": "mjcf/assets/frame_rail_right_front.obj",
+      "bytes": 2597,
+      "sha256": "d8b87c5fa35bbaf578310217b5f46db3be2d56d630de261f3b2a02d3c17d7e04"
+    },
+    {
+      "file": "mjcf/assets/frame_rail_right_rear.obj",
+      "bytes": 2633,
+      "sha256": "2275bf14f0f0d13ed1145c99f80b101b1d48e2b4782faac32651d3558730ee57"
+    },
+    {
+      "file": "mjcf/assets/front_left_foot.obj",
+      "bytes": 109354,
+      "sha256": "72885254a837a64fac32af67637ecc2247b3cfd665a84905752b8fcff0bcfd94"
+    },
+    {
+      "file": "mjcf/assets/front_left_hip_pitch_horn_back.obj",
+      "bytes": 105209,
+      "sha256": "fe965d02896f59cba64e4bd67193dd253b9528941f5f2c0eeebe45b0a80db4b2"
+    },
+    {
+      "file": "mjcf/assets/front_left_hip_pitch_horn_front.obj",
+      "bytes": 103697,
+      "sha256": "5997563f46006fe095540b8e5dd81128c13eeee25a28da2cce6b13dd198e1328"
+    },
+    {
+      "file": "mjcf/assets/front_left_hip_pitch_servo.obj",
+      "bytes": 33580,
+      "sha256": "2906615a2e8e7fdd725038342f192bc794b53300bbb08fcfa73e277ce18ae554"
+    },
+    {
+      "file": "mjcf/assets/front_left_hip_pitch_servo_clamp_lower.obj",
+      "bytes": 142461,
+      "sha256": "f1bcff5552ca88943ab4a6920e5ad6a43115dbc4071a94fb6c388cbc85df1253"
+    },
+    {
+      "file": "mjcf/assets/front_left_hip_pitch_servo_clamp_upper.obj",
+      "bytes": 142522,
+      "sha256": "b0c15f73158e694502d289c76ec70ea775b148b464bcc30ecd2887b08b0f81ea"
+    },
+    {
+      "file": "mjcf/assets/front_left_hip_pitch_spacer_back.obj",
+      "bytes": 105276,
+      "sha256": "c8fbe6e8001f04aa0f3e7414db7888500185c5a23e90368c4d2659256cb7e791"
+    },
+    {
+      "file": "mjcf/assets/front_left_hip_pitch_spacer_front.obj",
+      "bytes": 103764,
+      "sha256": "35979fc8cabd7405614274618c7677505c4525096cb97632e76002a4380c0171"
+    },
+    {
+      "file": "mjcf/assets/front_left_hip_roll_horn_back.obj",
+      "bytes": 105210,
+      "sha256": "4b928caa2da1a253b4d75043dc5a859c4ab996e3f61822a5dc530cbdb1dab4b1"
+    },
+    {
+      "file": "mjcf/assets/front_left_hip_roll_horn_front.obj",
+      "bytes": 103698,
+      "sha256": "0f4261ef59f1b9afaaa78670b3fc9e96c4c68906c7ee8f3cdad6cda9a18523df"
+    },
+    {
+      "file": "mjcf/assets/front_left_hip_roll_servo.obj",
+      "bytes": 33324,
+      "sha256": "8a0c4a4fa5a0d166ecd643e1a942d1e46c4d0c9dff70be6b0b15af912f79ca61"
+    },
+    {
+      "file": "mjcf/assets/front_left_hip_roll_servo_clamp_lower.obj",
+      "bytes": 140559,
+      "sha256": "f46e7014ed19f6719cd32b54e00ce00156c3202d315e1b52ed9c8655e83157fd"
+    },
+    {
+      "file": "mjcf/assets/front_left_hip_roll_servo_clamp_upper.obj",
+      "bytes": 140620,
+      "sha256": "fbf88858a3c100c0eebbba5a014145e89201ca4c89ceaa5a68d8d1a115155571"
+    },
+    {
+      "file": "mjcf/assets/front_left_hip_roll_spacer_back.obj",
+      "bytes": 105276,
+      "sha256": "ed3ef455ce7bb52c2a611b037c076fa0530f6162ef12eb1895715a84877d5fae"
+    },
+    {
+      "file": "mjcf/assets/front_left_hip_roll_spacer_front.obj",
+      "bytes": 103765,
+      "sha256": "5b370be855dd704883c2f8d20addfa685425db7f440f87bc23b5d189ffb1922f"
+    },
+    {
+      "file": "mjcf/assets/front_left_knee_horn_back.obj",
+      "bytes": 105225,
+      "sha256": "c6c7cbcd550ee7998c864bfc8e42c04119e97ff8fb1dabdcf31f7dc2289bd2f8"
+    },
+    {
+      "file": "mjcf/assets/front_left_knee_horn_front.obj",
+      "bytes": 103713,
+      "sha256": "49603032d8dcf668f8819c1d91e5ab03c81a0be6a59d4ef52e418991280507b7"
+    },
+    {
+      "file": "mjcf/assets/front_left_knee_servo.obj",
+      "bytes": 33836,
+      "sha256": "6e3f02e49d83c99bc7b786805fd9a8a2b30003d7882d0376a565e21d361b7d96"
+    },
+    {
+      "file": "mjcf/assets/front_left_knee_servo_clamp_lower.obj",
+      "bytes": 144027,
+      "sha256": "3b4b94a51b8bbf6f0a1564991b50a2bcb034ec2b2c33a632b3bef2d5d5ac699c"
+    },
+    {
+      "file": "mjcf/assets/front_left_knee_servo_clamp_upper.obj",
+      "bytes": 142523,
+      "sha256": "89a405201689aa0d9992bcf5fc1181c32f1104f56494ba17fda90b2022a14d72"
+    },
+    {
+      "file": "mjcf/assets/front_left_knee_spacer_back.obj",
+      "bytes": 105288,
+      "sha256": "0d5394749733afdb421820fa310f0e81fce69f36ffd9492364e73659db1d5e98"
+    },
+    {
+      "file": "mjcf/assets/front_left_knee_spacer_front.obj",
+      "bytes": 103775,
+      "sha256": "2d7a1edfa8cbccd86cb1b06d4cf3cdec1610cb0031d97e4a03b4014a53bfc1c6"
+    },
+    {
+      "file": "mjcf/assets/front_left_roll_fork.obj",
+      "bytes": 203606,
+      "sha256": "2da954d915014b48c271d1bb512fd685529b9905d1728f341cecc423fc063949"
+    },
+    {
+      "file": "mjcf/assets/front_left_shin.obj",
+      "bytes": 225954,
+      "sha256": "54e5c6ed8a98e4314cad16bb652eee8b6e52910973cb11f8962c4345f334b2c6"
+    },
+    {
+      "file": "mjcf/assets/front_left_thigh.obj",
+      "bytes": 240817,
+      "sha256": "5378ca7226e9aea1720a2b22e3f12bfa2f4f3ea372d6c22c158edb16eeb8147a"
+    },
+    {
+      "file": "mjcf/assets/front_right_foot.obj",
+      "bytes": 109354,
+      "sha256": "72885254a837a64fac32af67637ecc2247b3cfd665a84905752b8fcff0bcfd94"
+    },
+    {
+      "file": "mjcf/assets/front_right_hip_pitch_horn_back.obj",
+      "bytes": 105209,
+      "sha256": "fe965d02896f59cba64e4bd67193dd253b9528941f5f2c0eeebe45b0a80db4b2"
+    },
+    {
+      "file": "mjcf/assets/front_right_hip_pitch_horn_front.obj",
+      "bytes": 103697,
+      "sha256": "5997563f46006fe095540b8e5dd81128c13eeee25a28da2cce6b13dd198e1328"
+    },
+    {
+      "file": "mjcf/assets/front_right_hip_pitch_servo.obj",
+      "bytes": 34092,
+      "sha256": "7db03660a9f4b00109cca34f96b745e3a588ee0b7d10e9147c6d674af2e231be"
+    },
+    {
+      "file": "mjcf/assets/front_right_hip_pitch_servo_clamp_lower.obj",
+      "bytes": 144488,
+      "sha256": "38078531503bc345366c5304a0e69e4b608b4406ee5e452541d3a73b4720f28a"
+    },
+    {
+      "file": "mjcf/assets/front_right_hip_pitch_servo_clamp_upper.obj",
+      "bytes": 144549,
+      "sha256": "c76d2bfb6700f193cf9b5c516e27625c445bcb1f215036fa88c3f678980c23aa"
+    },
+    {
+      "file": "mjcf/assets/front_right_hip_pitch_spacer_back.obj",
+      "bytes": 105276,
+      "sha256": "c8fbe6e8001f04aa0f3e7414db7888500185c5a23e90368c4d2659256cb7e791"
+    },
+    {
+      "file": "mjcf/assets/front_right_hip_pitch_spacer_front.obj",
+      "bytes": 103764,
+      "sha256": "35979fc8cabd7405614274618c7677505c4525096cb97632e76002a4380c0171"
+    },
+    {
+      "file": "mjcf/assets/front_right_hip_roll_horn_back.obj",
+      "bytes": 105210,
+      "sha256": "099a1501d669406113b2549b59dcd793db39f4452a04716190f5bc928e7fa00f"
+    },
+    {
+      "file": "mjcf/assets/front_right_hip_roll_horn_front.obj",
+      "bytes": 103698,
+      "sha256": "aaa6bae2aa59d023f4456ed9a14e6b4a04561967e80a69be35173ea457b96306"
+    },
+    {
+      "file": "mjcf/assets/front_right_hip_roll_servo.obj",
+      "bytes": 33836,
+      "sha256": "17041b9d0128e6b5082b0c1d4f605ad36863fb37620f7ac947e9bb16778a19b0"
+    },
+    {
+      "file": "mjcf/assets/front_right_hip_roll_servo_clamp_lower.obj",
+      "bytes": 142586,
+      "sha256": "618698202a2c79b6a4768ad8aa75301a375a72a6c39f05d7505975ea057ac16a"
+    },
+    {
+      "file": "mjcf/assets/front_right_hip_roll_servo_clamp_upper.obj",
+      "bytes": 142647,
+      "sha256": "eb608c432d2166a5806187a22ab2559a60836432257852a218393ba34fe458f9"
+    },
+    {
+      "file": "mjcf/assets/front_right_hip_roll_spacer_back.obj",
+      "bytes": 105276,
+      "sha256": "ed3ef455ce7bb52c2a611b037c076fa0530f6162ef12eb1895715a84877d5fae"
+    },
+    {
+      "file": "mjcf/assets/front_right_hip_roll_spacer_front.obj",
+      "bytes": 103765,
+      "sha256": "5b370be855dd704883c2f8d20addfa685425db7f440f87bc23b5d189ffb1922f"
+    },
+    {
+      "file": "mjcf/assets/front_right_knee_horn_back.obj",
+      "bytes": 105225,
+      "sha256": "c6c7cbcd550ee7998c864bfc8e42c04119e97ff8fb1dabdcf31f7dc2289bd2f8"
+    },
+    {
+      "file": "mjcf/assets/front_right_knee_horn_front.obj",
+      "bytes": 103713,
+      "sha256": "49603032d8dcf668f8819c1d91e5ab03c81a0be6a59d4ef52e418991280507b7"
+    },
+    {
+      "file": "mjcf/assets/front_right_knee_servo.obj",
+      "bytes": 33836,
+      "sha256": "6e3f02e49d83c99bc7b786805fd9a8a2b30003d7882d0376a565e21d361b7d96"
+    },
+    {
+      "file": "mjcf/assets/front_right_knee_servo_clamp_lower.obj",
+      "bytes": 144027,
+      "sha256": "3b4b94a51b8bbf6f0a1564991b50a2bcb034ec2b2c33a632b3bef2d5d5ac699c"
+    },
+    {
+      "file": "mjcf/assets/front_right_knee_servo_clamp_upper.obj",
+      "bytes": 142523,
+      "sha256": "89a405201689aa0d9992bcf5fc1181c32f1104f56494ba17fda90b2022a14d72"
+    },
+    {
+      "file": "mjcf/assets/front_right_knee_spacer_back.obj",
+      "bytes": 105286,
+      "sha256": "eff69d6940247acf99d1be31252a67c8c6c658810405cc1f06f832af0c257dab"
+    },
+    {
+      "file": "mjcf/assets/front_right_knee_spacer_front.obj",
+      "bytes": 103778,
+      "sha256": "07a9c5319e52dbb70e32afccc0b8f8ecde146c339fb1ff53c8fe833a03f50369"
+    },
+    {
+      "file": "mjcf/assets/front_right_roll_fork.obj",
+      "bytes": 203455,
+      "sha256": "9a6bd56266ba57607a96827203a804246e202934541e99c6ac185a0906bfbb6d"
+    },
+    {
+      "file": "mjcf/assets/front_right_shin.obj",
+      "bytes": 225942,
+      "sha256": "21628e40c0608bc36f918915f43c5646aa6471d256598adecff9401b2571d94a"
+    },
+    {
+      "file": "mjcf/assets/front_right_thigh.obj",
+      "bytes": 240817,
+      "sha256": "5a14e4f4b3421cd3aba3a88a2027a15c9d3eccfdba5aef73f96cefa81071ecbd"
+    },
+    {
+      "file": "mjcf/assets/head_lid.obj",
+      "bytes": 142521,
+      "sha256": "09cb126ba5462f8d9398b2f41e49ba5ec122820294473532a62ffd350121db28"
+    },
+    {
+      "file": "mjcf/assets/head_pitch_carrier.obj",
+      "bytes": 199147,
+      "sha256": "992c30c33325b33b7e922aa32eb86c2ecebcace7aadcc3f5b7c2cad6fdfcd7c3"
+    },
+    {
+      "file": "mjcf/assets/head_shell.obj",
+      "bytes": 121217,
+      "sha256": "222302b885553ee2b47808e23e69bec7d20286bee4719cb05320e4a0c472bae7"
+    },
+    {
+      "file": "mjcf/assets/hip_base_-1_-1.obj",
+      "bytes": 34443,
+      "sha256": "c99e3e65e6b759b8f59eb0ad18a08bd47f397afe5ad8ea2520de9725a14f8f0b"
+    },
+    {
+      "file": "mjcf/assets/hip_base_-1_1.obj",
+      "bytes": 33827,
+      "sha256": "bcbd69f0726d94329cfb61e4a8a7b1e4eadf2da3547aa145e0664192cedcd797"
+    },
+    {
+      "file": "mjcf/assets/hip_base_1_-1.obj",
+      "bytes": 33931,
+      "sha256": "673cc715b2c7ad35fa587553e09e7dc15fbce296d8823231864523c92a5e74f9"
+    },
+    {
+      "file": "mjcf/assets/hip_base_1_1.obj",
+      "bytes": 33315,
+      "sha256": "8b77715adbbcb5b0681a5cbe438ea28fa9d5a061b26fcae78ad3f8193650a666"
+    },
+    {
+      "file": "mjcf/assets/jaw_horn_back.obj",
+      "bytes": 105216,
+      "sha256": "b2e9fe494f2dd1dba6e5bff61d8be2cf7e4187d37eb74d790b14a9d49ff76576"
+    },
+    {
+      "file": "mjcf/assets/jaw_horn_front.obj",
+      "bytes": 103704,
+      "sha256": "2546b1d731d92f16346d880f56547eb6e56ccb9e1a60a3708d1e2d97e7419450"
+    },
+    {
+      "file": "mjcf/assets/jaw_mount_bridge.obj",
+      "bytes": 924,
+      "sha256": "abef95c11a18eea2c5095de3203c1b3d6898382ab5e6535ebc1b23fcf768bae4"
+    },
+    {
+      "file": "mjcf/assets/jaw_servo.obj",
+      "bytes": 33584,
+      "sha256": "97f762391ef2e63918997d0d2abd860a36b00abf3cc8cb1481367cab95bcd704"
+    },
+    {
+      "file": "mjcf/assets/jaw_servo_clamp_lower.obj",
+      "bytes": 143244,
+      "sha256": "a3e42158989844e31b689e1244e53575a32a250864117e3b8565f095510cb118"
+    },
+    {
+      "file": "mjcf/assets/jaw_servo_clamp_upper.obj",
+      "bytes": 141742,
+      "sha256": "9190543aad87398fe32a833438625fdca5c2685e2506039ab3d2045019ce64d0"
+    },
+    {
+      "file": "mjcf/assets/jaw_spacer_back.obj",
+      "bytes": 105281,
+      "sha256": "a0cb5203ea6b4205b1b66ea4784c4c3722616dd464b3d9638d1f72b21d0b1928"
+    },
+    {
+      "file": "mjcf/assets/jaw_spacer_front.obj",
+      "bytes": 103771,
+      "sha256": "e2251678a50910d62cc6634a48a4c1ecb11fd22a35f2c36fad5ba00a1fc49fc0"
+    },
+    {
+      "file": "mjcf/assets/lower_jaw.obj",
+      "bytes": 181591,
+      "sha256": "98c1541428d0f786df0aaa1486b7c6ce2d9ed151605b06ef7def40065e03d0df"
+    },
+    {
+      "file": "mjcf/assets/neck_pedestal.obj",
+      "bytes": 161207,
+      "sha256": "d27b7a01f48f983541eb54e605389226b1791a2aea6b9b15688e2f3ee768db9c"
+    },
+    {
+      "file": "mjcf/assets/neck_pitch_horn_back.obj",
+      "bytes": 105209,
+      "sha256": "7810c8a3dd5804324c5ee5a340dbb31f12d739a3d3204571af6f0a80ab618358"
+    },
+    {
+      "file": "mjcf/assets/neck_pitch_horn_front.obj",
+      "bytes": 103697,
+      "sha256": "e9b6f2f7c7d0fc530ba8ce9013d1fbba67c591342934b92002e860d2e37f8b3c"
+    },
+    {
+      "file": "mjcf/assets/neck_pitch_servo.obj",
+      "bytes": 33072,
+      "sha256": "33de8030bb8f0193d4609c239f0aee36ac074fbcb1e5531d2981d5266b883474"
+    },
+    {
+      "file": "mjcf/assets/neck_pitch_servo_clamp_lower.obj",
+      "bytes": 141217,
+      "sha256": "01dbc18ffaffc16c5a86e86c3cc767314d1fce6a0b3ada4019837d229947bfab"
+    },
+    {
+      "file": "mjcf/assets/neck_pitch_servo_clamp_upper.obj",
+      "bytes": 139715,
+      "sha256": "7b4d1f57b1ddefff8925c2800adcc27449a029179c955634e0c181fa37bf388d"
+    },
+    {
+      "file": "mjcf/assets/neck_pitch_spacer_back.obj",
+      "bytes": 105273,
+      "sha256": "22101722de7edc1e6fbcee27b9c09291a406da8b15d2d720cc55d8d9eb362835"
+    },
+    {
+      "file": "mjcf/assets/neck_pitch_spacer_front.obj",
+      "bytes": 103761,
+      "sha256": "a921dddfa2196e3950f1926cd484e98f5a2bdf44dfec1cf450a560ecee9710dd"
+    },
+    {
+      "file": "mjcf/assets/neck_yaw_horn_back.obj",
+      "bytes": 105212,
+      "sha256": "a23557c60078e09910e0b5a0ee027ff1f136ee54eb21e937b646c0527f56ec3e"
+    },
+    {
+      "file": "mjcf/assets/neck_yaw_horn_front.obj",
+      "bytes": 103700,
+      "sha256": "35eb470ce310a9d6980cb99857732451b8c69d006bf2c607e00e55e72283096a"
+    },
+    {
+      "file": "mjcf/assets/neck_yaw_servo.obj",
+      "bytes": 33194,
+      "sha256": "2b5a66fffc950fca9e6d612f541e31d8a77a7d77405d89a58c4c5cb7ff950f8c"
+    },
+    {
+      "file": "mjcf/assets/neck_yaw_servo_clamp_lower.obj",
+      "bytes": 141432,
+      "sha256": "4454c093fdbe096ee22df0618f93b67c31b698093148503487e752bcac77747d"
+    },
+    {
+      "file": "mjcf/assets/neck_yaw_servo_clamp_upper.obj",
+      "bytes": 140495,
+      "sha256": "1690b6ff0d8fe2e50683787272728b75394ef816d546621231fde9cc4dc8b7aa"
+    },
+    {
+      "file": "mjcf/assets/neck_yaw_spacer_front.obj",
+      "bytes": 103766,
+      "sha256": "e17d5593d1cbe89507b1438b9f8d9d8e6a2f353d4b98b75d2fdb3e988dc042ae"
+    },
+    {
+      "file": "mjcf/assets/neck_yaw_stage.obj",
+      "bytes": 112801,
+      "sha256": "2da5353a8b2acb901fafe84d7e175bed0892885d058df33da349c24108a5d1cb"
+    },
+    {
+      "file": "mjcf/assets/nose.obj",
+      "bytes": 447,
+      "sha256": "e6afbb411af9a988d6b7d5d75ffe7412decd917b6aca5a183e56b976a4ea5579"
+    },
+    {
+      "file": "mjcf/assets/radxa_board_envelope.obj",
+      "bytes": 447,
+      "sha256": "c3a5db836f14b549922a345fcc005d4b266c3488ecdaf0a687001a75265496d3"
+    },
+    {
+      "file": "mjcf/assets/rear_left_foot.obj",
+      "bytes": 109354,
+      "sha256": "99448b79b7dc9e9d30de69b4cb8cdd36ebff1d8e70ab0eef8c200e13a494a9c2"
+    },
+    {
+      "file": "mjcf/assets/rear_left_hip_pitch_horn_back.obj",
+      "bytes": 105225,
+      "sha256": "2f13f9601e19c57666ed32a9076af684dcb5cd4e8b75da02e631d2b2ca3ea1ca"
+    },
+    {
+      "file": "mjcf/assets/rear_left_hip_pitch_horn_front.obj",
+      "bytes": 103713,
+      "sha256": "71a577886ab8aaa7b2195f93a06c57315118a0ecad7bf96c975520bbabbecbb9"
+    },
+    {
+      "file": "mjcf/assets/rear_left_hip_pitch_servo.obj",
+      "bytes": 33580,
+      "sha256": "2906615a2e8e7fdd725038342f192bc794b53300bbb08fcfa73e277ce18ae554"
+    },
+    {
+      "file": "mjcf/assets/rear_left_hip_pitch_servo_clamp_lower.obj",
+      "bytes": 142461,
+      "sha256": "a2ed950a0689b4dbbee428740e6d9a361a8f67f254118d3fc681e338657d8ba8"
+    },
+    {
+      "file": "mjcf/assets/rear_left_hip_pitch_servo_clamp_upper.obj",
+      "bytes": 142522,
+      "sha256": "e6758b89d73e9943995b52c5b8d70aec0179707d410e346f3abcfb53574f4ce9"
+    },
+    {
+      "file": "mjcf/assets/rear_left_hip_pitch_spacer_back.obj",
+      "bytes": 105292,
+      "sha256": "a3e8b649a416818e98b927c4c23f3469b83bb6101d4bac7789b0d4d4742b431e"
+    },
+    {
+      "file": "mjcf/assets/rear_left_hip_pitch_spacer_front.obj",
+      "bytes": 103780,
+      "sha256": "917e2d5ca00d5c3daa52adfe789cbbcf314a66a214fa262e8a662101e130cc01"
+    },
+    {
+      "file": "mjcf/assets/rear_left_hip_roll_horn_back.obj",
+      "bytes": 105210,
+      "sha256": "4b928caa2da1a253b4d75043dc5a859c4ab996e3f61822a5dc530cbdb1dab4b1"
+    },
+    {
+      "file": "mjcf/assets/rear_left_hip_roll_horn_front.obj",
+      "bytes": 103698,
+      "sha256": "0f4261ef59f1b9afaaa78670b3fc9e96c4c68906c7ee8f3cdad6cda9a18523df"
+    },
+    {
+      "file": "mjcf/assets/rear_left_hip_roll_servo.obj",
+      "bytes": 33836,
+      "sha256": "21a8de345a157acd22c6316a5e1f4bf39178dc20b08fc702888428a367707058"
+    },
+    {
+      "file": "mjcf/assets/rear_left_hip_roll_servo_clamp_lower.obj",
+      "bytes": 142586,
+      "sha256": "0bffe13173c71f0885942626edd0639076d644bcf0c234ea8d0a64bd6e0978a9"
+    },
+    {
+      "file": "mjcf/assets/rear_left_hip_roll_servo_clamp_upper.obj",
+      "bytes": 142647,
+      "sha256": "f79e84e21de2f9fde35c9ef4c7ea65e8bcda75e0adaf8a620e540499d37aab17"
+    },
+    {
+      "file": "mjcf/assets/rear_left_hip_roll_spacer_back.obj",
+      "bytes": 105277,
+      "sha256": "283bfb8e1365336ae90ad23dd1e81af022e4c9990ccebe861bc8cf5b79842bdc"
+    },
+    {
+      "file": "mjcf/assets/rear_left_hip_roll_spacer_front.obj",
+      "bytes": 103764,
+      "sha256": "dd9f571e2fe9bd37437cb2151d994264001fc79a774f13b191739ecf12fa33a4"
+    },
+    {
+      "file": "mjcf/assets/rear_left_knee_horn_back.obj",
+      "bytes": 105214,
+      "sha256": "226b61b7ac35a2ec86da2e7fa97eb638a1de7115f2f0f6917826217b75d97a96"
+    },
+    {
+      "file": "mjcf/assets/rear_left_knee_horn_front.obj",
+      "bytes": 103702,
+      "sha256": "6f028cba00ea707ebd791a9ee81183180797e3a5f89b333fde45021f5f46e57d"
+    },
+    {
+      "file": "mjcf/assets/rear_left_knee_servo.obj",
+      "bytes": 33844,
+      "sha256": "e4adad25a7c16297feb7b9f07d4979ff32229b2d3b96836dd969ed39cf77c118"
+    },
+    {
+      "file": "mjcf/assets/rear_left_knee_servo_clamp_lower.obj",
+      "bytes": 144027,
+      "sha256": "dd6b6ba8ab02d089a8ba6cb6675573476dbbd7d1143074b290def42dd98b2290"
+    },
+    {
+      "file": "mjcf/assets/rear_left_knee_servo_clamp_upper.obj",
+      "bytes": 142523,
+      "sha256": "8b80b297ab5d8c37bdcfe0a965615b0945663810559a1b3159663e50a7e8bcda"
+    },
+    {
+      "file": "mjcf/assets/rear_left_knee_spacer_back.obj",
+      "bytes": 105279,
+      "sha256": "fdd2dc70f671b794d78dcbac8a2cd0262785de9b779868123c30f0889480a395"
+    },
+    {
+      "file": "mjcf/assets/rear_left_knee_spacer_front.obj",
+      "bytes": 103768,
+      "sha256": "a8c53a960d3c77bff3ec7c0bc063bb1eba51fb4414e0e93c7da1e0dc5df6a128"
+    },
+    {
+      "file": "mjcf/assets/rear_left_roll_fork.obj",
+      "bytes": 203653,
+      "sha256": "f2f432d660c6c6d8bec104c13203b2f8f617e8efbe7d5406c240b2c18b92cf3b"
+    },
+    {
+      "file": "mjcf/assets/rear_left_shin.obj",
+      "bytes": 225936,
+      "sha256": "6ba31dc305a87c7f4bc0e2b4b908e46dc90e410bf8833649459b99451151d425"
+    },
+    {
+      "file": "mjcf/assets/rear_left_thigh.obj",
+      "bytes": 240845,
+      "sha256": "11ac1eabece7d4d72feda21f770b6331e1c018a972ee9f2430eb3a1ee7fc881a"
+    },
+    {
+      "file": "mjcf/assets/rear_right_foot.obj",
+      "bytes": 109354,
+      "sha256": "99448b79b7dc9e9d30de69b4cb8cdd36ebff1d8e70ab0eef8c200e13a494a9c2"
+    },
+    {
+      "file": "mjcf/assets/rear_right_hip_pitch_horn_back.obj",
+      "bytes": 105225,
+      "sha256": "2f13f9601e19c57666ed32a9076af684dcb5cd4e8b75da02e631d2b2ca3ea1ca"
+    },
+    {
+      "file": "mjcf/assets/rear_right_hip_pitch_horn_front.obj",
+      "bytes": 103713,
+      "sha256": "71a577886ab8aaa7b2195f93a06c57315118a0ecad7bf96c975520bbabbecbb9"
+    },
+    {
+      "file": "mjcf/assets/rear_right_hip_pitch_servo.obj",
+      "bytes": 34092,
+      "sha256": "7db03660a9f4b00109cca34f96b745e3a588ee0b7d10e9147c6d674af2e231be"
+    },
+    {
+      "file": "mjcf/assets/rear_right_hip_pitch_servo_clamp_lower.obj",
+      "bytes": 144488,
+      "sha256": "d89fbe86fac1bc2d39a1603cd0472db7e6d776dd29a8fb216cde6b62f31d372d"
+    },
+    {
+      "file": "mjcf/assets/rear_right_hip_pitch_servo_clamp_upper.obj",
+      "bytes": 144549,
+      "sha256": "6c5e74e4fc7b413763bbddd1542ed7d1f0ca25721e364678e0accb362e8d2b06"
+    },
+    {
+      "file": "mjcf/assets/rear_right_hip_pitch_spacer_back.obj",
+      "bytes": 105292,
+      "sha256": "a3e8b649a416818e98b927c4c23f3469b83bb6101d4bac7789b0d4d4742b431e"
+    },
+    {
+      "file": "mjcf/assets/rear_right_hip_pitch_spacer_front.obj",
+      "bytes": 103780,
+      "sha256": "917e2d5ca00d5c3daa52adfe789cbbcf314a66a214fa262e8a662101e130cc01"
+    },
+    {
+      "file": "mjcf/assets/rear_right_hip_roll_horn_back.obj",
+      "bytes": 105210,
+      "sha256": "099a1501d669406113b2549b59dcd793db39f4452a04716190f5bc928e7fa00f"
+    },
+    {
+      "file": "mjcf/assets/rear_right_hip_roll_horn_front.obj",
+      "bytes": 103698,
+      "sha256": "aaa6bae2aa59d023f4456ed9a14e6b4a04561967e80a69be35173ea457b96306"
+    },
+    {
+      "file": "mjcf/assets/rear_right_hip_roll_servo.obj",
+      "bytes": 34348,
+      "sha256": "3bd70687a4ade7aa78012c1f36d75253d0e6eaec42733c442f8e189b8c370f90"
+    },
+    {
+      "file": "mjcf/assets/rear_right_hip_roll_servo_clamp_lower.obj",
+      "bytes": 144613,
+      "sha256": "14155508c88c93a98e45fb1e2499dde631937ee59b453b0a2942dcb4af8f81da"
+    },
+    {
+      "file": "mjcf/assets/rear_right_hip_roll_servo_clamp_upper.obj",
+      "bytes": 144674,
+      "sha256": "9aa137d016cabf62d7cc8ea41f4ee4a49f824fb3d2d524954bdec99cd284e330"
+    },
+    {
+      "file": "mjcf/assets/rear_right_hip_roll_spacer_back.obj",
+      "bytes": 105277,
+      "sha256": "283bfb8e1365336ae90ad23dd1e81af022e4c9990ccebe861bc8cf5b79842bdc"
+    },
+    {
+      "file": "mjcf/assets/rear_right_hip_roll_spacer_front.obj",
+      "bytes": 103764,
+      "sha256": "dd9f571e2fe9bd37437cb2151d994264001fc79a774f13b191739ecf12fa33a4"
+    },
+    {
+      "file": "mjcf/assets/rear_right_knee_horn_back.obj",
+      "bytes": 105214,
+      "sha256": "226b61b7ac35a2ec86da2e7fa97eb638a1de7115f2f0f6917826217b75d97a96"
+    },
+    {
+      "file": "mjcf/assets/rear_right_knee_horn_front.obj",
+      "bytes": 103702,
+      "sha256": "6f028cba00ea707ebd791a9ee81183180797e3a5f89b333fde45021f5f46e57d"
+    },
+    {
+      "file": "mjcf/assets/rear_right_knee_servo.obj",
+      "bytes": 33844,
+      "sha256": "e4adad25a7c16297feb7b9f07d4979ff32229b2d3b96836dd969ed39cf77c118"
+    },
+    {
+      "file": "mjcf/assets/rear_right_knee_servo_clamp_lower.obj",
+      "bytes": 144027,
+      "sha256": "dd6b6ba8ab02d089a8ba6cb6675573476dbbd7d1143074b290def42dd98b2290"
+    },
+    {
+      "file": "mjcf/assets/rear_right_knee_servo_clamp_upper.obj",
+      "bytes": 142523,
+      "sha256": "8b80b297ab5d8c37bdcfe0a965615b0945663810559a1b3159663e50a7e8bcda"
+    },
+    {
+      "file": "mjcf/assets/rear_right_knee_spacer_back.obj",
+      "bytes": 105279,
+      "sha256": "fdd2dc70f671b794d78dcbac8a2cd0262785de9b779868123c30f0889480a395"
+    },
+    {
+      "file": "mjcf/assets/rear_right_knee_spacer_front.obj",
+      "bytes": 103769,
+      "sha256": "332d1f861f45de38a4902056470fcc7273ae34d4a2549323ee488744144dc924"
+    },
+    {
+      "file": "mjcf/assets/rear_right_roll_fork.obj",
+      "bytes": 203560,
+      "sha256": "d9b6e8d3effffc2cf150a92419819340a91b444a3c96f7bbd44405834ddb9063"
+    },
+    {
+      "file": "mjcf/assets/rear_right_shin.obj",
+      "bytes": 225928,
+      "sha256": "7c8e1955110db3fb40ef7f673dd25129bbd4ae823c9dd69a6a7cd8564b58dec5"
+    },
+    {
+      "file": "mjcf/assets/rear_right_thigh.obj",
+      "bytes": 240845,
+      "sha256": "df4fd1865bc36411c1d0a856488431f7128fdc69fe834e4d29e4045a3c363142"
+    },
+    {
+      "file": "mjcf/assets/tail_horn_back.obj",
+      "bytes": 105226,
+      "sha256": "286087cb6d10c932f4e8cf8bf9636378cf2abb2c91939ba3f45a80aeef9caf22"
+    },
+    {
+      "file": "mjcf/assets/tail_horn_front.obj",
+      "bytes": 103714,
+      "sha256": "647640a7a12adf79dd38d20b84912207147836ba6727d66e5276b786050d8fd0"
+    },
+    {
+      "file": "mjcf/assets/tail_pedestal.obj",
+      "bytes": 164232,
+      "sha256": "ca05276a8ddb93cda697690e879a69ff0cfb6f5d76aaf4a43f1229bb93fe7812"
+    },
+    {
+      "file": "mjcf/assets/tail_root.obj",
+      "bytes": 52717,
+      "sha256": "d2f638a65ff69e514ce23e5e5fc48a0cf5846fa58114e886c91a22f8edfc79b6"
+    },
+    {
+      "file": "mjcf/assets/tail_servo.obj",
+      "bytes": 33714,
+      "sha256": "96ddb7b627bbe7e1d1f6485988ca8b9d1e7d152ee45f67ab8e2a1ca00703c853"
+    },
+    {
+      "file": "mjcf/assets/tail_servo_clamp_lower.obj",
+      "bytes": 143462,
+      "sha256": "fb35f5e6d466f345af2a06979d81a6b94a8617a8e18a87296af3c7a9d7f50f82"
+    },
+    {
+      "file": "mjcf/assets/tail_servo_clamp_upper.obj",
+      "bytes": 142525,
+      "sha256": "e9f4e36ceec640a285384c12630776360c3abafe5691966a872d22c5afaa5feb"
+    },
+    {
+      "file": "mjcf/assets/tail_shell.obj",
+      "bytes": 927,
+      "sha256": "3c77d3fc2fedeb698b50926331b0fa6a0c60858f47f1f4c134ee8aea2b8a6547"
+    },
+    {
+      "file": "mjcf/assets/tail_spacer_front.obj",
+      "bytes": 103780,
+      "sha256": "52fedd91e7e3597fc8aa29c1f6c3e497fde4571729ff208eb58880928d222540"
+    },
+    {
+      "file": "mjcf/assets/tail_tip.obj",
+      "bytes": 927,
+      "sha256": "175b00a8a3307d1274be31179f45c187b5228a8bad2c889068ec3a1549095991"
+    },
+    {
+      "file": "mjcf/assets/upper_muzzle.obj",
+      "bytes": 928,
+      "sha256": "02f33636d12cb4a83c584d92ca6b5ddc3f1dbe97c27a11130e2b8374f83224a9"
+    },
+    {
+      "file": "mjcf/jammyfox.xml",
+      "bytes": 54257,
+      "sha256": "d9f0da5f60eb5ce58eb18c7029578aab4fff0ba2eb782946d850e474702da9eb"
+    },
+    {
+      "file": "mjcf/jammyfox_grasp.xml",
+      "bytes": 54713,
+      "sha256": "04cbac895d77bc5c5da9594319dc45491b2515a6fa7968b54bbf4b4b99e712b8"
+    },
+    {
+      "file": "mjcf/model_metadata.json",
+      "bytes": 126851,
+      "sha256": "ec91b551fdf3349d9b528b0ada67c8c84262b665fe929e921c62960fb8eb90fe"
+    },
+    {
+      "file": "mjcf/README.md",
+      "bytes": 1618,
+      "sha256": "d108d21c0e7024b2be45ddd50fe49e494d4330245a0b425ac31548b5041f5332"
+    },
+    {
+      "file": "printable/file_manifest.json",
+      "bytes": 12527,
+      "sha256": "9a1442fe8092774feefd29a612243624d40a9c8801259ddaa9eb059d0e754c81"
+    },
+    {
+      "file": "printable/parts/battery_crossbar_112.3mf",
+      "bytes": 16733,
+      "sha256": "2d8353915848bbb041e2fd52fe0981e12007cdca08f0a63366bff7cf8863384f"
+    },
+    {
+      "file": "printable/parts/battery_crossbar_62.3mf",
+      "bytes": 17056,
+      "sha256": "713a1fb9b08b4160d3b35509c53bdea861d8b16bb2e465ce4b90dc72c474a775"
+    },
+    {
+      "file": "printable/parts/battery_tray.3mf",
+      "bytes": 6475,
+      "sha256": "6b75edfb44bb25b054cbd51e8f3a2a5296308780d4f2fa4b5963819c42b05227"
+    },
+    {
+      "file": "printable/parts/body_shell_front.3mf",
+      "bytes": 27348,
+      "sha256": "503dd20cc63ca01dac9af7bdbbfbe4b0b9ecf9ac3e920df2dc52c5c939b103ec"
+    },
+    {
+      "file": "printable/parts/body_shell_rear.3mf",
+      "bytes": 27045,
+      "sha256": "883ca3d0324abfcb33b746ba38d596166941674a5c791362e9a4d05776a8b0b1"
+    },
+    {
+      "file": "printable/parts/cover_standoff_kit_front.3mf",
+      "bytes": 44996,
+      "sha256": "8e07c41d627d849dc1580f0e1b4a1d88568cd8b261a934233751b0424398f76f"
+    },
+    {
+      "file": "printable/parts/cover_standoff_kit_rear.3mf",
+      "bytes": 44976,
+      "sha256": "4b03650fcec0ff0db3cae2c04602dd1cf621a9a0c830c08bc69799658cbd2ead"
+    },
+    {
+      "file": "printable/parts/ear_left.3mf",
+      "bytes": 5972,
+      "sha256": "8318654c57ccec481d5fbf6b60689252a6efb69bfead072b8b303be5c24cdc0d"
+    },
+    {
+      "file": "printable/parts/ear_right.3mf",
+      "bytes": 6368,
+      "sha256": "fc6ffc28bbc0df9b4738d7ce24697bff8984ec99402259272d04a746335a5f1c"
+    },
+    {
+      "file": "printable/parts/electronics_tray.3mf",
+      "bytes": 45571,
+      "sha256": "b0670add6b43af16c57864d3f47870a796503fff52328089d8eb4c96f97cca18"
+    },
+    {
+      "file": "printable/parts/eye_left.3mf",
+      "bytes": 5747,
+      "sha256": "180846798506de64887060af4a9a31e4c983720a30f057e8e613d7708350817f"
+    },
+    {
+      "file": "printable/parts/eye_right.3mf",
+      "bytes": 6214,
+      "sha256": "a948db8cc8fe34b2d378567b6548766df3db1cb27518eb1e9444fdcb1baf42f9"
+    },
+    {
+      "file": "printable/parts/frame_rail_left_front.3mf",
+      "bytes": 7319,
+      "sha256": "93b98cc66069b68a2e498f610936d833f816a76b858c6e99aaeae36e3f87e965"
+    },
+    {
+      "file": "printable/parts/frame_rail_left_rear.3mf",
+      "bytes": 6803,
+      "sha256": "e92d6813d09604cf4d86b64c89934124747d674013a75b52793e94b290ebf166"
+    },
+    {
+      "file": "printable/parts/frame_rail_right_front.3mf",
+      "bytes": 7767,
+      "sha256": "3cf2cdf93c73ff295d46012fa4b47136306d95c434ccb0c0c1099658b24a74db"
+    },
+    {
+      "file": "printable/parts/frame_rail_right_rear.3mf",
+      "bytes": 7237,
+      "sha256": "f83ae4a065d5b76f61dd846ceed8d2e972c771a27520e8ea66d58b27619eed76"
+    },
+    {
+      "file": "printable/parts/head_lid.3mf",
+      "bytes": 41302,
+      "sha256": "a18bd568ed62665104daafb06cddf538a63528165d4bae9d927ceb4edfc9687b"
+    },
+    {
+      "file": "printable/parts/head_pitch_carrier.3mf",
+      "bytes": 59014,
+      "sha256": "2c6c7d683ec27f7782c9d59ff37214aacf3fef17828eef99b481649334bbeceb"
+    },
+    {
+      "file": "printable/parts/head_shell.3mf",
+      "bytes": 38642,
+      "sha256": "e0deb3bac11b12871c5113cd412c92807b7f7f893ef96ecc6873c7bc0a80ceb3"
+    },
+    {
+      "file": "printable/parts/hip_base_-1_-1.3mf",
+      "bytes": 15466,
+      "sha256": "019d4b1c6dad290ff06a8a3096c30e3798013c97dd241317399e1ba2069990a6"
+    },
+    {
+      "file": "printable/parts/hip_base_-1_1.3mf",
+      "bytes": 15273,
+      "sha256": "0b4d42c3df1bd8fe353505042bb1dbc11a1dd8700797c107c88da6a6e14477fe"
+    },
+    {
+      "file": "printable/parts/hip_base_1_-1.3mf",
+      "bytes": 15448,
+      "sha256": "d815e38b4a5414cb172bc80023244d0c62e9f93a48da79337c111e12fbd5bf28"
+    },
+    {
+      "file": "printable/parts/hip_base_1_1.3mf",
+      "bytes": 15306,
+      "sha256": "c2abef965fcff45b9bb1adb26afb474566dfbff237990bf6bc3f844c4f1c231e"
+    },
+    {
+      "file": "printable/parts/horn_fit_coupon.3mf",
+      "bytes": 30209,
+      "sha256": "4be400f3c9dc0ab1f617680f8859a4861e5f48e283f5ad098ad3d819f0cca5b0"
+    },
+    {
+      "file": "printable/parts/horn_spacer_0p6.3mf",
+      "bytes": 35832,
+      "sha256": "60823e1dfa3321b563cba0e287c8c76131ba922da0e41d11fe11e1bb66c543a3"
+    },
+    {
+      "file": "printable/parts/horn_spacer_1.3mf",
+      "bytes": 35309,
+      "sha256": "310ab2ac640b10446f71ca142550fc29d5a1970e8a2a1c9a68507b04e0f457ef"
+    },
+    {
+      "file": "printable/parts/horn_spacer_10p6.3mf",
+      "bytes": 36415,
+      "sha256": "45499a0e1562508c9ff4ec88681d6d5d91eb4280db393c7cf2cc8bdf05879ce7"
+    },
+    {
+      "file": "printable/parts/horn_spacer_12.3mf",
+      "bytes": 35631,
+      "sha256": "1d508f534c377e280d2b34bd158f5375a9515e446f43177b7720bdb01d20b678"
+    },
+    {
+      "file": "printable/parts/horn_spacer_2.3mf",
+      "bytes": 35564,
+      "sha256": "38a311aa79014f829a1c84ff6cc6b4112ce3f0b5ccd2efe7146cfcc5234a0555"
+    },
+    {
+      "file": "printable/parts/horn_spacer_2p6.3mf",
+      "bytes": 36227,
+      "sha256": "3fa01db35ee28a19e9423c2b9cbfebc7d5c6dba808afa7f5390c7076673f4fd6"
+    },
+    {
+      "file": "printable/parts/horn_spacer_3.3mf",
+      "bytes": 35574,
+      "sha256": "397a728b91fab1f8618d7df593a8d73556609cf9e969697c75e1626970d6cad7"
+    },
+    {
+      "file": "printable/parts/horn_spacer_4p6.3mf",
+      "bytes": 36068,
+      "sha256": "8dbab88dfaeaf35e869d46461e4629a991dab26fadeb2c764466af0096c05999"
+    },
+    {
+      "file": "printable/parts/horn_spacer_6.3mf",
+      "bytes": 35618,
+      "sha256": "925f48388bc1be7c8818a3c648e264c1859b623d5224f594ba865fa1abf4e562"
+    },
+    {
+      "file": "printable/parts/horn_spacer_6p6.3mf",
+      "bytes": 35994,
+      "sha256": "702f60da228ea737c1687870248ceb4cf8b65ab46874c1a7cf48775289a4bcd9"
+    },
+    {
+      "file": "printable/parts/jaw_mount_bridge.3mf",
+      "bytes": 7956,
+      "sha256": "8dbd5fa712742169a99f85ba9f96a3a89523b0e1e8887b8f7b83e67121d39b89"
+    },
+    {
+      "file": "printable/parts/lower_jaw.3mf",
+      "bytes": 55721,
+      "sha256": "b980bfa85a8c8413fad9992d723a1b4f3573d31fb4d2e7a73594f209621bf0fd"
+    },
+    {
+      "file": "printable/parts/neck_pedestal.3mf",
+      "bytes": 49352,
+      "sha256": "ede01ccd3605b384c5e032385358ec95f2210a16af10e3936c66cd78106e6ece"
+    },
+    {
+      "file": "printable/parts/neck_yaw_stage.3mf",
+      "bytes": 40325,
+      "sha256": "836a8b3f8efbf63f5129ea9c715cb05dc187288ced162a67980e3efc5c09757c"
+    },
+    {
+      "file": "printable/parts/nose.3mf",
+      "bytes": 5752,
+      "sha256": "28342e4d77a9af9545c9cf0dc7af131dfae41a47ca085ede8b61f1520a6f2f2e"
+    },
+    {
+      "file": "printable/parts/rigid_foot.3mf",
+      "bytes": 33896,
+      "sha256": "92b2959a0fd09606dd10c269aeab0ec9f17f2686e4932c8d54048a14f833029a"
+    },
+    {
+      "file": "printable/parts/roll_fork_left.3mf",
+      "bytes": 61033,
+      "sha256": "9be7c69eed4eb8bd9f4d84998a59d15b3a50083b2981ffd9ec518e7b7478e544"
+    },
+    {
+      "file": "printable/parts/roll_fork_right.3mf",
+      "bytes": 61476,
+      "sha256": "180049df0cc7305ce831ac6885261ebd58e730675506f2a88728859e59e9d7bf"
+    },
+    {
+      "file": "printable/parts/servo_clamp_lower.3mf",
+      "bytes": 48028,
+      "sha256": "35d19dc12d396b828a10f013c89bffeb716b6ed84e062cc30c70c8e095a82e33"
+    },
+    {
+      "file": "printable/parts/servo_clamp_upper.3mf",
+      "bytes": 47181,
+      "sha256": "fd1ecce54d54f3f4e7ad8f9dfd192fe462052de6a429274dd7a4137794352434"
+    },
+    {
+      "file": "printable/parts/shin_fork.3mf",
+      "bytes": 65964,
+      "sha256": "d8a4e983e01091eb3eb83b7f4cfc8e3b4f06190f4d4b1e10b79e064081b8e523"
+    },
+    {
+      "file": "printable/parts/tail_pedestal.3mf",
+      "bytes": 50207,
+      "sha256": "b361207db6b1e8947644ddbb8cae329456679edf297f2a5ac093f688bcce67a3"
+    },
+    {
+      "file": "printable/parts/tail_root.3mf",
+      "bytes": 20949,
+      "sha256": "0cb9d2a31487ea0a1238d2c8641b06664e274818adccec905bbb9ba3e3aba28a"
+    },
+    {
+      "file": "printable/parts/tail_shell.3mf",
+      "bytes": 6113,
+      "sha256": "da97984daf55bffe3dcf32a1cc6b5babde43597ac104d1cd72858ccda0680368"
+    },
+    {
+      "file": "printable/parts/tail_tip.3mf",
+      "bytes": 5788,
+      "sha256": "ea416cad82e29dd08103958edfa4a088a211cc0d0651548966a8165ab99b3e2f"
+    },
+    {
+      "file": "printable/parts/thigh_carrier.3mf",
+      "bytes": 71234,
+      "sha256": "f86a389004ef216971a7efcd91ca9d012dbfa6810866035bc2b986f34d3e9e86"
+    },
+    {
+      "file": "printable/parts/upper_muzzle.3mf",
+      "bytes": 6339,
+      "sha256": "80501836d4b241e357a7b23a722e75b4adcfa6bb046e31364f9b584805de99f8"
+    },
+    {
+      "file": "printable/plate_inventory.csv",
+      "bytes": 18014,
+      "sha256": "02a7c2e0c28ac7b5025a85a6ac5bcc7d617ba905c09e2d05b4b2c3e1ec84effe"
+    },
+    {
+      "file": "printable/plate_overview.png",
+      "bytes": 362153,
+      "sha256": "c2160379dcecdb4715b3722d2790c40eccee5a984816fa370be331fb90cbf395"
+    },
+    {
+      "file": "printable/plates/00_fit_test.3mf",
+      "bytes": 396145,
+      "sha256": "cd137dc20b35c9fb68dec7190569785c1e0c1063a31614d3e09fb56023194647"
+    },
+    {
+      "file": "printable/plates/01_black_clamps.3mf",
+      "bytes": 50068,
+      "sha256": "b4b92d7470079690c89b3fdfd081f77b895652d55b42a3662783d9eb7f160b1e"
+    },
+    {
+      "file": "printable/plates/02_black_clamps.3mf",
+      "bytes": 89996,
+      "sha256": "f1f765300846054d7418f262c3599ceca47d6e45db58fd2c8d98c6abf3f92bec"
+    },
+    {
+      "file": "printable/plates/03_black_clamps.3mf",
+      "bytes": 49280,
+      "sha256": "d5e545b3d9175b85314cb43418d1c3e256e2bde0a45e704fd47bce3c80ea57d6"
+    },
+    {
+      "file": "printable/plates/04_black_small.3mf",
+      "bytes": 228255,
+      "sha256": "c1bab5e15f49a93ab41a353be1da84fc36fcfb247f8780794bec50c50f83d2b3"
+    },
+    {
+      "file": "printable/plates/05_black_structure.3mf",
+      "bytes": 80545,
+      "sha256": "cb0e5ccc32ba92f0f1f3bf470c4e6f8cbbdf876ceffbe922715fdbfa3fded02c"
+    },
+    {
+      "file": "printable/plates/06_black_structure.3mf",
+      "bytes": 141881,
+      "sha256": "09b83c0d91de2b84fcb03fedbbf8466d01fbdde29bd87e779b293bb8e7cbe39f"
+    },
+    {
+      "file": "printable/plates/07_black_structure.3mf",
+      "bytes": 140278,
+      "sha256": "bc184cba36dd64a4a570039cbdae58dac442ae330c787a9e812f9f268b915871"
+    },
+    {
+      "file": "printable/plates/08_orange_body_covers.3mf",
+      "bytes": 28724,
+      "sha256": "0ac5d649e0485c0490c79223a38355434659dad632f5602661fb70effdbe306e"
+    },
+    {
+      "file": "printable/plates/09_orange_body_covers.3mf",
+      "bytes": 28501,
+      "sha256": "e5c10f7862b4fe64158749f0b30da9c209b566f6688c3a4474f7364ab34f459e"
+    },
+    {
+      "file": "printable/plates/10_orange_head_tail.3mf",
+      "bytes": 76560,
+      "sha256": "58533d26c7f16ade60eabbf7bf7d62d97cf0bbe883b7505c44d33d9e63f00ef4"
+    },
+    {
+      "file": "printable/plates/11_orange_legs.3mf",
+      "bytes": 127504,
+      "sha256": "2c3fd224fba879a2654297e7eab5998b09abf19f06532a0048b63ccc51a830d8"
+    },
+    {
+      "file": "printable/plates/12_orange_legs.3mf",
+      "bytes": 178790,
+      "sha256": "ab2e447743996905ca80614d1b3202abe0ee5c1977cf277ada4a3b7bb26ca0af"
+    },
+    {
+      "file": "printable/plates/13_white_parts.3mf",
+      "bytes": 57489,
+      "sha256": "e15e7ad7d1996d99e263afe4d8bb4e541869d6f46659f35e285bf721dc4f1e2c"
+    },
+    {
+      "file": "printable/previews/00_fit_test.png",
+      "bytes": 15221,
+      "sha256": "5d932bb3cca303e396f93fc31614804cf96cb97ffb5b37fce3bef72c66539c61"
+    },
+    {
+      "file": "printable/previews/01_black_clamps.png",
+      "bytes": 16580,
+      "sha256": "8a898bb9151d0bfb42f9208f1dac66c6f633bee5e864f4a8dd3241d249d4d7a3"
+    },
+    {
+      "file": "printable/previews/02_black_clamps.png",
+      "bytes": 16823,
+      "sha256": "2e1401f55a2f991ce3989ced3171ac81513725b4d058b06792ceaefeebf19e58"
+    },
+    {
+      "file": "printable/previews/03_black_clamps.png",
+      "bytes": 15067,
+      "sha256": "4d846db6a3582c8f6209751286ebd6c927eac6dfb67ed5d4b351390827cbf052"
+    },
+    {
+      "file": "printable/previews/04_black_small.png",
+      "bytes": 20348,
+      "sha256": "35ff01a25f5f2ee20aa26865f3e97d6d0758158e0b62943a5a894d259afb0d08"
+    },
+    {
+      "file": "printable/previews/05_black_structure.png",
+      "bytes": 12023,
+      "sha256": "7cf19de91fbc583ceaff6695c035f423d5d86da9c76cd9aa017719887a74e97a"
+    },
+    {
+      "file": "printable/previews/06_black_structure.png",
+      "bytes": 12283,
+      "sha256": "628d24eb7b6fb3923f6a4c7f448fb24392834a2683fb1978b4f684f1104c808e"
+    },
+    {
+      "file": "printable/previews/07_black_structure.png",
+      "bytes": 11310,
+      "sha256": "5486ca3c41f105c174b0516224e041011017747f3da3836f3a3a615914aa6899"
+    },
+    {
+      "file": "printable/previews/08_orange_body_covers.png",
+      "bytes": 12042,
+      "sha256": "3a6ac09b95727d0f7d11fcd6bf64af06480a6b48409554697c29dbe4eb1ec9d2"
+    },
+    {
+      "file": "printable/previews/09_orange_body_covers.png",
+      "bytes": 11975,
+      "sha256": "f95212afa25bf8c6af914c62ebc868df47ab3d7885f511f768cb59f84e96e32a"
+    },
+    {
+      "file": "printable/previews/10_orange_head_tail.png",
+      "bytes": 11523,
+      "sha256": "87b241c786b642ce01764f76b7c1d1991f8a0cf0ead50f84285a4c07de83c9db"
+    },
+    {
+      "file": "printable/previews/11_orange_legs.png",
+      "bytes": 10661,
+      "sha256": "4807a23c8d39fcee2d79e2e1a610f46d1b6bd730b5fa8f0fb4dca8b625e26641"
+    },
+    {
+      "file": "printable/previews/12_orange_legs.png",
+      "bytes": 10647,
+      "sha256": "f66463b0e0e9ba19139e80e2af540a85c0f785af32df4592a20ab48f9efe817a"
+    },
+    {
+      "file": "printable/previews/13_white_parts.png",
+      "bytes": 10501,
+      "sha256": "654cf96c0a1f1dd509a2485e88d345ba7cae4e282fdf0deb257e90fe32834db3"
+    },
+    {
+      "file": "printable/README.md",
+      "bytes": 4346,
+      "sha256": "6490ce6d31ac4a914ad6efcafd5fba02ead21b5ac425175ce5e2aef353a2386d"
+    },
+    {
+      "file": "printable/verification.json",
+      "bytes": 18325,
+      "sha256": "9591274b16de7745f37e1181ff0a7cf6340b3c66444d67ed291790c488abad3e"
+    },
+    {
+      "file": "README.md",
+      "bytes": 2653,
+      "sha256": "0a00014a23ef58ec714466f628a96fa7fcc7cc5fcbf3fb9c93dc7d388504860a"
+    },
+    {
+      "file": "requirements.txt",
+      "bytes": 15,
+      "sha256": "5aee4c1f881d1774adaf2deb6a0f295ee8acc603040db072b3386404fc8e1a51"
+    },
+    {
+      "file": "stl/battery_crossbar_112.stl",
+      "bytes": 51484,
+      "sha256": "67dccee3d0366c49339c5b8568f83e06592bdfba96c96f81e0a47ae4ca26c55d"
+    },
+    {
+      "file": "stl/battery_crossbar_62.stl",
+      "bytes": 51484,
+      "sha256": "67dccee3d0366c49339c5b8568f83e06592bdfba96c96f81e0a47ae4ca26c55d"
+    },
+    {
+      "file": "stl/battery_tray.stl",
+      "bytes": 1484,
+      "sha256": "026ea5af942238d70c450820b50679698e6661693a3918c9a67d30e7e4783853"
+    },
+    {
+      "file": "stl/body_shell_front.stl",
+      "bytes": 114084,
+      "sha256": "1a100f89196bdc58dede7a4a7978a067aa9a585cfb5a74cf1b1a07074760864b"
+    },
+    {
+      "file": "stl/body_shell_rear.stl",
+      "bytes": 113884,
+      "sha256": "7b28a44251ea4f0f99ff7e576687e01fd24fe115a200070b7d606de898b705e0"
+    },
+    {
+      "file": "stl/cover_standoff_kit_front.stl",
+      "bytes": 201684,
+      "sha256": "50e4ceda6f8432b9bc00061198ea22695eada4e9361bab6b3cebe770e74a8bd8"
+    },
+    {
+      "file": "stl/cover_standoff_kit_rear.stl",
+      "bytes": 201684,
+      "sha256": "50e4ceda6f8432b9bc00061198ea22695eada4e9361bab6b3cebe770e74a8bd8"
+    },
+    {
+      "file": "stl/ear_left.stl",
+      "bytes": 484,
+      "sha256": "f91a65f8bb73bcd13a6e1b29a02774a20f641d1f0f3f08ab36c225cb8510430c"
+    },
+    {
+      "file": "stl/ear_right.stl",
+      "bytes": 484,
+      "sha256": "b638730bcffc923e7019d70131eec807e3805f429b1d55adfab500886d505558"
+    },
+    {
+      "file": "stl/electronics_tray.stl",
+      "bytes": 207084,
+      "sha256": "72b5d664895e89cd5b7251d7a6e64613847e729930696441aa9cae002200316a"
+    },
+    {
+      "file": "stl/eye_left.stl",
+      "bytes": 684,
+      "sha256": "5842518bab5be3e86e258a5f638c976c21f74cfdae376a50b0a7b8bd04870a6e"
+    },
+    {
+      "file": "stl/eye_right.stl",
+      "bytes": 684,
+      "sha256": "5842518bab5be3e86e258a5f638c976c21f74cfdae376a50b0a7b8bd04870a6e"
+    },
+    {
+      "file": "stl/frame_rail_left_front.stl",
+      "bytes": 4684,
+      "sha256": "a36de64c137a2f24ad98fae4c49be57e860eb19e0c961cb210db9a1e8b718cbd"
+    },
+    {
+      "file": "stl/frame_rail_left_rear.stl",
+      "bytes": 4684,
+      "sha256": "a36de64c137a2f24ad98fae4c49be57e860eb19e0c961cb210db9a1e8b718cbd"
+    },
+    {
+      "file": "stl/frame_rail_right_front.stl",
+      "bytes": 4684,
+      "sha256": "a36de64c137a2f24ad98fae4c49be57e860eb19e0c961cb210db9a1e8b718cbd"
+    },
+    {
+      "file": "stl/frame_rail_right_rear.stl",
+      "bytes": 4684,
+      "sha256": "a36de64c137a2f24ad98fae4c49be57e860eb19e0c961cb210db9a1e8b718cbd"
+    },
+    {
+      "file": "stl/head_lid.stl",
+      "bytes": 206284,
+      "sha256": "aeb8e8d71347371ebf7820cb41c8537fb0be155dab5d6b5e8129fc4a8749e947"
+    },
+    {
+      "file": "stl/head_pitch_carrier.stl",
+      "bytes": 281084,
+      "sha256": "7ba0d50259da0a66bc37371aebb80944557ec1fe6d170b2f7fb81fd799b8f32b"
+    },
+    {
+      "file": "stl/head_shell.stl",
+      "bytes": 177084,
+      "sha256": "ea4396b18421abf797351bc412f4c894fe05eb03aa212c71495089e4c3934159"
+    },
+    {
+      "file": "stl/hip_base_-1_-1.stl",
+      "bytes": 51484,
+      "sha256": "a59e4a566b7f455ed39ab37bbca92bd6a07add62004db49794509e493855d6ba"
+    },
+    {
+      "file": "stl/hip_base_-1_1.stl",
+      "bytes": 51484,
+      "sha256": "c816882532e1b1357ab7e844c0400279f88441d126d9315fc76c78c52b0ccd2a"
+    },
+    {
+      "file": "stl/hip_base_1_-1.stl",
+      "bytes": 51484,
+      "sha256": "a59e4a566b7f455ed39ab37bbca92bd6a07add62004db49794509e493855d6ba"
+    },
+    {
+      "file": "stl/hip_base_1_1.stl",
+      "bytes": 51484,
+      "sha256": "c816882532e1b1357ab7e844c0400279f88441d126d9315fc76c78c52b0ccd2a"
+    },
+    {
+      "file": "stl/horn_fit_coupon.stl",
+      "bytes": 127684,
+      "sha256": "7b27ecd603a6a592fe42844f7fb0097473e959a9682e13adb54c398055100491"
+    },
+    {
+      "file": "stl/horn_spacer_0p6.stl",
+      "bytes": 152084,
+      "sha256": "8cc053c7fc40850453c3c8752fa77677e7717545e84d1472457dc004e1844e44"
+    },
+    {
+      "file": "stl/horn_spacer_1.stl",
+      "bytes": 152084,
+      "sha256": "6e9f22e839aed2c7d3adcda8325cc64bb30673911349c70fb400d309aba31317"
+    },
+    {
+      "file": "stl/horn_spacer_10p6.stl",
+      "bytes": 152084,
+      "sha256": "4cc509d1625036c6679d774d24e56d2aea392eeff6bd166fd93e27815a21ac2b"
+    },
+    {
+      "file": "stl/horn_spacer_12.stl",
+      "bytes": 152084,
+      "sha256": "d5877d88891a46d37dff3f5c169477f8aa69edd290d52588af4b9fc81f1a7d53"
+    },
+    {
+      "file": "stl/horn_spacer_2.stl",
+      "bytes": 152084,
+      "sha256": "aceb03dbc432d88e7d8f6a04e292354813c56a4bff923793cd13e9e8d5ac1a22"
+    },
+    {
+      "file": "stl/horn_spacer_2p6.stl",
+      "bytes": 152084,
+      "sha256": "20c1b009b2ccf116650b574b50c2f1a1a66d6743f28d59f93ce8d960fb04564e"
+    },
+    {
+      "file": "stl/horn_spacer_3.stl",
+      "bytes": 152084,
+      "sha256": "42abbc1f10afb337408b61df4019fbc2b5e5e11fb9f8c7ce749719f31c75fdc7"
+    },
+    {
+      "file": "stl/horn_spacer_4p6.stl",
+      "bytes": 152084,
+      "sha256": "c2a964f3a6db720b740e74b37b980dca58553a58df60e3ecec64b2999d656236"
+    },
+    {
+      "file": "stl/horn_spacer_6.stl",
+      "bytes": 152084,
+      "sha256": "d2e1fff0ccfdba2c819afea9b122c323377abf08de85236900812add9965d7f5"
+    },
+    {
+      "file": "stl/horn_spacer_6p6.stl",
+      "bytes": 152084,
+      "sha256": "744a6e3a44bbf2d1f38c4f4f2cbcfdc0dedcfeab040765a871f60fc99ee4f234"
+    },
+    {
+      "file": "stl/jaw_mount_bridge.stl",
+      "bytes": 1484,
+      "sha256": "4f07c3e5fac2ae8a8026524468acc92465c8073b46a51cc51b2d023c4b41c50b"
+    },
+    {
+      "file": "stl/lower_jaw.stl",
+      "bytes": 256284,
+      "sha256": "6b09a330fe8003a66aedae387b1994c1b11ea73ad244bfbdeb1a498d521ff104"
+    },
+    {
+      "file": "stl/neck_pedestal.stl",
+      "bytes": 229884,
+      "sha256": "970bbb0f3fc7229522341d37ef5eceed1175e77437af3c3301aed83e55983777"
+    },
+    {
+      "file": "stl/neck_yaw_stage.stl",
+      "bytes": 164284,
+      "sha256": "7ab332b2cfd2fee95938d3b3244302320e15d910d9d9c906d7f29836a8e9eadf"
+    },
+    {
+      "file": "stl/nose.stl",
+      "bytes": 684,
+      "sha256": "00ec3b4cb97fa2d42291469e26ac0a217c929c38b632074188effdcbd0e41061"
+    },
+    {
+      "file": "stl/rigid_foot.stl",
+      "bytes": 157884,
+      "sha256": "c115cfc20cb73fe033183bed7795a5d7871d02012496a54ea9ddc7addb2f552f"
+    },
+    {
+      "file": "stl/roll_fork_left.stl",
+      "bytes": 287084,
+      "sha256": "103c4f96caff315d97de092c41ced26f79971b98c41d8b53f0f7cdcd3fb69f25"
+    },
+    {
+      "file": "stl/roll_fork_right.stl",
+      "bytes": 287084,
+      "sha256": "d71536ec22dff86ff815ac0b6a836a6630005f2bf308470b7bcd947f7fceb3e2"
+    },
+    {
+      "file": "stl/servo_clamp_lower.stl",
+      "bytes": 203784,
+      "sha256": "12a32809c05efb06fff503995ec2498178d206b483592f50b60609c5b93772d8"
+    },
+    {
+      "file": "stl/servo_clamp_upper.stl",
+      "bytes": 203784,
+      "sha256": "c3c699eed71ca0631284d48c4700ea7854b1cd70da639a940e2c2f9ecf379ce1"
+    },
+    {
+      "file": "stl/shin_fork.stl",
+      "bytes": 318084,
+      "sha256": "c1385d0f62d646c575fda668584bee8bbdc328676e9a955ea2952f43cf40f454"
+    },
+    {
+      "file": "stl/tail_pedestal.stl",
+      "bytes": 230684,
+      "sha256": "e484ad9556e2b3a929dc9804cbee38995b13dffe6ae12b997e4c793ee90d2bab"
+    },
+    {
+      "file": "stl/tail_root.stl",
+      "bytes": 80684,
+      "sha256": "ff0bc2b0bc5bace3272425fd46fc6486d09a0b67feb18af0f483d2aeb0029473"
+    },
+    {
+      "file": "stl/tail_shell.stl",
+      "bytes": 1484,
+      "sha256": "4ef944e799114aab131a7d67091897aa836aabd967a36f9e0fe2254a7c1d0a26"
+    },
+    {
+      "file": "stl/tail_tip.stl",
+      "bytes": 1484,
+      "sha256": "cd3f2a91ef78d4755ba7aee2dd850de08b7d947a84ffecc81072af17829ac7ce"
+    },
+    {
+      "file": "stl/thigh_carrier.stl",
+      "bytes": 338484,
+      "sha256": "e83e2199f71c37ccb6eeb2f1bda3efb13dd589249bf8551b2efd56f24dcdd89b"
+    },
+    {
+      "file": "stl/upper_muzzle.stl",
+      "bytes": 1484,
+      "sha256": "0ea35b0bf23fcac6eedf3a6586d02fb236be969dc45975ce5d0ed023009773df"
+    }
+  ]
+}

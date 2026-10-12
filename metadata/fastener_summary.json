@@ -1,0 +1,25 @@
+{
+  "cad_revision": "A",
+  "servo_count": 16,
+  "connected_horn_faces": 30,
+  "horn_coupling_screws": 120,
+  "clamp_bolt_positions": 64,
+  "standalone_clamp_bolts": 56,
+  "proposed_pedestal_bolts": 8,
+  "horn_screw_lengths_and_counts": {
+    "8": 4,
+    "10": 40,
+    "12": 4,
+    "14": 40,
+    "18": 32
+  },
+  "horn_head_washer_stack_mm": 1.5,
+  "nominal_horn_thread_engagement_mm": 1.9,
+  "engagement_is_design_target_not_manufacturer_approval": true,
+  "whole_robot_fastener_schedule_complete": false,
+  "fastener_collision_checked": false,
+  "physical_fit_checked": false,
+  "cad_geometry_modified": false,
+  "manifest_sha256": "9583ba76b99a7cb59f73ca0fd2dadc3c27868cc64a736534592662701fe0da2a",
+  "inventory_sha256": "0898d52d184df8b86a8de601d32f9a77fcc3198224cc48c704ae0d3459cd9177"
+}

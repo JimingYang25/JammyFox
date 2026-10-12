@@ -1,0 +1,17 @@
+﻿joint,parent,origin_x_mm,origin_y_mm,origin_z_mm,axis_x,axis_y,axis_z,stand_deg,min_deg,max_deg
+front_left_hip_roll,body,115.0,65.0,211.0,1.0,0.0,0.0,0,-8.0,8.0
+front_left_hip_pitch,front_left_hip_roll,115.0,102.0,175.13540166659698,0.0,1.0,0.0,25.0,10.0,40.0
+front_left_knee,front_left_hip_pitch,76.96435644333705,102.0,93.56770083329849,0.0,1.0,0.0,-50.0,-80.0,-35.0
+front_right_hip_roll,body,115.0,-65.0,211.0,1.0,0.0,0.0,0,-8.0,8.0
+front_right_hip_pitch,front_right_hip_roll,115.0,-102.0,175.13540166659698,0.0,1.0,0.0,25.0,10.0,40.0
+front_right_knee,front_right_hip_pitch,76.96435644333705,-102.0,93.56770083329849,0.0,1.0,0.0,-50.0,-80.0,-35.0
+rear_left_hip_roll,body,-115.0,65.0,211.0,1.0,0.0,0.0,0,-8.0,8.0
+rear_left_hip_pitch,rear_left_hip_roll,-115.0,102.0,175.13540166659698,0.0,1.0,0.0,25.0,10.0,40.0
+rear_left_knee,rear_left_hip_pitch,-153.03564355666293,102.0,93.56770083329849,0.0,1.0,0.0,-50.0,-80.0,-35.0
+rear_right_hip_roll,body,-115.0,-65.0,211.0,1.0,0.0,0.0,0,-8.0,8.0
+rear_right_hip_pitch,rear_right_hip_roll,-115.0,-102.0,175.13540166659698,0.0,1.0,0.0,25.0,10.0,40.0
+rear_right_knee,rear_right_hip_pitch,-153.03564355666293,-102.0,93.56770083329849,0.0,1.0,0.0,-50.0,-80.0,-35.0
+neck_yaw,body,188.0,0.0,247.0,0.0,0.0,1.0,0,-20.0,20.0
+neck_pitch,neck_yaw,228.0,0.0,285.0,0.0,1.0,0.0,0,-15.0,15.0
+jaw,neck_pitch,272.0,0.0,240.0,0.0,1.0,0.0,-18,-18.0,30.0
+tail,body,-187.0,0.0,247.0,0.0,0.0,1.0,0,-25.0,25.0

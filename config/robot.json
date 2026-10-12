@@ -1,0 +1,51 @@
+{
+  "cad_revision": "A",
+  "physics_timestep_s": 0.002,
+  "control_hz": 50,
+  "initial_ground_clearance_m": 0.003,
+  "servo": {
+    "model": "FEETECH ST-3215-C018",
+    "rated_torque_nm": 0.980665,
+    "stall_torque_nm": 2.941995,
+    "no_load_speed_rad_s": 4.7162,
+    "kp_nm_rad": 20.0,
+    "kd_nm_s_rad": 0.30,
+    "joint_damping_nm_s_rad": 0.02,
+    "frictionloss_nm": 0.01,
+    "armature_kg_m2": 0.00008,
+    "position_quantization_rad": 0.0015339808,
+    "velocity_quantization_rad_s": 0.01,
+    "datasheet": "https://www.feetechrc.com/Data/feetechrc/upload/file/20240507/6385067068652648096680943.pdf",
+    "calibration_status": "Datasheet torque/speed are nominal; gains, losses, quantization and dynamic model require bench calibration."
+  },
+  "contact": {"sliding_friction": 0.6, "torsional_friction_m": 0.005, "rolling_friction_m": 0.0001},
+  "policy": {
+    "history_frames": 4,
+    "residual_degrees": {"hip_roll": 4.0, "hip_pitch": 5.0, "knee": 8.0},
+    "gait_frequency_hz": 0.65,
+    "stance_fraction": 0.75,
+    "foot_lift_m": 0.009,
+    "maximum_stride_m": 0.05,
+    "episode_seconds": 12.0,
+    "walk_command_x_range_m_s": [0.02, 0.06]
+  },
+  "randomization": {
+    "mass_scale": [0.9, 1.1],
+    "servo_strength_scale": [0.85, 1.0],
+    "servo_gain_scale": [0.9, 1.1],
+    "ground_friction": [0.3, 0.9],
+    "command_delay_steps": [0, 3],
+    "telemetry_delay_steps": [0, 2],
+    "command_drop_probability": 0.02,
+    "joint_position_noise_rad": 0.0005,
+    "joint_velocity_noise_rad_s": 0.015
+  },
+  "grasp_fixture": {"object_size_m": [0.022, 0.018, 0.038], "object_mass_kg": 0.04, "object_position_m": [0.3093762156, 0.0, 0.2350615803], "object_quaternion_wxyz": [0.9876883406, 0.0, 0.1564344650, 0.0], "initial_jaw_deg": 18.0, "closing_jaw_deg": 0.0},
+  "assumptions": [
+    "CAD mass is a fully solid PLA estimate, excluding wiring/fasteners; replace it with weighed hardware.",
+    "Purchased component centre of mass/inertia is approximated by a uniform-density outer envelope.",
+    "Collision shapes approximate exterior structure and gripping surfaces; fastener/cavity fit is not certified.",
+    "Wireless delay/drop ranges are initial training assumptions, not measured network performance.",
+    "Policy inputs exclude base pose/velocity, IMU, camera, contact flags and object state."
+  ]
+}
