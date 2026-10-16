@@ -72,3 +72,7 @@ The source meshes are in [stl](../stl/) and the part quantities are in
 [part_inventory.json](../metadata/part_inventory.json). CAD and 3MF generation
 tools remain in the original engineering workspace. Update fabrication and
 simulation exports together after geometry changes.
+
+## Optional USB camera accessory
+
+`plates/14_usb_camera_addon.3mf` adds one camera bridge and one PCB carrier. These two pieces are additional to the original 117-piece production set. Individual 3MF alternatives are `parts/camera_lid_bridge.3mf` and `parts/camera_board_carrier.3mf`. The original plate inventory and overview describe the camera-free core. Camera quantities, orientation and nominal screws are in [CAMERA.md](../docs/CAMERA.md).

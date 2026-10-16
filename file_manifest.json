@@ -4,18 +4,28 @@
   "files": [
     {
       "file": ".gitattributes",
-      "bytes": 206,
-      "sha256": "7bf2447da3e6d95646144acab0036f8f0e4cbabd8d3dc7ce962b990e6d3e2075"
+      "bytes": 235,
+      "sha256": "5ae4986d8ed0a466e27d101831f4f78749aec3f0d2cc64f0768172715cce71d0"
     },
     {
       "file": ".gitignore",
-      "bytes": 311,
-      "sha256": "696702874667c9a4b41b89adc671a67741708235be0e1674db81b158404d8ad6"
+      "bytes": 391,
+      "sha256": "257cb50aedb0fb9287898072d4018067ebdcf21cf6986bd72fe9533f7c64b0c3"
+    },
+    {
+      "file": "README.md",
+      "bytes": 2909,
+      "sha256": "09f12747ef5cdc994bc5eebc4dbff21c56f58b29b171b7577e2ea10eb949ea44"
     },
     {
       "file": "config/cad_parameters.json",
       "bytes": 1571,
       "sha256": "b982027423501444b08e4ecfa8915460641fa4423629980efaad509571be23dd"
+    },
+    {
+      "file": "config/camera.json",
+      "bytes": 1705,
+      "sha256": "d73b2d05a9ca6851bff5eb51e62ca94aa93586ff17a23de92c38d88e1666c8bc"
     },
     {
       "file": "config/robot.json",
@@ -29,8 +39,13 @@
     },
     {
       "file": "docs/BOM.md",
-      "bytes": 12332,
-      "sha256": "c1ffc7597ded54d824ab107dba6b91f6684458d82e45606c8449594d5d8e7120"
+      "bytes": 12704,
+      "sha256": "0d65f5d6492fda33cc90457d130c468354336c7d7d7cc2211dda28b2c8184d9c"
+    },
+    {
+      "file": "docs/CAMERA.md",
+      "bytes": 9496,
+      "sha256": "10be232c2888d4133675aa8ebdd7e539ac000448d757dbf3e79c375a1f7f7d32"
     },
     {
       "file": "docs/FASTENERS.md",
@@ -44,8 +59,18 @@
     },
     {
       "file": "docs/SIMULATION.md",
-      "bytes": 1611,
-      "sha256": "0dbc2aa95535a71e758d9888d652e486f97fd7230af065229c93c733316f2769"
+      "bytes": 2088,
+      "sha256": "d5910155e3ae8b9eb5e0ce3cf4e1b4641e1c27f81092cd663e91ac67fc312b8f"
+    },
+    {
+      "file": "docs/images/head_rgb_demo.png",
+      "bytes": 32310,
+      "sha256": "a4fe094fa478dbc8bd9c84719c7a2e4b2abc4d1d91afaae766415c6efdb27b56"
+    },
+    {
+      "file": "docs/images/head_rgb_transport_demo.jpg",
+      "bytes": 34556,
+      "sha256": "26d766225890e9f25f8ef3677819e252e077a2278105cc3d9311dc5bd5dee023"
     },
     {
       "file": "drawings/chassis_front.dxf",
@@ -76,6 +101,66 @@
       "file": "drawings/chassis_rear_holes.json",
       "bytes": 443,
       "sha256": "dc28a503066a4ce7141c01b968b39a8409e053c97010f0efd17b33c7b6c2b6bb"
+    },
+    {
+      "file": "hardware/camera/JammyFox_USB_RGB_Camera.FCStd",
+      "bytes": 740105,
+      "sha256": "d13fb814656e6022707dbed9ae93ed9d9f51aac11059c4465b5c02f622646879"
+    },
+    {
+      "file": "hardware/camera/JammyFox_USB_RGB_Camera.step",
+      "bytes": 4860595,
+      "sha256": "edf8451fc3e17516814cd6ad9637e98afe94b162b4e2aaa89990a5e55eba6795"
+    },
+    {
+      "file": "hardware/camera/JammyFox_USB_RGB_Camera_preview.png",
+      "bytes": 75742,
+      "sha256": "251f2f23ac71f4ed73cf299aa07e31fab92fac04ef3ec9b24757aad451a59922"
+    },
+    {
+      "file": "hardware/camera/RevA_reference.FCStd",
+      "bytes": 676998,
+      "sha256": "11349e18a8c47cfe64664acc17e183f4994d9f77ec7330b818263b275173d899"
+    },
+    {
+      "file": "hardware/camera/USB_Camera_Addon.step",
+      "bytes": 134519,
+      "sha256": "689b8f59847c81fb8c79c8451e8fa61adc540de69137d4ce8aca01ebcdd565f7"
+    },
+    {
+      "file": "hardware/camera/build_camera_addon.py",
+      "bytes": 8341,
+      "sha256": "7d15731cb6c4a01f5a9a916266a7bb7cbe5c05092d776c7526394bd420be3ca0"
+    },
+    {
+      "file": "hardware/camera/camera_addon.json",
+      "bytes": 1116,
+      "sha256": "9c319d6c70700b94fa28459af441fb4945e2a9687ead687e259a6ce88cb1a210"
+    },
+    {
+      "file": "hardware/camera/camera_board_carrier.step",
+      "bytes": 73874,
+      "sha256": "f780e39f1e2be2d794d4a6a78be98752779d6bcc18ab157f9d655c3b68d9c3a8"
+    },
+    {
+      "file": "hardware/camera/camera_lid_bridge.step",
+      "bytes": 30313,
+      "sha256": "fe16ecf1b8b14a6efb86a26cee148af8699d67856e7c691f7139afa5180e8fda"
+    },
+    {
+      "file": "hardware/camera/usb_rgb_camera_module.step",
+      "bytes": 25085,
+      "sha256": "f1d2606e8ea800e638f3c83ae134dc051b7afb7887216e9a804919049a5823d8"
+    },
+    {
+      "file": "metadata/camera_cad.json",
+      "bytes": 1130111,
+      "sha256": "13b653a2a3c52bf0e038c7c44e10b8ddf462a96e348e2ce42db991953d7a1c7a"
+    },
+    {
+      "file": "metadata/camera_validation.json",
+      "bytes": 1629,
+      "sha256": "fe8d01d4347ab0230fd0ab6fd4479a5fa7bdd8a786f154bf02b18a8ec7db1428"
     },
     {
       "file": "metadata/fastener_interfaces.csv",
@@ -118,6 +203,11 @@
       "sha256": "90511375afbe714d56a58b010bbcab0a865858d87dbfdfbad5635ff1e4ed17df"
     },
     {
+      "file": "mjcf/README.md",
+      "bytes": 1618,
+      "sha256": "d108d21c0e7024b2be45ddd50fe49e494d4330245a0b425ac31548b5041f5332"
+    },
+    {
       "file": "mjcf/assets/battery_crossbar_112.obj",
       "bytes": 34155,
       "sha256": "22460d87becb89e552ac0dac4227018b6c1ad1e930e44cc9e07c4ea14f57957f"
@@ -146,6 +236,16 @@
       "file": "mjcf/assets/body_shell_rear.obj",
       "bytes": 75826,
       "sha256": "02ec47145380fcb32f1d49b05dadec6ddc232b430c0b7e4e9dd214318c660cea"
+    },
+    {
+      "file": "mjcf/assets/camera_board_carrier.obj",
+      "bytes": 173688,
+      "sha256": "f31a6a304116223c764a548732269952a5014174f5c0add9111f0c1fe2bdda86"
+    },
+    {
+      "file": "mjcf/assets/camera_lid_bridge.obj",
+      "bytes": 65758,
+      "sha256": "7f97478d75a300f40d4d415d2e191fd9441d4d74297bf1b93644b167b78c5fb0"
     },
     {
       "file": "mjcf/assets/chassis_front.obj",
@@ -938,9 +1038,24 @@
       "sha256": "02f33636d12cb4a83c584d92ca6b5ddc3f1dbe97c27a11130e2b8374f83224a9"
     },
     {
+      "file": "mjcf/assets/usb_rgb_camera_module.obj",
+      "bytes": 82923,
+      "sha256": "fa0ef64457bcef0021f7602c2976f2915fa4efd66b0eb0839d34c26e3c3326ac"
+    },
+    {
       "file": "mjcf/jammyfox.xml",
       "bytes": 54257,
       "sha256": "d9f0da5f60eb5ce58eb18c7029578aab4fff0ba2eb782946d850e474702da9eb"
+    },
+    {
+      "file": "mjcf/jammyfox_camera.xml",
+      "bytes": 57813,
+      "sha256": "42f8c037b8dc2ce8dbe21b1638c6c80b85edf46af5f7a0adeda158ed84663331"
+    },
+    {
+      "file": "mjcf/jammyfox_camera_demo.xml",
+      "bytes": 58127,
+      "sha256": "32d17114544799d479cff3eee826c6893f38badab3dc9e38e1c0f99529f98893"
     },
     {
       "file": "mjcf/jammyfox_grasp.xml",
@@ -948,19 +1063,24 @@
       "sha256": "04cbac895d77bc5c5da9594319dc45491b2515a6fa7968b54bbf4b4b99e712b8"
     },
     {
+      "file": "mjcf/jammyfox_grasp_camera.xml",
+      "bytes": 58256,
+      "sha256": "375d8a0f478b200b2b7fda41e56d95f27345803311bdb6173c1e004b88c36e41"
+    },
+    {
       "file": "mjcf/model_metadata.json",
       "bytes": 126851,
       "sha256": "ec91b551fdf3349d9b528b0ada67c8c84262b665fe929e921c62960fb8eb90fe"
     },
     {
-      "file": "mjcf/README.md",
-      "bytes": 1618,
-      "sha256": "d108d21c0e7024b2be45ddd50fe49e494d4330245a0b425ac31548b5041f5332"
+      "file": "printable/README.md",
+      "bytes": 4794,
+      "sha256": "4d5cce7a9f74a9430f1d22239385df5eaf8dd1e3ec5a4b4015b1fece80ada063"
     },
     {
       "file": "printable/file_manifest.json",
-      "bytes": 12527,
-      "sha256": "9a1442fe8092774feefd29a612243624d40a9c8801259ddaa9eb059d0e754c81"
+      "bytes": 12992,
+      "sha256": "a5c11cfea2c9d86a445987e7db4c87c593d5d2ce0c1c289da1c50961a5af7a53"
     },
     {
       "file": "printable/parts/battery_crossbar_112.3mf",
@@ -986,6 +1106,16 @@
       "file": "printable/parts/body_shell_rear.3mf",
       "bytes": 27045,
       "sha256": "883ca3d0324abfcb33b746ba38d596166941674a5c791362e9a4d05776a8b0b1"
+    },
+    {
+      "file": "printable/parts/camera_board_carrier.3mf",
+      "bytes": 56348,
+      "sha256": "8e3307bba5b7114b6db505db95f7a59a8c11d26510232fda40ce77d47338523c"
+    },
+    {
+      "file": "printable/parts/camera_lid_bridge.3mf",
+      "bytes": 20531,
+      "sha256": "7bbe3fad352f478fff4b011b4230bc92b055df2d46faec916194d53c729e59d7"
     },
     {
       "file": "printable/parts/cover_standoff_kit_front.3mf",
@@ -1298,6 +1428,11 @@
       "sha256": "e15e7ad7d1996d99e263afe4d8bb4e541869d6f46659f35e285bf721dc4f1e2c"
     },
     {
+      "file": "printable/plates/14_usb_camera_addon.3mf",
+      "bytes": 76735,
+      "sha256": "cda26a787c3ed81793dd4c676ef41d450541ef3b60b443c275fdbb9673e0a04f"
+    },
+    {
       "file": "printable/previews/00_fit_test.png",
       "bytes": 15221,
       "sha256": "5d932bb3cca303e396f93fc31614804cf96cb97ffb5b37fce3bef72c66539c61"
@@ -1368,24 +1503,34 @@
       "sha256": "654cf96c0a1f1dd509a2485e88d345ba7cae4e282fdf0deb257e90fe32834db3"
     },
     {
-      "file": "printable/README.md",
-      "bytes": 4346,
-      "sha256": "6490ce6d31ac4a914ad6efcafd5fba02ead21b5ac425175ce5e2aef353a2386d"
-    },
-    {
       "file": "printable/verification.json",
       "bytes": 18325,
       "sha256": "9591274b16de7745f37e1181ff0a7cf6340b3c66444d67ed291790c488abad3e"
     },
     {
-      "file": "README.md",
-      "bytes": 2653,
-      "sha256": "0a00014a23ef58ec714466f628a96fa7fcc7cc5fcbf3fb9c93dc7d388504860a"
-    },
-    {
       "file": "requirements.txt",
       "bytes": 15,
       "sha256": "5aee4c1f881d1774adaf2deb6a0f295ee8acc603040db072b3386404fc8e1a51"
+    },
+    {
+      "file": "scripts/capture_camera.py",
+      "bytes": 2314,
+      "sha256": "add3e706cdf554aa31cc1c2e3cca131118bcdc51d3bb2eb07b2281242940b2fd"
+    },
+    {
+      "file": "scripts/fetch_camera_frame.py",
+      "bytes": 2530,
+      "sha256": "1f490ebaa9745790ec754ad5c8cd61942fcdd39e7baed04f0ae74e7c0fcc16ff"
+    },
+    {
+      "file": "scripts/preview.py",
+      "bytes": 1636,
+      "sha256": "710a0195c3ec32e38805d4f76ef9ed5836eccc9071d7f1c327526607788fa1af"
+    },
+    {
+      "file": "scripts/serve_camera.py",
+      "bytes": 8150,
+      "sha256": "3766a7712419d499d37374ee25b2d51bcb08bf46416bab94602f7cc21bfa3ba7"
     },
     {
       "file": "stl/battery_crossbar_112.stl",
@@ -1411,6 +1556,16 @@
       "file": "stl/body_shell_rear.stl",
       "bytes": 113884,
       "sha256": "7b28a44251ea4f0f99ff7e576687e01fd24fe115a200070b7d606de898b705e0"
+    },
+    {
+      "file": "stl/camera_board_carrier.stl",
+      "bytes": 260884,
+      "sha256": "2e3e58d34f74a413bf63c907e7368b9efe0f47fdb7ed17c908e9fd90a184cc93"
+    },
+    {
+      "file": "stl/camera_lid_bridge.stl",
+      "bytes": 105484,
+      "sha256": "64fb71b5c617ea09a23c2e898a3cbc36046a890fbec82cede8c32edefbd5ffc7"
     },
     {
       "file": "stl/cover_standoff_kit_front.stl",
@@ -1642,5 +1797,6 @@
       "bytes": 1484,
       "sha256": "0ea35b0bf23fcac6eedf3a6586d02fb236be969dc45975ce5d0ed023009773df"
     }
-  ]
+  ],
+  "camera_accessory_revision": "USB-RGB-addon-1"
 }

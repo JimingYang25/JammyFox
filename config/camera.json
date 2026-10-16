@@ -1,0 +1,68 @@
+{
+  "revision": "USB-RGB-addon-1",
+  "camera_model": "Waveshare OV4689 4MP USB Camera (A)",
+  "manufacturer_sku": 34767,
+  "manufacturer_url": "https://docs.waveshare.com/OV4689-4MP-USB-Camera-A",
+  "dimension_drawing_url": "https://docs.waveshare.com/assets/images/OV4689-4MP-USB-Camera-A-details-size-423975adea0eff87fba3d5a4d27655e0.webp",
+  "board_size_mm": [
+    25.0,
+    25.0
+  ],
+  "board_thickness_mm": 1.6,
+  "hole_pitch_mm": 21.0,
+  "board_hole_diameter_mm": 2.0,
+  "lens_diameter_mm": 14.0,
+  "lens_forward_depth_mm": 16.0,
+  "overall_module_depth_mm": 22.1,
+  "board_back_x_cad_mm": 305.0,
+  "board_center_z_cad_mm": 305.0,
+  "head_origin_cad_mm": [
+    228.0,
+    0.0,
+    285.0
+  ],
+  "head_lid_front_holes_cad_mm": [
+    [
+      282.0,
+      -44.0,
+      325.0
+    ],
+    [
+      282.0,
+      44.0,
+      325.0
+    ]
+  ],
+  "module_mass_estimate_g": 25.0,
+  "module_mass_measured": false,
+  "pla_density_g_mm3": 0.00124,
+  "capture_resolution": [
+    1280,
+    720
+  ],
+  "capture_fps": 15,
+  "manufacturer_diagonal_fov_deg": 92.0,
+  "intrinsics_calibrated": false,
+  "optical_reference": "Front of the lens barrel; entrance pupil must be calibrated on hardware.",
+  "physical_fit_verified": false,
+  "name": "head_rgb",
+  "parent_body": "neck_pitch",
+  "position_head_m": [
+    0.09460000000000003,
+    0.0,
+    0.02
+  ],
+  "xyaxes": [
+    0,
+    -1,
+    0,
+    0,
+    0,
+    1
+  ],
+  "vertical_fov_estimate_deg": 53.832022090531545,
+  "added_mass_estimate_g": 34.38813453884795,
+  "fov_method": "Rectilinear estimate from manufacturer diagonal FOV and 16:9 aspect; hardware calibration required.",
+  "model": "mjcf/jammyfox_camera.xml",
+  "demo_model": "mjcf/jammyfox_camera_demo.xml"
+}

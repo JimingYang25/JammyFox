@@ -25,3 +25,7 @@ checkpoints/
 .DS_Store
 Thumbs.db
 ~$*
+
+# Local camera renders and regenerated CAD
+reports/
+hardware/camera/generated/

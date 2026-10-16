@@ -9,3 +9,7 @@ Initialize the `standing` keyframe before stepping; it sets both the pose and ne
 [model_metadata.json](../mjcf/model_metadata.json) records transforms, mass estimates and original CAD fingerprints. Those fingerprints describe the engineering workspace used to make the export; this repository contains selected exports rather than the complete CAD sources. [robot.json](../config/robot.json) records servo/controller assumptions; [servo_calibration.example.json](../config/servo_calibration.example.json) is an uncalibrated example.
 
 This repository provides the model assets as a starting point for coding. Training environments, policies, inference programs and hardware firmware are not included in this asset copy.
+
+## Head-mounted RGB camera
+
+Use [jammyfox_camera.xml](../mjcf/jammyfox_camera.xml) or [jammyfox_grasp_camera.xml](../mjcf/jammyfox_grasp_camera.xml) for the USB camera accessory. The camera and printed mount add estimated mass/inertia without adding actuators. `head_rgb` follows `neck_pitch`; RGB frames are available through `mujoco.Renderer`. The base XML files above preserve the earlier model. [Camera notes](CAMERA.md) cover calibration assumptions and the visual demo.

@@ -1,0 +1,59 @@
+{
+  "revision": "USB-RGB-addon-1",
+  "models": {
+    "jammyfox_camera.xml": {
+      "nq": 23,
+      "nv": 22,
+      "nu": 16,
+      "ncam": 3,
+      "total_mass_kg": 3.2116181345388477
+    },
+    "jammyfox_grasp_camera.xml": {
+      "nq": 23,
+      "nv": 22,
+      "nu": 16,
+      "ncam": 3,
+      "total_mass_kg": 3.2516181345388477
+    }
+  },
+  "camera_parent": "neck_pitch",
+  "axes_checked": true,
+  "head_poses_checked": 9,
+  "CAD_neck_poses_checked": 9,
+  "CAD_sampled_intersections": 0,
+  "added_mass_estimate_g": 34.38813453884795,
+  "physical_fit_verified": false,
+  "intrinsics_calibrated": false,
+  "hardware_capture_tested": false,
+  "wifi_streaming_tested": false,
+  "camera_accessory_collision_proxies": "Conservative box/cylinder proxies; fixed mounting clearances are checked in CAD, not inferred from simulation contacts.",
+  "print_plate_bounds_mm": [
+    [
+      40.5,
+      61.0,
+      0.0
+    ],
+    [
+      153.75,
+      159.0,
+      12.0
+    ]
+  ],
+  "3mf_schema_and_roundtrip_passed": true,
+  "native_wsl_rgb_render_passed": true,
+  "rgb_resolution": [
+    1280,
+    720
+  ],
+  "rgb_demo_png_sha256": "a4fe094fa478dbc8bd9c84719c7a2e4b2abc4d1d91afaae766415c6efdb27b56",
+  "red_blue_pixel_orientation_check": true,
+  "one_second_actuator_check_passed": true,
+  "neck_yaw_angle_after_test_rad": 0.14999829920298835,
+  "tail_angle_after_test_rad": 0.20000068128154067,
+  "physics_warnings": 0,
+  "local_frame_transport_test_passed": true,
+  "multipart_parser_test_passed": true,
+  "stale_cache_rejection_test_passed": true,
+  "direct_LAN_client_test_passed": true,
+  "physical_wifi_transport_tested": false
+}

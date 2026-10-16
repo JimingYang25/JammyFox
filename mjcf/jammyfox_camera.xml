@@ -1,0 +1,561 @@
+<mujoco model="JammyFox_USB_RGB_RevA">
+  <compiler angle="degree" meshdir="assets" autolimits="true" inertiafromgeom="false" alignfree="false" />
+  <option timestep="0.002" integrator="implicitfast" solver="Newton" iterations="50" cone="elliptic" gravity="0 0 -9.81">
+    <flag autoreset="disable" />
+  </option>
+  <visual>
+    <global offwidth="1280" offheight="960" />
+    <quality shadowsize="2048" />
+  </visual>
+  <default>
+    <joint limited="true" damping="0.02" frictionloss="0.01" armature="8e-05" />
+    <default class="visual">
+      <geom type="mesh" contype="0" conaffinity="0" group="2" density="0" />
+    </default>
+    <default class="collision">
+      <geom contype="2" conaffinity="7" group="1" density="0" rgba="0 0 0 0" condim="3" friction="0.6 0.005 0.0001" solref=".01 1" solimp=".9 .95 .002" margin=".0002" />
+    </default>
+  </default>
+  <asset>
+    <texture name="ground_texture" type="2d" builtin="checker" rgb1=".20 .24 .27" rgb2=".32 .37 .40" width="512" height="512" />
+    <material name="ground_material" texture="ground_texture" texrepeat="12 12" reflectance=".1" />
+    <mesh name="chassis_rear" file="chassis_rear.obj" />
+    <mesh name="chassis_front" file="chassis_front.obj" />
+    <mesh name="body_shell_rear" file="body_shell_rear.obj" />
+    <mesh name="body_shell_front" file="body_shell_front.obj" />
+    <mesh name="neck_pedestal" file="neck_pedestal.obj" />
+    <mesh name="tail_pedestal" file="tail_pedestal.obj" />
+    <mesh name="electronics_tray" file="electronics_tray.obj" />
+    <mesh name="radxa_board_envelope" file="radxa_board_envelope.obj" />
+    <mesh name="esp32_board_envelope" file="esp32_board_envelope.obj" />
+    <mesh name="battery_envelope" file="battery_envelope.obj" />
+    <mesh name="frame_rail_left_rear" file="frame_rail_left_rear.obj" />
+    <mesh name="frame_rail_left_front" file="frame_rail_left_front.obj" />
+    <mesh name="frame_rail_right_rear" file="frame_rail_right_rear.obj" />
+    <mesh name="frame_rail_right_front" file="frame_rail_right_front.obj" />
+    <mesh name="hip_base_-1_-1" file="hip_base_-1_-1.obj" />
+    <mesh name="hip_base_-1_1" file="hip_base_-1_1.obj" />
+    <mesh name="hip_base_1_-1" file="hip_base_1_-1.obj" />
+    <mesh name="hip_base_1_1" file="hip_base_1_1.obj" />
+    <mesh name="battery_tray" file="battery_tray.obj" />
+    <mesh name="battery_crossbar_112" file="battery_crossbar_112.obj" />
+    <mesh name="battery_crossbar_62" file="battery_crossbar_62.obj" />
+    <mesh name="cover_standoff_kit_rear" file="cover_standoff_kit_rear.obj" />
+    <mesh name="cover_standoff_kit_front" file="cover_standoff_kit_front.obj" />
+    <mesh name="front_left_hip_roll_servo" file="front_left_hip_roll_servo.obj" />
+    <mesh name="front_left_hip_roll_servo_clamp_lower" file="front_left_hip_roll_servo_clamp_lower.obj" />
+    <mesh name="front_left_hip_roll_servo_clamp_upper" file="front_left_hip_roll_servo_clamp_upper.obj" />
+    <mesh name="front_right_hip_roll_servo" file="front_right_hip_roll_servo.obj" />
+    <mesh name="front_right_hip_roll_servo_clamp_lower" file="front_right_hip_roll_servo_clamp_lower.obj" />
+    <mesh name="front_right_hip_roll_servo_clamp_upper" file="front_right_hip_roll_servo_clamp_upper.obj" />
+    <mesh name="rear_left_hip_roll_servo" file="rear_left_hip_roll_servo.obj" />
+    <mesh name="rear_left_hip_roll_servo_clamp_lower" file="rear_left_hip_roll_servo_clamp_lower.obj" />
+    <mesh name="rear_left_hip_roll_servo_clamp_upper" file="rear_left_hip_roll_servo_clamp_upper.obj" />
+    <mesh name="rear_right_hip_roll_servo" file="rear_right_hip_roll_servo.obj" />
+    <mesh name="rear_right_hip_roll_servo_clamp_lower" file="rear_right_hip_roll_servo_clamp_lower.obj" />
+    <mesh name="rear_right_hip_roll_servo_clamp_upper" file="rear_right_hip_roll_servo_clamp_upper.obj" />
+    <mesh name="neck_yaw_servo" file="neck_yaw_servo.obj" />
+    <mesh name="neck_yaw_servo_clamp_lower" file="neck_yaw_servo_clamp_lower.obj" />
+    <mesh name="neck_yaw_servo_clamp_upper" file="neck_yaw_servo_clamp_upper.obj" />
+    <mesh name="tail_servo" file="tail_servo.obj" />
+    <mesh name="tail_servo_clamp_lower" file="tail_servo_clamp_lower.obj" />
+    <mesh name="tail_servo_clamp_upper" file="tail_servo_clamp_upper.obj" />
+    <mesh name="front_left_hip_roll_horn_front" file="front_left_hip_roll_horn_front.obj" />
+    <mesh name="front_left_hip_roll_horn_back" file="front_left_hip_roll_horn_back.obj" />
+    <mesh name="front_left_roll_fork" file="front_left_roll_fork.obj" />
+    <mesh name="front_left_hip_pitch_servo" file="front_left_hip_pitch_servo.obj" />
+    <mesh name="front_left_hip_pitch_servo_clamp_lower" file="front_left_hip_pitch_servo_clamp_lower.obj" />
+    <mesh name="front_left_hip_pitch_servo_clamp_upper" file="front_left_hip_pitch_servo_clamp_upper.obj" />
+    <mesh name="front_left_hip_roll_spacer_front" file="front_left_hip_roll_spacer_front.obj" />
+    <mesh name="front_left_hip_roll_spacer_back" file="front_left_hip_roll_spacer_back.obj" />
+    <mesh name="front_left_hip_pitch_horn_front" file="front_left_hip_pitch_horn_front.obj" />
+    <mesh name="front_left_hip_pitch_horn_back" file="front_left_hip_pitch_horn_back.obj" />
+    <mesh name="front_left_thigh" file="front_left_thigh.obj" />
+    <mesh name="front_left_knee_servo" file="front_left_knee_servo.obj" />
+    <mesh name="front_left_knee_servo_clamp_lower" file="front_left_knee_servo_clamp_lower.obj" />
+    <mesh name="front_left_knee_servo_clamp_upper" file="front_left_knee_servo_clamp_upper.obj" />
+    <mesh name="front_left_hip_pitch_spacer_front" file="front_left_hip_pitch_spacer_front.obj" />
+    <mesh name="front_left_hip_pitch_spacer_back" file="front_left_hip_pitch_spacer_back.obj" />
+    <mesh name="front_left_knee_horn_front" file="front_left_knee_horn_front.obj" />
+    <mesh name="front_left_knee_horn_back" file="front_left_knee_horn_back.obj" />
+    <mesh name="front_left_shin" file="front_left_shin.obj" />
+    <mesh name="front_left_foot" file="front_left_foot.obj" />
+    <mesh name="front_left_knee_spacer_front" file="front_left_knee_spacer_front.obj" />
+    <mesh name="front_left_knee_spacer_back" file="front_left_knee_spacer_back.obj" />
+    <mesh name="front_right_hip_roll_horn_front" file="front_right_hip_roll_horn_front.obj" />
+    <mesh name="front_right_hip_roll_horn_back" file="front_right_hip_roll_horn_back.obj" />
+    <mesh name="front_right_roll_fork" file="front_right_roll_fork.obj" />
+    <mesh name="front_right_hip_pitch_servo" file="front_right_hip_pitch_servo.obj" />
+    <mesh name="front_right_hip_pitch_servo_clamp_lower" file="front_right_hip_pitch_servo_clamp_lower.obj" />
+    <mesh name="front_right_hip_pitch_servo_clamp_upper" file="front_right_hip_pitch_servo_clamp_upper.obj" />
+    <mesh name="front_right_hip_roll_spacer_front" file="front_right_hip_roll_spacer_front.obj" />
+    <mesh name="front_right_hip_roll_spacer_back" file="front_right_hip_roll_spacer_back.obj" />
+    <mesh name="front_right_hip_pitch_horn_front" file="front_right_hip_pitch_horn_front.obj" />
+    <mesh name="front_right_hip_pitch_horn_back" file="front_right_hip_pitch_horn_back.obj" />
+    <mesh name="front_right_thigh" file="front_right_thigh.obj" />
+    <mesh name="front_right_knee_servo" file="front_right_knee_servo.obj" />
+    <mesh name="front_right_knee_servo_clamp_lower" file="front_right_knee_servo_clamp_lower.obj" />
+    <mesh name="front_right_knee_servo_clamp_upper" file="front_right_knee_servo_clamp_upper.obj" />
+    <mesh name="front_right_hip_pitch_spacer_front" file="front_right_hip_pitch_spacer_front.obj" />
+    <mesh name="front_right_hip_pitch_spacer_back" file="front_right_hip_pitch_spacer_back.obj" />
+    <mesh name="front_right_knee_horn_front" file="front_right_knee_horn_front.obj" />
+    <mesh name="front_right_knee_horn_back" file="front_right_knee_horn_back.obj" />
+    <mesh name="front_right_shin" file="front_right_shin.obj" />
+    <mesh name="front_right_foot" file="front_right_foot.obj" />
+    <mesh name="front_right_knee_spacer_front" file="front_right_knee_spacer_front.obj" />
+    <mesh name="front_right_knee_spacer_back" file="front_right_knee_spacer_back.obj" />
+    <mesh name="rear_left_hip_roll_horn_front" file="rear_left_hip_roll_horn_front.obj" />
+    <mesh name="rear_left_hip_roll_horn_back" file="rear_left_hip_roll_horn_back.obj" />
+    <mesh name="rear_left_roll_fork" file="rear_left_roll_fork.obj" />
+    <mesh name="rear_left_hip_pitch_servo" file="rear_left_hip_pitch_servo.obj" />
+    <mesh name="rear_left_hip_pitch_servo_clamp_lower" file="rear_left_hip_pitch_servo_clamp_lower.obj" />
+    <mesh name="rear_left_hip_pitch_servo_clamp_upper" file="rear_left_hip_pitch_servo_clamp_upper.obj" />
+    <mesh name="rear_left_hip_roll_spacer_front" file="rear_left_hip_roll_spacer_front.obj" />
+    <mesh name="rear_left_hip_roll_spacer_back" file="rear_left_hip_roll_spacer_back.obj" />
+    <mesh name="rear_left_hip_pitch_horn_front" file="rear_left_hip_pitch_horn_front.obj" />
+    <mesh name="rear_left_hip_pitch_horn_back" file="rear_left_hip_pitch_horn_back.obj" />
+    <mesh name="rear_left_thigh" file="rear_left_thigh.obj" />
+    <mesh name="rear_left_knee_servo" file="rear_left_knee_servo.obj" />
+    <mesh name="rear_left_knee_servo_clamp_lower" file="rear_left_knee_servo_clamp_lower.obj" />
+    <mesh name="rear_left_knee_servo_clamp_upper" file="rear_left_knee_servo_clamp_upper.obj" />
+    <mesh name="rear_left_hip_pitch_spacer_front" file="rear_left_hip_pitch_spacer_front.obj" />
+    <mesh name="rear_left_hip_pitch_spacer_back" file="rear_left_hip_pitch_spacer_back.obj" />
+    <mesh name="rear_left_knee_horn_front" file="rear_left_knee_horn_front.obj" />
+    <mesh name="rear_left_knee_horn_back" file="rear_left_knee_horn_back.obj" />
+    <mesh name="rear_left_shin" file="rear_left_shin.obj" />
+    <mesh name="rear_left_foot" file="rear_left_foot.obj" />
+    <mesh name="rear_left_knee_spacer_front" file="rear_left_knee_spacer_front.obj" />
+    <mesh name="rear_left_knee_spacer_back" file="rear_left_knee_spacer_back.obj" />
+    <mesh name="rear_right_hip_roll_horn_front" file="rear_right_hip_roll_horn_front.obj" />
+    <mesh name="rear_right_hip_roll_horn_back" file="rear_right_hip_roll_horn_back.obj" />
+    <mesh name="rear_right_roll_fork" file="rear_right_roll_fork.obj" />
+    <mesh name="rear_right_hip_pitch_servo" file="rear_right_hip_pitch_servo.obj" />
+    <mesh name="rear_right_hip_pitch_servo_clamp_lower" file="rear_right_hip_pitch_servo_clamp_lower.obj" />
+    <mesh name="rear_right_hip_pitch_servo_clamp_upper" file="rear_right_hip_pitch_servo_clamp_upper.obj" />
+    <mesh name="rear_right_hip_roll_spacer_front" file="rear_right_hip_roll_spacer_front.obj" />
+    <mesh name="rear_right_hip_roll_spacer_back" file="rear_right_hip_roll_spacer_back.obj" />
+    <mesh name="rear_right_hip_pitch_horn_front" file="rear_right_hip_pitch_horn_front.obj" />
+    <mesh name="rear_right_hip_pitch_horn_back" file="rear_right_hip_pitch_horn_back.obj" />
+    <mesh name="rear_right_thigh" file="rear_right_thigh.obj" />
+    <mesh name="rear_right_knee_servo" file="rear_right_knee_servo.obj" />
+    <mesh name="rear_right_knee_servo_clamp_lower" file="rear_right_knee_servo_clamp_lower.obj" />
+    <mesh name="rear_right_knee_servo_clamp_upper" file="rear_right_knee_servo_clamp_upper.obj" />
+    <mesh name="rear_right_hip_pitch_spacer_front" file="rear_right_hip_pitch_spacer_front.obj" />
+    <mesh name="rear_right_hip_pitch_spacer_back" file="rear_right_hip_pitch_spacer_back.obj" />
+    <mesh name="rear_right_knee_horn_front" file="rear_right_knee_horn_front.obj" />
+    <mesh name="rear_right_knee_horn_back" file="rear_right_knee_horn_back.obj" />
+    <mesh name="rear_right_shin" file="rear_right_shin.obj" />
+    <mesh name="rear_right_foot" file="rear_right_foot.obj" />
+    <mesh name="rear_right_knee_spacer_front" file="rear_right_knee_spacer_front.obj" />
+    <mesh name="rear_right_knee_spacer_back" file="rear_right_knee_spacer_back.obj" />
+    <mesh name="neck_yaw_horn_front" file="neck_yaw_horn_front.obj" />
+    <mesh name="neck_yaw_horn_back" file="neck_yaw_horn_back.obj" />
+    <mesh name="neck_yaw_stage" file="neck_yaw_stage.obj" />
+    <mesh name="neck_pitch_servo" file="neck_pitch_servo.obj" />
+    <mesh name="neck_pitch_servo_clamp_lower" file="neck_pitch_servo_clamp_lower.obj" />
+    <mesh name="neck_pitch_servo_clamp_upper" file="neck_pitch_servo_clamp_upper.obj" />
+    <mesh name="neck_yaw_spacer_front" file="neck_yaw_spacer_front.obj" />
+    <mesh name="neck_pitch_horn_front" file="neck_pitch_horn_front.obj" />
+    <mesh name="neck_pitch_horn_back" file="neck_pitch_horn_back.obj" />
+    <mesh name="head_pitch_carrier" file="head_pitch_carrier.obj" />
+    <mesh name="head_shell" file="head_shell.obj" />
+    <mesh name="head_lid" file="head_lid.obj" />
+    <mesh name="upper_muzzle" file="upper_muzzle.obj" />
+    <mesh name="nose" file="nose.obj" />
+    <mesh name="ear_left" file="ear_left.obj" />
+    <mesh name="ear_right" file="ear_right.obj" />
+    <mesh name="eye_left" file="eye_left.obj" />
+    <mesh name="eye_right" file="eye_right.obj" />
+    <mesh name="jaw_servo" file="jaw_servo.obj" />
+    <mesh name="jaw_servo_clamp_lower" file="jaw_servo_clamp_lower.obj" />
+    <mesh name="jaw_servo_clamp_upper" file="jaw_servo_clamp_upper.obj" />
+    <mesh name="jaw_mount_bridge" file="jaw_mount_bridge.obj" />
+    <mesh name="neck_pitch_spacer_front" file="neck_pitch_spacer_front.obj" />
+    <mesh name="neck_pitch_spacer_back" file="neck_pitch_spacer_back.obj" />
+    <mesh name="jaw_horn_front" file="jaw_horn_front.obj" />
+    <mesh name="jaw_horn_back" file="jaw_horn_back.obj" />
+    <mesh name="lower_jaw" file="lower_jaw.obj" />
+    <mesh name="jaw_spacer_front" file="jaw_spacer_front.obj" />
+    <mesh name="jaw_spacer_back" file="jaw_spacer_back.obj" />
+    <mesh name="tail_horn_front" file="tail_horn_front.obj" />
+    <mesh name="tail_horn_back" file="tail_horn_back.obj" />
+    <mesh name="tail_root" file="tail_root.obj" />
+    <mesh name="tail_shell" file="tail_shell.obj" />
+    <mesh name="tail_tip" file="tail_tip.obj" />
+    <mesh name="tail_spacer_front" file="tail_spacer_front.obj" />
+    <mesh name="camera_lid_bridge" file="camera_lid_bridge.obj" />
+    <mesh name="camera_board_carrier" file="camera_board_carrier.obj" />
+    <mesh name="usb_rgb_camera_module" file="usb_rgb_camera_module.obj" />
+  </asset>
+  <worldbody>
+    <light name="key_light" pos="0 -1 2" dir="0 0 -1" directional="true" diffuse=".9 .9 .9" />
+    <geom name="floor" type="plane" size="3 3 .1" material="ground_material" contype="1" conaffinity="6" condim="3" friction="0.6 0.005 0.0001" />
+    <camera name="overview" mode="targetbody" target="jammyfox" pos=".65 -.75 .52" />
+    <camera name="mouth_view" mode="targetbody" target="neck_pitch" pos=".52 -.30 .35" />
+    <body name="jammyfox" pos="0 0 0.23">
+      <freejoint name="floating_base" />
+      <body name="front_left_hip_roll" pos="0.115 0.065 -0.016">
+        <joint name="front_left_hip_roll" type="hinge" axis="1 0 0" range="-8 8" />
+        <body name="front_left_hip_pitch" pos="0 0.037 -0.035864598333">
+          <joint name="front_left_hip_pitch" type="hinge" axis="0 1 0" range="10 40" />
+          <body name="front_left_knee" pos="0 0 -0.09">
+            <joint name="front_left_knee" type="hinge" axis="0 1 0" range="-80 -35" />
+            <inertial pos="-0.0012094295663 -1.1258032843e-17 -0.060954666303" mass="0.07584" fullinertia="0.00018637476031 0.00013432239718 6.6344837334e-05 2.3690452744e-21 -1.2549270185e-06 3.4728350837e-20" />
+            <geom name="front_left_knee_horn_front_visual" mesh="front_left_knee_horn_front" rgba="0.6 0.64 0.68 1" class="visual" />
+            <geom name="front_left_knee_horn_back_visual" mesh="front_left_knee_horn_back" rgba="0.6 0.64 0.68 1" class="visual" />
+            <geom name="front_left_shin_visual" mesh="front_left_shin" rgba="0.83 0.29 0.055 1" class="visual" />
+            <geom name="front_left_foot_visual" mesh="front_left_foot" rgba="0.1 0.105 0.12 1" class="visual" />
+            <geom name="front_left_knee_spacer_front_visual" mesh="front_left_knee_spacer_front" rgba="0.83 0.29 0.055 1" class="visual" />
+            <geom name="front_left_knee_spacer_back_visual" mesh="front_left_knee_spacer_back" rgba="0.83 0.29 0.055 1" class="visual" />
+            <geom name="front_left_knee_link_collision" type="capsule" fromto="0 0 -0.01 0 0 -0.086" size="0.01" class="collision" />
+            <geom name="front_left_foot_collision" type="box" pos="-0.0025357095704 0 -0.095437846722" size="0.023 0.039 0.006" class="collision" quat="0.97629600712 0 0.21643961394 0" />
+            <site name="front_left_sole" pos="-0.0050714191409 0 -0.10087569344" size=".002" rgba="0 1 0 .4" group="4" />
+          </body>
+          <inertial pos="1.8542057521e-17 1.0986160146e-18 -0.065859204866" mass="0.13878" fullinertia="0.00017630553473 0.00015566819773 6.7342851113e-05 -1.201731116e-21 6.1553018046e-21 -8.2585712357e-21" />
+          <geom name="front_left_hip_pitch_horn_front_visual" mesh="front_left_hip_pitch_horn_front" rgba="0.6 0.64 0.68 1" class="visual" />
+          <geom name="front_left_hip_pitch_horn_back_visual" mesh="front_left_hip_pitch_horn_back" rgba="0.6 0.64 0.68 1" class="visual" />
+          <geom name="front_left_thigh_visual" mesh="front_left_thigh" rgba="0.83 0.29 0.055 1" class="visual" />
+          <geom name="front_left_knee_servo_visual" mesh="front_left_knee_servo" rgba="0.1 0.105 0.12 1" class="visual" />
+          <geom name="front_left_knee_servo_clamp_lower_visual" mesh="front_left_knee_servo_clamp_lower" rgba="0.83 0.29 0.055 1" class="visual" />
+          <geom name="front_left_knee_servo_clamp_upper_visual" mesh="front_left_knee_servo_clamp_upper" rgba="0.83 0.29 0.055 1" class="visual" />
+          <geom name="front_left_hip_pitch_spacer_front_visual" mesh="front_left_hip_pitch_spacer_front" rgba="0.83 0.29 0.055 1" class="visual" />
+          <geom name="front_left_hip_pitch_spacer_back_visual" mesh="front_left_hip_pitch_spacer_back" rgba="0.83 0.29 0.055 1" class="visual" />
+          <geom name="front_left_hip_pitch_link_collision" type="capsule" fromto="0 0 -0.012 0 0 -0.087" size="0.013" class="collision" />
+        </body>
+        <inertial pos="1.4424158445e-18 0.029917153891 -0.036827064655" mass="0.13154" fullinertia="9.5160417927e-05 9.812929927e-05 7.2288821724e-05 6.776263578e-21 6.3527471044e-21 2.6951241557e-05" />
+        <geom name="front_left_hip_roll_horn_front_visual" mesh="front_left_hip_roll_horn_front" rgba="0.6 0.64 0.68 1" class="visual" />
+        <geom name="front_left_hip_roll_horn_back_visual" mesh="front_left_hip_roll_horn_back" rgba="0.6 0.64 0.68 1" class="visual" />
+        <geom name="front_left_roll_fork_visual" mesh="front_left_roll_fork" rgba="0.83 0.29 0.055 1" class="visual" />
+        <geom name="front_left_hip_pitch_servo_visual" mesh="front_left_hip_pitch_servo" rgba="0.1 0.105 0.12 1" class="visual" />
+        <geom name="front_left_hip_pitch_servo_clamp_lower_visual" mesh="front_left_hip_pitch_servo_clamp_lower" rgba="0.83 0.29 0.055 1" class="visual" />
+        <geom name="front_left_hip_pitch_servo_clamp_upper_visual" mesh="front_left_hip_pitch_servo_clamp_upper" rgba="0.83 0.29 0.055 1" class="visual" />
+        <geom name="front_left_hip_roll_spacer_front_visual" mesh="front_left_hip_roll_spacer_front" rgba="0.83 0.29 0.055 1" class="visual" />
+        <geom name="front_left_hip_roll_spacer_back_visual" mesh="front_left_hip_roll_spacer_back" rgba="0.83 0.29 0.055 1" class="visual" />
+        <geom name="front_left_hip_roll_link_collision" type="capsule" fromto="0 0 0 0 0.037 -0.035864598333" size="0.011" class="collision" />
+      </body>
+      <body name="front_right_hip_roll" pos="0.115 -0.065 -0.016">
+        <joint name="front_right_hip_roll" type="hinge" axis="1 0 0" range="-8 8" />
+        <body name="front_right_hip_pitch" pos="0 -0.037 -0.035864598333">
+          <joint name="front_right_hip_pitch" type="hinge" axis="0 1 0" range="10 40" />
+          <body name="front_right_knee" pos="0 0 -0.09">
+            <joint name="front_right_knee" type="hinge" axis="0 1 0" range="-80 -35" />
+            <inertial pos="-0.0012094295663 1.4117215788e-17 -0.060954666303" mass="0.07584" fullinertia="0.00018637476031 0.00013432239718 6.6344837334e-05 9.5291206566e-21 -1.2549270185e-06 -1.1858461262e-20" />
+            <geom name="front_right_knee_horn_front_visual" mesh="front_right_knee_horn_front" rgba="0.6 0.64 0.68 1" class="visual" />
+            <geom name="front_right_knee_horn_back_visual" mesh="front_right_knee_horn_back" rgba="0.6 0.64 0.68 1" class="visual" />
+            <geom name="front_right_shin_visual" mesh="front_right_shin" rgba="0.83 0.29 0.055 1" class="visual" />
+            <geom name="front_right_foot_visual" mesh="front_right_foot" rgba="0.1 0.105 0.12 1" class="visual" />
+            <geom name="front_right_knee_spacer_front_visual" mesh="front_right_knee_spacer_front" rgba="0.83 0.29 0.055 1" class="visual" />
+            <geom name="front_right_knee_spacer_back_visual" mesh="front_right_knee_spacer_back" rgba="0.83 0.29 0.055 1" class="visual" />
+            <geom name="front_right_knee_link_collision" type="capsule" fromto="0 0 -0.01 0 0 -0.086" size="0.01" class="collision" />
+            <geom name="front_right_foot_collision" type="box" pos="-0.0025357095704 0 -0.095437846722" size="0.023 0.039 0.006" class="collision" quat="0.97629600712 0 0.21643961394 0" />
+            <site name="front_right_sole" pos="-0.0050714191409 0 -0.10087569344" size=".002" rgba="0 1 0 .4" group="4" />
+          </body>
+          <inertial pos="1.8542057521e-17 1.0986160146e-18 -0.065859204866" mass="0.13878" fullinertia="0.00017630553473 0.00015566819773 6.7342851113e-05 -1.4752697673e-21 -2.0104408714e-20 -8.2585712357e-21" />
+          <geom name="front_right_hip_pitch_horn_front_visual" mesh="front_right_hip_pitch_horn_front" rgba="0.6 0.64 0.68 1" class="visual" />
+          <geom name="front_right_hip_pitch_horn_back_visual" mesh="front_right_hip_pitch_horn_back" rgba="0.6 0.64 0.68 1" class="visual" />
+          <geom name="front_right_thigh_visual" mesh="front_right_thigh" rgba="0.83 0.29 0.055 1" class="visual" />
+          <geom name="front_right_knee_servo_visual" mesh="front_right_knee_servo" rgba="0.1 0.105 0.12 1" class="visual" />
+          <geom name="front_right_knee_servo_clamp_lower_visual" mesh="front_right_knee_servo_clamp_lower" rgba="0.83 0.29 0.055 1" class="visual" />
+          <geom name="front_right_knee_servo_clamp_upper_visual" mesh="front_right_knee_servo_clamp_upper" rgba="0.83 0.29 0.055 1" class="visual" />
+          <geom name="front_right_hip_pitch_spacer_front_visual" mesh="front_right_hip_pitch_spacer_front" rgba="0.83 0.29 0.055 1" class="visual" />
+          <geom name="front_right_hip_pitch_spacer_back_visual" mesh="front_right_hip_pitch_spacer_back" rgba="0.83 0.29 0.055 1" class="visual" />
+          <geom name="front_right_hip_pitch_link_collision" type="capsule" fromto="0 0 -0.012 0 0 -0.087" size="0.013" class="collision" />
+        </body>
+        <inertial pos="1.6484752509e-18 -0.029917153891 -0.036827064655" mass="0.13154" fullinertia="9.5160417927e-05 9.812929927e-05 7.2288821724e-05 -2.1175823681e-22 3.8116482626e-21 -2.6951241557e-05" />
+        <geom name="front_right_hip_roll_horn_front_visual" mesh="front_right_hip_roll_horn_front" rgba="0.6 0.64 0.68 1" class="visual" />
+        <geom name="front_right_hip_roll_horn_back_visual" mesh="front_right_hip_roll_horn_back" rgba="0.6 0.64 0.68 1" class="visual" />
+        <geom name="front_right_roll_fork_visual" mesh="front_right_roll_fork" rgba="0.83 0.29 0.055 1" class="visual" />
+        <geom name="front_right_hip_pitch_servo_visual" mesh="front_right_hip_pitch_servo" rgba="0.1 0.105 0.12 1" class="visual" />
+        <geom name="front_right_hip_pitch_servo_clamp_lower_visual" mesh="front_right_hip_pitch_servo_clamp_lower" rgba="0.83 0.29 0.055 1" class="visual" />
+        <geom name="front_right_hip_pitch_servo_clamp_upper_visual" mesh="front_right_hip_pitch_servo_clamp_upper" rgba="0.83 0.29 0.055 1" class="visual" />
+        <geom name="front_right_hip_roll_spacer_front_visual" mesh="front_right_hip_roll_spacer_front" rgba="0.83 0.29 0.055 1" class="visual" />
+        <geom name="front_right_hip_roll_spacer_back_visual" mesh="front_right_hip_roll_spacer_back" rgba="0.83 0.29 0.055 1" class="visual" />
+        <geom name="front_right_hip_roll_link_collision" type="capsule" fromto="0 0 0 0 -0.037 -0.035864598333" size="0.011" class="collision" />
+      </body>
+      <body name="rear_left_hip_roll" pos="-0.115 0.065 -0.016">
+        <joint name="rear_left_hip_roll" type="hinge" axis="1 0 0" range="-8 8" />
+        <body name="rear_left_hip_pitch" pos="0 0.037 -0.035864598333">
+          <joint name="rear_left_hip_pitch" type="hinge" axis="0 1 0" range="10 40" />
+          <body name="rear_left_knee" pos="0 0 -0.09">
+            <joint name="rear_left_knee" type="hinge" axis="0 1 0" range="-80 -35" />
+            <inertial pos="-0.0012094295663 -2.5911345433e-17 -0.060954666303" mass="0.07584" fullinertia="0.00018637476031 0.00013432239718 6.6344837334e-05 9.9394022404e-21 -1.2549270185e-06 6.6915602833e-20" />
+            <geom name="rear_left_knee_horn_front_visual" mesh="rear_left_knee_horn_front" rgba="0.6 0.64 0.68 1" class="visual" />
+            <geom name="rear_left_knee_horn_back_visual" mesh="rear_left_knee_horn_back" rgba="0.6 0.64 0.68 1" class="visual" />
+            <geom name="rear_left_shin_visual" mesh="rear_left_shin" rgba="0.83 0.29 0.055 1" class="visual" />
+            <geom name="rear_left_foot_visual" mesh="rear_left_foot" rgba="0.1 0.105 0.12 1" class="visual" />
+            <geom name="rear_left_knee_spacer_front_visual" mesh="rear_left_knee_spacer_front" rgba="0.83 0.29 0.055 1" class="visual" />
+            <geom name="rear_left_knee_spacer_back_visual" mesh="rear_left_knee_spacer_back" rgba="0.83 0.29 0.055 1" class="visual" />
+            <geom name="rear_left_knee_link_collision" type="capsule" fromto="0 0 -0.01 0 0 -0.086" size="0.01" class="collision" />
+            <geom name="rear_left_foot_collision" type="box" pos="-0.0025357095704 0 -0.095437846722" size="0.023 0.039 0.006" class="collision" quat="0.97629600712 0 0.21643961394 0" />
+            <site name="rear_left_sole" pos="-0.0050714191409 0 -0.10087569344" size=".002" rgba="0 1 0 .4" group="4" />
+          </body>
+          <inertial pos="-3.3644036993e-17 -2.1484046508e-18 -0.065859204866" mass="0.13878" fullinertia="0.00017630553473 0.00015566819773 6.7342851113e-05 -7.3971454261e-22 -1.2855452947e-20 2.922263668e-20" />
+          <geom name="rear_left_hip_pitch_horn_front_visual" mesh="rear_left_hip_pitch_horn_front" rgba="0.6 0.64 0.68 1" class="visual" />
+          <geom name="rear_left_hip_pitch_horn_back_visual" mesh="rear_left_hip_pitch_horn_back" rgba="0.6 0.64 0.68 1" class="visual" />
+          <geom name="rear_left_thigh_visual" mesh="rear_left_thigh" rgba="0.83 0.29 0.055 1" class="visual" />
+          <geom name="rear_left_knee_servo_visual" mesh="rear_left_knee_servo" rgba="0.1 0.105 0.12 1" class="visual" />
+          <geom name="rear_left_knee_servo_clamp_lower_visual" mesh="rear_left_knee_servo_clamp_lower" rgba="0.83 0.29 0.055 1" class="visual" />
+          <geom name="rear_left_knee_servo_clamp_upper_visual" mesh="rear_left_knee_servo_clamp_upper" rgba="0.83 0.29 0.055 1" class="visual" />
+          <geom name="rear_left_hip_pitch_spacer_front_visual" mesh="rear_left_hip_pitch_spacer_front" rgba="0.83 0.29 0.055 1" class="visual" />
+          <geom name="rear_left_hip_pitch_spacer_back_visual" mesh="rear_left_hip_pitch_spacer_back" rgba="0.83 0.29 0.055 1" class="visual" />
+          <geom name="rear_left_hip_pitch_link_collision" type="capsule" fromto="0 0 -0.012 0 0 -0.087" size="0.013" class="collision" />
+        </body>
+        <inertial pos="-7.9332871447e-18 0.029917153891 -0.036827064655" mass="0.13154" fullinertia="9.5160417927e-05 9.812929927e-05 7.2288821724e-05 -3.8328240863e-20 5.2939559203e-20 2.6951241557e-05" />
+        <geom name="rear_left_hip_roll_horn_front_visual" mesh="rear_left_hip_roll_horn_front" rgba="0.6 0.64 0.68 1" class="visual" />
+        <geom name="rear_left_hip_roll_horn_back_visual" mesh="rear_left_hip_roll_horn_back" rgba="0.6 0.64 0.68 1" class="visual" />
+        <geom name="rear_left_roll_fork_visual" mesh="rear_left_roll_fork" rgba="0.83 0.29 0.055 1" class="visual" />
+        <geom name="rear_left_hip_pitch_servo_visual" mesh="rear_left_hip_pitch_servo" rgba="0.1 0.105 0.12 1" class="visual" />
+        <geom name="rear_left_hip_pitch_servo_clamp_lower_visual" mesh="rear_left_hip_pitch_servo_clamp_lower" rgba="0.83 0.29 0.055 1" class="visual" />
+        <geom name="rear_left_hip_pitch_servo_clamp_upper_visual" mesh="rear_left_hip_pitch_servo_clamp_upper" rgba="0.83 0.29 0.055 1" class="visual" />
+        <geom name="rear_left_hip_roll_spacer_front_visual" mesh="rear_left_hip_roll_spacer_front" rgba="0.83 0.29 0.055 1" class="visual" />
+        <geom name="rear_left_hip_roll_spacer_back_visual" mesh="rear_left_hip_roll_spacer_back" rgba="0.83 0.29 0.055 1" class="visual" />
+        <geom name="rear_left_hip_roll_link_collision" type="capsule" fromto="0 0 0 0 0.037 -0.035864598333" size="0.011" class="collision" />
+      </body>
+      <body name="rear_right_hip_roll" pos="-0.115 -0.065 -0.016">
+        <joint name="rear_right_hip_roll" type="hinge" axis="1 0 0" range="-8 8" />
+        <body name="rear_right_hip_pitch" pos="0 -0.037 -0.035864598333">
+          <joint name="rear_right_hip_pitch" type="hinge" axis="0 1 0" range="10 40" />
+          <body name="rear_right_knee" pos="0 0 -0.09">
+            <joint name="rear_right_knee" type="hinge" axis="0 1 0" range="-80 -35" />
+            <inertial pos="-0.0012094295663 6.0757637567e-18 -0.060954666303" mass="0.07584" fullinertia="0.00018637476031 0.00013432239718 6.6344837334e-05 3.9704669403e-21 -1.2549270185e-06 1.6940658945e-20" />
+            <geom name="rear_right_knee_horn_front_visual" mesh="rear_right_knee_horn_front" rgba="0.6 0.64 0.68 1" class="visual" />
+            <geom name="rear_right_knee_horn_back_visual" mesh="rear_right_knee_horn_back" rgba="0.6 0.64 0.68 1" class="visual" />
+            <geom name="rear_right_shin_visual" mesh="rear_right_shin" rgba="0.83 0.29 0.055 1" class="visual" />
+            <geom name="rear_right_foot_visual" mesh="rear_right_foot" rgba="0.1 0.105 0.12 1" class="visual" />
+            <geom name="rear_right_knee_spacer_front_visual" mesh="rear_right_knee_spacer_front" rgba="0.83 0.29 0.055 1" class="visual" />
+            <geom name="rear_right_knee_spacer_back_visual" mesh="rear_right_knee_spacer_back" rgba="0.83 0.29 0.055 1" class="visual" />
+            <geom name="rear_right_knee_link_collision" type="capsule" fromto="0 0 -0.01 0 0 -0.086" size="0.01" class="collision" />
+            <geom name="rear_right_foot_collision" type="box" pos="-0.0025357095704 0 -0.095437846722" size="0.023 0.039 0.006" class="collision" quat="0.97629600712 0 0.21643961394 0" />
+            <site name="rear_right_sole" pos="-0.0050714191409 0 -0.10087569344" size=".002" rgba="0 1 0 .4" group="4" />
+          </body>
+          <inertial pos="-3.3644036993e-17 -2.1484046508e-18 -0.065859204866" mass="0.13878" fullinertia="0.00017630553473 0.00015566819773 6.7342851113e-05 -7.3971454261e-22 -1.2855452947e-20 2.922263668e-20" />
+          <geom name="rear_right_hip_pitch_horn_front_visual" mesh="rear_right_hip_pitch_horn_front" rgba="0.6 0.64 0.68 1" class="visual" />
+          <geom name="rear_right_hip_pitch_horn_back_visual" mesh="rear_right_hip_pitch_horn_back" rgba="0.6 0.64 0.68 1" class="visual" />
+          <geom name="rear_right_thigh_visual" mesh="rear_right_thigh" rgba="0.83 0.29 0.055 1" class="visual" />
+          <geom name="rear_right_knee_servo_visual" mesh="rear_right_knee_servo" rgba="0.1 0.105 0.12 1" class="visual" />
+          <geom name="rear_right_knee_servo_clamp_lower_visual" mesh="rear_right_knee_servo_clamp_lower" rgba="0.83 0.29 0.055 1" class="visual" />
+          <geom name="rear_right_knee_servo_clamp_upper_visual" mesh="rear_right_knee_servo_clamp_upper" rgba="0.83 0.29 0.055 1" class="visual" />
+          <geom name="rear_right_hip_pitch_spacer_front_visual" mesh="rear_right_hip_pitch_spacer_front" rgba="0.83 0.29 0.055 1" class="visual" />
+          <geom name="rear_right_hip_pitch_spacer_back_visual" mesh="rear_right_hip_pitch_spacer_back" rgba="0.83 0.29 0.055 1" class="visual" />
+          <geom name="rear_right_hip_pitch_link_collision" type="capsule" fromto="0 0 -0.012 0 0 -0.087" size="0.013" class="collision" />
+        </body>
+        <inertial pos="2.5757425795e-18 -0.029917153891 -0.036827064655" mass="0.13154" fullinertia="9.5160417927e-05 9.812929927e-05 7.2288821724e-05 -6.3527471044e-22 4.2351647363e-21 -2.6951241557e-05" />
+        <geom name="rear_right_hip_roll_horn_front_visual" mesh="rear_right_hip_roll_horn_front" rgba="0.6 0.64 0.68 1" class="visual" />
+        <geom name="rear_right_hip_roll_horn_back_visual" mesh="rear_right_hip_roll_horn_back" rgba="0.6 0.64 0.68 1" class="visual" />
+        <geom name="rear_right_roll_fork_visual" mesh="rear_right_roll_fork" rgba="0.83 0.29 0.055 1" class="visual" />
+        <geom name="rear_right_hip_pitch_servo_visual" mesh="rear_right_hip_pitch_servo" rgba="0.1 0.105 0.12 1" class="visual" />
+        <geom name="rear_right_hip_pitch_servo_clamp_lower_visual" mesh="rear_right_hip_pitch_servo_clamp_lower" rgba="0.83 0.29 0.055 1" class="visual" />
+        <geom name="rear_right_hip_pitch_servo_clamp_upper_visual" mesh="rear_right_hip_pitch_servo_clamp_upper" rgba="0.83 0.29 0.055 1" class="visual" />
+        <geom name="rear_right_hip_roll_spacer_front_visual" mesh="rear_right_hip_roll_spacer_front" rgba="0.83 0.29 0.055 1" class="visual" />
+        <geom name="rear_right_hip_roll_spacer_back_visual" mesh="rear_right_hip_roll_spacer_back" rgba="0.83 0.29 0.055 1" class="visual" />
+        <geom name="rear_right_hip_roll_link_collision" type="capsule" fromto="0 0 0 0 -0.037 -0.035864598333" size="0.011" class="collision" />
+      </body>
+      <body name="neck_yaw" pos="0.188 0 0.02">
+        <joint name="neck_yaw" type="hinge" axis="0 0 1" range="-20 20" />
+        <body name="neck_pitch" pos="0.04 0 0.038">
+          <joint name="neck_pitch" type="hinge" axis="0 1 0" range="-15 15" />
+          <body name="jaw" pos="0.044 0 -0.045">
+            <joint name="jaw" type="hinge" axis="0 1 0" range="-18 30" />
+            <inertial pos="0.014426106299 -0.0012712963894 -0.0076320482499" mass="0.03219" fullinertia="2.0271910557e-05 1.522242245e-05 2.925991379e-05 -5.9077180939e-07 4.4082975225e-06 3.1232879148e-07" />
+            <geom name="jaw_horn_front_visual" mesh="jaw_horn_front" rgba="0.6 0.64 0.68 1" class="visual" />
+            <geom name="jaw_horn_back_visual" mesh="jaw_horn_back" rgba="0.6 0.64 0.68 1" class="visual" />
+            <geom name="lower_jaw_visual" mesh="lower_jaw" rgba="0.91 0.89 0.83 1" class="visual" />
+            <geom name="jaw_spacer_front_visual" mesh="jaw_spacer_front" rgba="0.83 0.29 0.055 1" class="visual" />
+            <geom name="jaw_spacer_back_visual" mesh="jaw_spacer_back" rgba="0.83 0.29 0.055 1" class="visual" />
+            <geom name="lower_grip_collision" type="box" pos="0.038 0 -0.0175" size="0.016 0.029 0.0025" class="collision" />
+            <geom name="jaw_side_-1" type="box" pos="0.001 -0.028 -0.0035" size="0.013 0.002 0.0165" class="collision" />
+            <geom name="jaw_bridge_-1" type="box" pos="0.019 -0.028 -0.0145" size="0.005 0.002 0.0055" class="collision" />
+            <geom name="jaw_side_1" type="box" pos="0.001 0.028 -0.0035" size="0.013 0.002 0.0165" class="collision" />
+            <geom name="jaw_bridge_1" type="box" pos="0.019 0.028 -0.0145" size="0.005 0.002 0.0055" class="collision" />
+          </body>
+          <inertial pos="0.030096161086 4.4670373315e-18 -0.0178404502" mass="0.23361" fullinertia="0.00044122107395 0.00039276284331 0.00033615138399 4.3410438547e-20 1.8426248179e-05 1.6940658945e-21" />
+          <geom name="neck_pitch_horn_front_visual" mesh="neck_pitch_horn_front" rgba="0.6 0.64 0.68 1" class="visual" />
+          <geom name="neck_pitch_horn_back_visual" mesh="neck_pitch_horn_back" rgba="0.6 0.64 0.68 1" class="visual" />
+          <geom name="head_pitch_carrier_visual" mesh="head_pitch_carrier" rgba="0.1 0.105 0.12 1" class="visual" />
+          <geom name="head_shell_visual" mesh="head_shell" rgba="0.83 0.29 0.055 1" class="visual" />
+          <geom name="head_lid_visual" mesh="head_lid" rgba="0.83 0.29 0.055 1" class="visual" />
+          <geom name="upper_muzzle_visual" mesh="upper_muzzle" rgba="0.91 0.89 0.83 1" class="visual" />
+          <geom name="nose_visual" mesh="nose" rgba="0.1 0.105 0.12 1" class="visual" />
+          <geom name="ear_left_visual" mesh="ear_left" rgba="0.83 0.29 0.055 1" class="visual" />
+          <geom name="ear_right_visual" mesh="ear_right" rgba="0.83 0.29 0.055 1" class="visual" />
+          <geom name="eye_left_visual" mesh="eye_left" rgba="0.1 0.105 0.12 1" class="visual" />
+          <geom name="eye_right_visual" mesh="eye_right" rgba="0.1 0.105 0.12 1" class="visual" />
+          <geom name="jaw_servo_visual" mesh="jaw_servo" rgba="0.1 0.105 0.12 1" class="visual" />
+          <geom name="jaw_servo_clamp_lower_visual" mesh="jaw_servo_clamp_lower" rgba="0.83 0.29 0.055 1" class="visual" />
+          <geom name="jaw_servo_clamp_upper_visual" mesh="jaw_servo_clamp_upper" rgba="0.83 0.29 0.055 1" class="visual" />
+          <geom name="jaw_mount_bridge_visual" mesh="jaw_mount_bridge" rgba="0.1 0.105 0.12 1" class="visual" />
+          <geom name="neck_pitch_spacer_front_visual" mesh="neck_pitch_spacer_front" rgba="0.83 0.29 0.055 1" class="visual" />
+          <geom name="neck_pitch_spacer_back_visual" mesh="neck_pitch_spacer_back" rgba="0.83 0.29 0.055 1" class="visual" />
+          <geom name="head_side_-1" type="box" pos="0.028 -0.0492 -0.016" size="0.034 0.0008 0.038" class="collision" quat="1 0 0 0" />
+          <geom name="head_side_1" type="box" pos="0.028 0.0492 -0.016" size="0.034 0.0008 0.038" class="collision" quat="1 0 0 0" />
+          <geom name="head_front_upper" type="box" pos="0.0612 0 -0.0005" size="0.0008 0.05 0.0225" class="collision" quat="1 0 0 0" />
+          <geom name="head_back" type="box" pos="-0.0052 0 -0.016" size="0.0008 0.05 0.038" class="collision" quat="1 0 0 0" />
+          <geom name="head_roof" type="box" pos="0.0195 0 0.0392" size="0.0425 0.05 0.0008" class="collision" quat="1 0 0 0" />
+          <geom name="upper_grip_collision" type="box" pos="0.082 0 -0.0218" size="0.02 0.031 0.0008" class="collision" quat="1 0 0 0" />
+          <geom name="muzzle_front_collision" type="box" pos="0.1012 0 -0.03" size="0.0008 0.031 0.009" class="collision" quat="1 0 0 0" />
+          <site name="mouth" pos="0.082 0 -0.039" size=".002" group="4" />
+          <body name="camera_lid_bridge">
+            <inertial pos="0.0588887190006 1.36799996196e-18 0.0426715205919" mass="0.004998501462799149" fullinertia="2.41005158087e-06 2.33347431895e-07 2.56652204604e-06 -6.91393864797e-22 -5.04263473846e-08 -1.91144489235e-22" />
+            <geom name="camera_lid_bridge_visual" type="mesh" mesh="camera_lid_bridge" contype="0" conaffinity="0" group="2" rgba="0.1 0.105 0.12 1" />
+            <geom name="camera_lid_bridge_collision_0" type="box" pos="0.054 0 0.0415" size="0.004 0.049 0.0015" class="collision" />
+            <geom name="camera_lid_bridge_collision_1" type="box" pos="0.0595 0 0.0415" size="0.0095 0.0155 0.0015" class="collision" />
+            <geom name="camera_lid_bridge_collision_2" type="box" pos="0.0675 0 0.046" size="0.0015 0.0155 0.006" class="collision" />
+          </body>
+          <body name="camera_board_carrier">
+            <inertial pos="0.071050582053 7.78913713007e-20 0.0308766819238" mass="0.004389633076048802" fullinertia="1.24875562276e-06 8.14056089992e-07 4.59059755294e-07 1.16055178961e-21 2.62868501733e-08 -2.47027504264e-23" />
+            <geom name="camera_board_carrier_visual" type="mesh" mesh="camera_board_carrier" contype="0" conaffinity="0" group="2" rgba="0.1 0.105 0.12 1" />
+            <geom name="camera_board_carrier_collision_0" type="box" pos="0.0705 0 0.02825" size="0.0015 0.0155 0.02375" class="collision" />
+            <geom name="camera_board_carrier_cylinder_collision_0" type="cylinder" pos="0.0745 -0.0105 0.0095" size="0.003 0.0025" quat=".707106781187 0 .707106781187 0" class="collision" />
+            <geom name="camera_board_carrier_cylinder_collision_1" type="cylinder" pos="0.0745 -0.0105 0.0305" size="0.003 0.0025" quat=".707106781187 0 .707106781187 0" class="collision" />
+            <geom name="camera_board_carrier_cylinder_collision_2" type="cylinder" pos="0.0745 0.0105 0.0095" size="0.003 0.0025" quat=".707106781187 0 .707106781187 0" class="collision" />
+            <geom name="camera_board_carrier_cylinder_collision_3" type="cylinder" pos="0.0745 0.0105 0.0305" size="0.003 0.0025" quat=".707106781187 0 .707106781187 0" class="collision" />
+          </body>
+          <body name="usb_rgb_camera_module">
+            <inertial pos="0.081733504751 -1.5887018828e-19 0.02" mass="0.025" fullinertia="1.21045621255e-06 1.4991585484e-06 1.4991585484e-06 3.91191292191e-21 3.97175470699e-20 -1.32391823566e-23" />
+            <geom name="usb_rgb_camera_module_visual" type="mesh" mesh="usb_rgb_camera_module" contype="0" conaffinity="0" group="2" rgba="0.08 0.2 0.12 1" />
+            <geom name="usb_rgb_camera_module_collision_0" type="box" pos="0.0778 0 0.02" size="0.0008 0.0125 0.0125" class="collision" />
+            <geom name="usb_rgb_camera_module_collision_1" type="box" pos="0.07475 0 0.02" size="0.00225 0.008 0.008" class="collision" />
+            <geom name="usb_rgb_camera_module_collision_2" type="box" pos="0.0816 0 0.02" size="0.003 0.008 0.008" class="collision" />
+            <geom name="usb_rgb_camera_module_cylinder_collision_0" type="cylinder" pos="0.0866 0 0.02" size="0.007 0.008" quat=".707106781187 0 .707106781187 0" class="collision" />
+          </body>
+          <camera name="head_rgb" mode="fixed" pos="0.0946 0 0.02" xyaxes="0 -1 0 0 0 1" fovy="53.832022090531545" resolution="1280 720" />
+        </body>
+        <inertial pos="0.04570360168 -2.2689496137e-18 0.033825246764" mass="0.10699" fullinertia="3.8550394667e-05 7.5379694503e-05 7.037023028e-05 2.4691224843e-21 -1.4398512056e-05 6.394258209e-21" />
+        <geom name="neck_yaw_horn_front_visual" mesh="neck_yaw_horn_front" rgba="0.6 0.64 0.68 1" class="visual" />
+        <geom name="neck_yaw_horn_back_visual" mesh="neck_yaw_horn_back" rgba="0.6 0.64 0.68 1" class="visual" />
+        <geom name="neck_yaw_stage_visual" mesh="neck_yaw_stage" rgba="0.1 0.105 0.12 1" class="visual" />
+        <geom name="neck_pitch_servo_visual" mesh="neck_pitch_servo" rgba="0.1 0.105 0.12 1" class="visual" />
+        <geom name="neck_pitch_servo_clamp_lower_visual" mesh="neck_pitch_servo_clamp_lower" rgba="0.83 0.29 0.055 1" class="visual" />
+        <geom name="neck_pitch_servo_clamp_upper_visual" mesh="neck_pitch_servo_clamp_upper" rgba="0.83 0.29 0.055 1" class="visual" />
+        <geom name="neck_yaw_spacer_front_visual" mesh="neck_yaw_spacer_front" rgba="0.83 0.29 0.055 1" class="visual" />
+        <geom name="neck_stage_collision" type="capsule" fromto="0 0 0 0.04 0 0.038" size="0.012" class="collision" />
+      </body>
+      <body name="tail" pos="-0.187 0 0.02">
+        <joint name="tail" type="hinge" axis="0 0 1" range="-25 25" />
+        <inertial pos="-0.083566944842 7.764861898e-20 0.025416516882" mass="0.08676" fullinertia="5.6559866303e-05 0.00033603652983 0.00032832235717 -1.8105090883e-20 1.8019633458e-05 4.4652638922e-22" />
+        <geom name="tail_horn_front_visual" mesh="tail_horn_front" rgba="0.6 0.64 0.68 1" class="visual" />
+        <geom name="tail_horn_back_visual" mesh="tail_horn_back" rgba="0.6 0.64 0.68 1" class="visual" />
+        <geom name="tail_root_visual" mesh="tail_root" rgba="0.83 0.29 0.055 1" class="visual" />
+        <geom name="tail_shell_visual" mesh="tail_shell" rgba="0.83 0.29 0.055 1" class="visual" />
+        <geom name="tail_tip_visual" mesh="tail_tip" rgba="0.91 0.89 0.83 1" class="visual" />
+        <geom name="tail_spacer_front_visual" mesh="tail_spacer_front" rgba="0.83 0.29 0.055 1" class="visual" />
+        <geom name="tail_collision" type="capsule" fromto="-0.03 0 0.028 -0.177 0 0.028" size="0.022" class="collision" />
+      </body>
+      <inertial pos="-0.011449927492 1.8754125908e-05 -0.0055458379387" mass="1.33304" fullinertia="0.0035109598797 0.019233985563 0.021315734608 -1.3487481873e-06 -0.00021427477501 -1.5136459485e-06" />
+      <geom name="chassis_rear_visual" mesh="chassis_rear" rgba="0.6 0.64 0.68 1" class="visual" />
+      <geom name="chassis_front_visual" mesh="chassis_front" rgba="0.6 0.64 0.68 1" class="visual" />
+      <geom name="body_shell_rear_visual" mesh="body_shell_rear" rgba="0.83 0.29 0.055 1" class="visual" />
+      <geom name="body_shell_front_visual" mesh="body_shell_front" rgba="0.83 0.29 0.055 1" class="visual" />
+      <geom name="neck_pedestal_visual" mesh="neck_pedestal" rgba="0.1 0.105 0.12 1" class="visual" />
+      <geom name="tail_pedestal_visual" mesh="tail_pedestal" rgba="0.1 0.105 0.12 1" class="visual" />
+      <geom name="electronics_tray_visual" mesh="electronics_tray" rgba="0.1 0.105 0.12 1" class="visual" />
+      <geom name="radxa_board_envelope_visual" mesh="radxa_board_envelope" rgba="0.08 0.33 0.18 1" class="visual" />
+      <geom name="esp32_board_envelope_visual" mesh="esp32_board_envelope" rgba="0.08 0.33 0.18 1" class="visual" />
+      <geom name="battery_envelope_visual" mesh="battery_envelope" rgba="0.2 0.24 0.32 1" class="visual" />
+      <geom name="frame_rail_left_rear_visual" mesh="frame_rail_left_rear" rgba="0.1 0.105 0.12 1" class="visual" />
+      <geom name="frame_rail_left_front_visual" mesh="frame_rail_left_front" rgba="0.1 0.105 0.12 1" class="visual" />
+      <geom name="frame_rail_right_rear_visual" mesh="frame_rail_right_rear" rgba="0.1 0.105 0.12 1" class="visual" />
+      <geom name="frame_rail_right_front_visual" mesh="frame_rail_right_front" rgba="0.1 0.105 0.12 1" class="visual" />
+      <geom name="hip_base_-1_-1_visual" mesh="hip_base_-1_-1" rgba="0.1 0.105 0.12 1" class="visual" />
+      <geom name="hip_base_-1_1_visual" mesh="hip_base_-1_1" rgba="0.1 0.105 0.12 1" class="visual" />
+      <geom name="hip_base_1_-1_visual" mesh="hip_base_1_-1" rgba="0.1 0.105 0.12 1" class="visual" />
+      <geom name="hip_base_1_1_visual" mesh="hip_base_1_1" rgba="0.1 0.105 0.12 1" class="visual" />
+      <geom name="battery_tray_visual" mesh="battery_tray" rgba="0.1 0.105 0.12 1" class="visual" />
+      <geom name="battery_crossbar_112_visual" mesh="battery_crossbar_112" rgba="0.1 0.105 0.12 1" class="visual" />
+      <geom name="battery_crossbar_62_visual" mesh="battery_crossbar_62" rgba="0.1 0.105 0.12 1" class="visual" />
+      <geom name="cover_standoff_kit_rear_visual" mesh="cover_standoff_kit_rear" rgba="0.1 0.105 0.12 1" class="visual" />
+      <geom name="cover_standoff_kit_front_visual" mesh="cover_standoff_kit_front" rgba="0.1 0.105 0.12 1" class="visual" />
+      <geom name="front_left_hip_roll_servo_visual" mesh="front_left_hip_roll_servo" rgba="0.1 0.105 0.12 1" class="visual" />
+      <geom name="front_left_hip_roll_servo_clamp_lower_visual" mesh="front_left_hip_roll_servo_clamp_lower" rgba="0.83 0.29 0.055 1" class="visual" />
+      <geom name="front_left_hip_roll_servo_clamp_upper_visual" mesh="front_left_hip_roll_servo_clamp_upper" rgba="0.83 0.29 0.055 1" class="visual" />
+      <geom name="front_right_hip_roll_servo_visual" mesh="front_right_hip_roll_servo" rgba="0.1 0.105 0.12 1" class="visual" />
+      <geom name="front_right_hip_roll_servo_clamp_lower_visual" mesh="front_right_hip_roll_servo_clamp_lower" rgba="0.83 0.29 0.055 1" class="visual" />
+      <geom name="front_right_hip_roll_servo_clamp_upper_visual" mesh="front_right_hip_roll_servo_clamp_upper" rgba="0.83 0.29 0.055 1" class="visual" />
+      <geom name="rear_left_hip_roll_servo_visual" mesh="rear_left_hip_roll_servo" rgba="0.1 0.105 0.12 1" class="visual" />
+      <geom name="rear_left_hip_roll_servo_clamp_lower_visual" mesh="rear_left_hip_roll_servo_clamp_lower" rgba="0.83 0.29 0.055 1" class="visual" />
+      <geom name="rear_left_hip_roll_servo_clamp_upper_visual" mesh="rear_left_hip_roll_servo_clamp_upper" rgba="0.83 0.29 0.055 1" class="visual" />
+      <geom name="rear_right_hip_roll_servo_visual" mesh="rear_right_hip_roll_servo" rgba="0.1 0.105 0.12 1" class="visual" />
+      <geom name="rear_right_hip_roll_servo_clamp_lower_visual" mesh="rear_right_hip_roll_servo_clamp_lower" rgba="0.83 0.29 0.055 1" class="visual" />
+      <geom name="rear_right_hip_roll_servo_clamp_upper_visual" mesh="rear_right_hip_roll_servo_clamp_upper" rgba="0.83 0.29 0.055 1" class="visual" />
+      <geom name="neck_yaw_servo_visual" mesh="neck_yaw_servo" rgba="0.1 0.105 0.12 1" class="visual" />
+      <geom name="neck_yaw_servo_clamp_lower_visual" mesh="neck_yaw_servo_clamp_lower" rgba="0.83 0.29 0.055 1" class="visual" />
+      <geom name="neck_yaw_servo_clamp_upper_visual" mesh="neck_yaw_servo_clamp_upper" rgba="0.83 0.29 0.055 1" class="visual" />
+      <geom name="tail_servo_visual" mesh="tail_servo" rgba="0.1 0.105 0.12 1" class="visual" />
+      <geom name="tail_servo_clamp_lower_visual" mesh="tail_servo_clamp_lower" rgba="0.83 0.29 0.055 1" class="visual" />
+      <geom name="tail_servo_clamp_upper_visual" mesh="tail_servo_clamp_upper" rgba="0.83 0.29 0.055 1" class="visual" />
+      <geom name="trunk_collision" type="box" pos="0 0 0" size="0.17 0.043 0.04" class="collision" quat="1 0 0 0" />
+      <geom name="roof_collision" type="box" pos="0 0 0.0392" size="0.17 0.078 0.0008" class="collision" quat="1 0 0 0" />
+    </body>
+  </worldbody>
+  <actuator>
+    <position name="front_left_hip_roll_servo" joint="front_left_hip_roll" kp="20.0" kv="0.3" ctrllimited="true" ctrlrange="-0.13962634016 0.13962634016" forcelimited="true" forcerange="-0.980665 0.980665" />
+    <position name="front_left_hip_pitch_servo" joint="front_left_hip_pitch" kp="20.0" kv="0.3" ctrllimited="true" ctrlrange="0.1745329252 0.6981317008" forcelimited="true" forcerange="-0.980665 0.980665" />
+    <position name="front_left_knee_servo" joint="front_left_knee" kp="20.0" kv="0.3" ctrllimited="true" ctrlrange="-1.3962634016 -0.6108652382" forcelimited="true" forcerange="-0.980665 0.980665" />
+    <position name="front_right_hip_roll_servo" joint="front_right_hip_roll" kp="20.0" kv="0.3" ctrllimited="true" ctrlrange="-0.13962634016 0.13962634016" forcelimited="true" forcerange="-0.980665 0.980665" />
+    <position name="front_right_hip_pitch_servo" joint="front_right_hip_pitch" kp="20.0" kv="0.3" ctrllimited="true" ctrlrange="0.1745329252 0.6981317008" forcelimited="true" forcerange="-0.980665 0.980665" />
+    <position name="front_right_knee_servo" joint="front_right_knee" kp="20.0" kv="0.3" ctrllimited="true" ctrlrange="-1.3962634016 -0.6108652382" forcelimited="true" forcerange="-0.980665 0.980665" />
+    <position name="rear_left_hip_roll_servo" joint="rear_left_hip_roll" kp="20.0" kv="0.3" ctrllimited="true" ctrlrange="-0.13962634016 0.13962634016" forcelimited="true" forcerange="-0.980665 0.980665" />
+    <position name="rear_left_hip_pitch_servo" joint="rear_left_hip_pitch" kp="20.0" kv="0.3" ctrllimited="true" ctrlrange="0.1745329252 0.6981317008" forcelimited="true" forcerange="-0.980665 0.980665" />
+    <position name="rear_left_knee_servo" joint="rear_left_knee" kp="20.0" kv="0.3" ctrllimited="true" ctrlrange="-1.3962634016 -0.6108652382" forcelimited="true" forcerange="-0.980665 0.980665" />
+    <position name="rear_right_hip_roll_servo" joint="rear_right_hip_roll" kp="20.0" kv="0.3" ctrllimited="true" ctrlrange="-0.13962634016 0.13962634016" forcelimited="true" forcerange="-0.980665 0.980665" />
+    <position name="rear_right_hip_pitch_servo" joint="rear_right_hip_pitch" kp="20.0" kv="0.3" ctrllimited="true" ctrlrange="0.1745329252 0.6981317008" forcelimited="true" forcerange="-0.980665 0.980665" />
+    <position name="rear_right_knee_servo" joint="rear_right_knee" kp="20.0" kv="0.3" ctrllimited="true" ctrlrange="-1.3962634016 -0.6108652382" forcelimited="true" forcerange="-0.980665 0.980665" />
+    <position name="neck_yaw_servo" joint="neck_yaw" kp="20.0" kv="0.3" ctrllimited="true" ctrlrange="-0.3490658504 0.3490658504" forcelimited="true" forcerange="-0.980665 0.980665" />
+    <position name="neck_pitch_servo" joint="neck_pitch" kp="20.0" kv="0.3" ctrllimited="true" ctrlrange="-0.2617993878 0.2617993878" forcelimited="true" forcerange="-0.980665 0.980665" />
+    <position name="jaw_servo" joint="jaw" kp="20.0" kv="0.3" ctrllimited="true" ctrlrange="-0.31415926536 0.5235987756" forcelimited="true" forcerange="-0.980665 0.980665" />
+    <position name="tail_servo" joint="tail" kp="20.0" kv="0.3" ctrllimited="true" ctrlrange="-0.436332313 0.436332313" forcelimited="true" forcerange="-0.980665 0.980665" />
+  </actuator>
+  <sensor>
+    <jointpos name="front_left_hip_roll_position" joint="front_left_hip_roll" />
+    <jointvel name="front_left_hip_roll_velocity" joint="front_left_hip_roll" />
+    <actuatorfrc name="front_left_hip_roll_simulated_torque" actuator="front_left_hip_roll_servo" />
+    <jointpos name="front_left_hip_pitch_position" joint="front_left_hip_pitch" />
+    <jointvel name="front_left_hip_pitch_velocity" joint="front_left_hip_pitch" />
+    <actuatorfrc name="front_left_hip_pitch_simulated_torque" actuator="front_left_hip_pitch_servo" />
+    <jointpos name="front_left_knee_position" joint="front_left_knee" />
+    <jointvel name="front_left_knee_velocity" joint="front_left_knee" />
+    <actuatorfrc name="front_left_knee_simulated_torque" actuator="front_left_knee_servo" />
+    <jointpos name="front_right_hip_roll_position" joint="front_right_hip_roll" />
+    <jointvel name="front_right_hip_roll_velocity" joint="front_right_hip_roll" />
+    <actuatorfrc name="front_right_hip_roll_simulated_torque" actuator="front_right_hip_roll_servo" />
+    <jointpos name="front_right_hip_pitch_position" joint="front_right_hip_pitch" />
+    <jointvel name="front_right_hip_pitch_velocity" joint="front_right_hip_pitch" />
+    <actuatorfrc name="front_right_hip_pitch_simulated_torque" actuator="front_right_hip_pitch_servo" />
+    <jointpos name="front_right_knee_position" joint="front_right_knee" />
+    <jointvel name="front_right_knee_velocity" joint="front_right_knee" />
+    <actuatorfrc name="front_right_knee_simulated_torque" actuator="front_right_knee_servo" />
+    <jointpos name="rear_left_hip_roll_position" joint="rear_left_hip_roll" />
+    <jointvel name="rear_left_hip_roll_velocity" joint="rear_left_hip_roll" />
+    <actuatorfrc name="rear_left_hip_roll_simulated_torque" actuator="rear_left_hip_roll_servo" />
+    <jointpos name="rear_left_hip_pitch_position" joint="rear_left_hip_pitch" />
+    <jointvel name="rear_left_hip_pitch_velocity" joint="rear_left_hip_pitch" />
+    <actuatorfrc name="rear_left_hip_pitch_simulated_torque" actuator="rear_left_hip_pitch_servo" />
+    <jointpos name="rear_left_knee_position" joint="rear_left_knee" />
+    <jointvel name="rear_left_knee_velocity" joint="rear_left_knee" />
+    <actuatorfrc name="rear_left_knee_simulated_torque" actuator="rear_left_knee_servo" />
+    <jointpos name="rear_right_hip_roll_position" joint="rear_right_hip_roll" />
+    <jointvel name="rear_right_hip_roll_velocity" joint="rear_right_hip_roll" />
+    <actuatorfrc name="rear_right_hip_roll_simulated_torque" actuator="rear_right_hip_roll_servo" />
+    <jointpos name="rear_right_hip_pitch_position" joint="rear_right_hip_pitch" />
+    <jointvel name="rear_right_hip_pitch_velocity" joint="rear_right_hip_pitch" />
+    <actuatorfrc name="rear_right_hip_pitch_simulated_torque" actuator="rear_right_hip_pitch_servo" />
+    <jointpos name="rear_right_knee_position" joint="rear_right_knee" />
+    <jointvel name="rear_right_knee_velocity" joint="rear_right_knee" />
+    <actuatorfrc name="rear_right_knee_simulated_torque" actuator="rear_right_knee_servo" />
+    <jointpos name="neck_yaw_position" joint="neck_yaw" />
+    <jointvel name="neck_yaw_velocity" joint="neck_yaw" />
+    <actuatorfrc name="neck_yaw_simulated_torque" actuator="neck_yaw_servo" />
+    <jointpos name="neck_pitch_position" joint="neck_pitch" />
+    <jointvel name="neck_pitch_velocity" joint="neck_pitch" />
+    <actuatorfrc name="neck_pitch_simulated_torque" actuator="neck_pitch_servo" />
+    <jointpos name="jaw_position" joint="jaw" />
+    <jointvel name="jaw_velocity" joint="jaw" />
+    <actuatorfrc name="jaw_simulated_torque" actuator="jaw_servo" />
+    <jointpos name="tail_position" joint="tail" />
+    <jointvel name="tail_velocity" joint="tail" />
+    <actuatorfrc name="tail_simulated_torque" actuator="tail_servo" />
+  </sensor>
+  <keyframe>
+    <key name="standing" qpos="0 0 0.23 1 0 0 0 0 0.436332313 -0.872664626 0 0.436332313 -0.872664626 0 0.436332313 -0.872664626 0 0.436332313 -0.872664626 0 0 -0.31415926536 0" ctrl="0 0.436332313 -0.872664626 0 0.436332313 -0.872664626 0 0.436332313 -0.872664626 0 0.436332313 -0.872664626 0 0 -0.31415926536 0" />
+  </keyframe>
+</mujoco>

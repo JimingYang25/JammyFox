@@ -103,3 +103,7 @@ Links were researched on 2026-10-12.
 The direct references were identified through the [JD servo catalog](https://www.jd.com/jiage/652a98aa4c00f38704b.html), [JD controller catalog](https://www.jd.com/xinghao/9855b16f3a109bd9c50b.html), [JD battery catalog](https://www.jd.com/jiage/623354860cce65899096.html) and a [published ZERO 3W reference BOM](https://github.com/fanhao375/microduck-replica-cad). Several direct pages could not be read because of marketplace access restrictions; use the labeled search alternatives to confirm the exact package and delivered price.
 
 Digital CAD Revision A is available in [mechanical notes](MECHANICAL.md). Physical parts and firmware have not been built. MuJoCo models are included in [mjcf](../mjcf/README.md). The CAD mass estimate is higher than the early target, and fit/load validation remains necessary before manufacture.
+
+## USB RGB camera accessory
+
+A removable USB RGB camera is now available as an optional extension. See [CAMERA.md](CAMERA.md) for the selected OV4689 A module, JD/Taobao searches, powered USB hub, printed parts and screws. The additional planning allowance is ¥270, giving ¥4,590 including the original reserve. The original table above describes the camera-free core.

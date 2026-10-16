@@ -1,5 +1,10 @@
 [
   {
+    "file": "README.md",
+    "bytes": 4794,
+    "sha256": "4d5cce7a9f74a9430f1d22239385df5eaf8dd1e3ec5a4b4015b1fece80ada063"
+  },
+  {
     "file": "parts/battery_crossbar_112.3mf",
     "bytes": 16733,
     "sha256": "2d8353915848bbb041e2fd52fe0981e12007cdca08f0a63366bff7cf8863384f"
@@ -23,6 +28,16 @@
     "file": "parts/body_shell_rear.3mf",
     "bytes": 27045,
     "sha256": "883ca3d0324abfcb33b746ba38d596166941674a5c791362e9a4d05776a8b0b1"
+  },
+  {
+    "file": "parts/camera_board_carrier.3mf",
+    "bytes": 56348,
+    "sha256": "8e3307bba5b7114b6db505db95f7a59a8c11d26510232fda40ce77d47338523c"
+  },
+  {
+    "file": "parts/camera_lid_bridge.3mf",
+    "bytes": 20531,
+    "sha256": "7bbe3fad352f478fff4b011b4230bc92b055df2d46faec916194d53c729e59d7"
   },
   {
     "file": "parts/cover_standoff_kit_front.3mf",
@@ -335,6 +350,11 @@
     "sha256": "e15e7ad7d1996d99e263afe4d8bb4e541869d6f46659f35e285bf721dc4f1e2c"
   },
   {
+    "file": "plates/14_usb_camera_addon.3mf",
+    "bytes": 76735,
+    "sha256": "cda26a787c3ed81793dd4c676ef41d450541ef3b60b443c275fdbb9673e0a04f"
+  },
+  {
     "file": "previews/00_fit_test.png",
     "bytes": 15221,
     "sha256": "5d932bb3cca303e396f93fc31614804cf96cb97ffb5b37fce3bef72c66539c61"
@@ -403,11 +423,6 @@
     "file": "previews/13_white_parts.png",
     "bytes": 10501,
     "sha256": "654cf96c0a1f1dd509a2485e88d345ba7cae4e282fdf0deb257e90fe32834db3"
-  },
-  {
-    "file": "README.md",
-    "bytes": 4346,
-    "sha256": "6490ce6d31ac4a914ad6efcafd5fba02ead21b5ac425175ce5e2aef353a2386d"
   },
   {
     "file": "verification.json",
